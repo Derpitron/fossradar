@@ -13,39 +13,20 @@ export function VisitorCounter({ slug }: VisitorCounterProps) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const trackVisitor = async () => {
+    const fetchVisitorCount = async () => {
       setLoading(true);
       try {
-        // Increment visitor count (lifetime hit tracking)
-        const response = await fetch("/api/visitors", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ slug }),
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          console.log(`[VisitorCounter] Incremented count for "${slug}": ${data.count}`);
-          setCount(data.count);
-          setError(null);
-        } else {
-          const errorData = await response.json();
-          console.error(`[VisitorCounter] Error incrementing for "${slug}":`, errorData.error);
-          // Fallback: try to get current count without incrementing
-          await fetchCurrentCount();
-        }
+        // Just fetch the current count (don't increment - VisitorCountStat handles that)
+        await fetchCurrentCount();
       } catch (err) {
         console.error(`[VisitorCounter] Exception for "${slug}":`, err);
-        // Fallback: try to get current count without incrementing
-        await fetchCurrentCount();
+        setError("Unable to load visitor count");
       } finally {
         setLoading(false);
       }
     };
 
-    trackVisitor();
+    fetchVisitorCount();
   }, [slug]);
 
   const fetchCurrentCount = async () => {

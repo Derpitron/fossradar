@@ -7,6 +7,7 @@ import { DocumentationLinks } from "./DocumentationLinks";
 import { SimilarProjects } from "./SimilarProjects";
 import { SocialShare } from "./SocialShare";
 import { GitHubStarButton } from "./GitHubStarButton";
+import { VisitorCountStat } from "./VisitorCountStat";
 import { ExternalLink, Github, Star, GitBranch, Calendar, Scale, GitFork, Eye, AlertCircle, Clock, Code2, FileText } from "lucide-react";
 import { formatNumber, formatRelativeTime } from "@/lib/utils";
 import Link from "next/link";
@@ -118,7 +119,7 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
           Repository Stats
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-8 gap-3">
           {/* Stars */}
           <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
             <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
@@ -191,6 +192,9 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
                   {project.license}
                 </div>
               </div>
+
+              {/* Visitor Count */}
+              <VisitorCountStat slug={project.slug} />
             </>
           )}
 
@@ -214,6 +218,9 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
                   {project.license}
                 </div>
               </div>
+
+              {/* Visitor Count */}
+              <VisitorCountStat slug={project.slug} />
             </>
           )}
         </div>
