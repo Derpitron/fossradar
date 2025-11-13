@@ -2,12 +2,13 @@ import { Counter } from 'counterapi';
 
 /**
  * CounterAPI client configuration
+ * Uses COUNTERAPI_COUNTER as the access token (configured in Vercel)
  */
 const counter = new Counter({
   workspace: process.env.COUNTERAPI_WORKSPACE || 'fossradar',
   debug: process.env.NODE_ENV !== 'production',
   timeout: 5000,
-  accessToken: process.env.COUNTERAPI_ACCESS_TOKEN,
+  accessToken: process.env.COUNTERAPI_COUNTER || process.env.COUNTERAPI_ACCESS_TOKEN,
 });
 
 /**
