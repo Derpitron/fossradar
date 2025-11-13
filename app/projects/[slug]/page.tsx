@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { loadAllProjects, getProjectBySlug } from "@/lib/projects";
 import { findSimilarProjects } from "@/lib/similar";
 import { ProjectDetail } from "@/components/ProjectDetail";
-import { VisitorCounter } from "@/components/VisitorCounter";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TricolorRadar } from "@/components/TricolorRadar";
 import { MeetupIcon } from "@/components/MeetupIcon";
@@ -179,9 +178,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
-        <div className="mb-6 flex items-center justify-end">
-          <VisitorCounter slug={slug} />
-        </div>
         <ProjectDetail project={project} cache={cache} similarProjects={similarProjects} />
       </main>
 

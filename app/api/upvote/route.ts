@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { incrementVisitorCount, getVisitorCount } from '@/lib/visitor-tracking';
+import { incrementUpvoteCount, decrementUpvoteCount, getUpvoteCount } from '@/lib/upvote-tracking';
 
 /**
- * GET /api/visitors?slug={slug}
- * Get the current visitor count for a project slug
+ * GET /api/upvote?slug={slug}
+ * Get the current upvote count for a project slug
  */
 export async function GET(request: NextRequest) {
   try {
@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
     }
 
     try {
-      const count = await getVisitorCount(slug);
+      const count = await getUpvoteCount(slug);
       return NextResponse.json(
         {
           slug,
@@ -35,35 +35,42 @@ export async function GET(request: NextRequest) {
         },
         { status: 200 }
       );
-    } catch (dbError) {
-      console.error('Database error:', dbError);
+    } catch (error) {
+      console.error('CounterAPI error:', error);
       return NextResponse.json(
-        { error: 'Failed to fetch visitor count from database' },
+        { error: 'Failed to fetch upvote count' },
         { status: 500 }
       );
     }
   } catch (error) {
-    console.error('Error fetching visitor count:', error);
+    console.error('Error fetching upvote count:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch visitor count' },
+      { error: 'Failed to fetch upvote count' },
       { status: 500 }
     );
   }
 }
 
 /**
- * POST /api/visitors
- * Increment the visitor count for a project slug
- * Returns the updated visitor count
+ * POST /api/upvote
+ * Increment or decrement the upvote count for a project slug
+ * Body: { slug: string, action: 'upvote' | 'unvote' }
  */
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { slug } = body;
+    const { slug, action } = body;
 
     if (!slug) {
       return NextResponse.json(
         { error: 'slug is required in request body' },
+        { status: 400 }
+      );
+    }
+
+    if (!action || !['upvote', 'unvote'].includes(action)) {
+      return NextResponse.json(
+        { error: 'action must be either "upvote" or "unvote"' },
         { status: 400 }
       );
     }
@@ -77,20 +84,28 @@ export async function POST(request: NextRequest) {
     }
 
     try {
-      const count = await incrementVisitorCount(slug);
+      let count: number;
+
+      if (action === 'upvote') {
+        count = await incrementUpvoteCount(slug);
+      } else {
+        count = await decrementUpvoteCount(slug);
+      }
+
       return NextResponse.json(
         {
           slug,
           count,
+          action,
           success: true,
-          message: 'Visitor count incremented',
+          message: `Successfully ${action}d`,
         },
         { status: 200 }
       );
-    } catch (dbError) {
-      console.error('Database error:', dbError);
+    } catch (error) {
+      console.error('CounterAPI error:', error);
       return NextResponse.json(
-        { error: 'Failed to update visitor count in database' },
+        { error: 'Failed to update upvote count' },
         { status: 500 }
       );
     }
@@ -106,14 +121,14 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json(
-      { error: 'Failed to track visitor' },
+      { error: 'Failed to process upvote' },
       { status: 500 }
     );
   }
 }
 
 /**
- * OPTIONS /api/visitors
+ * OPTIONS /api/upvote
  * Handle CORS preflight requests
  */
 export async function OPTIONS(request: NextRequest) {
