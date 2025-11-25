@@ -5,13 +5,13 @@
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
-      "contributions": 82
+      "contributions": 140
     },
     {
       "login": "gensecai-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/216218359?v=4",
       "html_url": "https://github.com/gensecai-dev",
-      "contributions": 13
+      "contributions": 14
     },
     {
       "login": "aiunmukto",
@@ -49,25 +49,25 @@
     "command": "pip install Wazuh-MCP-Server"
   },
   "documentation": {
-    "docs_url": "https://github.com/gensecaihq/Wazuh-MCP-Server/tree/main/docs",
-    "changelog_url": "https://github.com/gensecaihq/Wazuh-MCP-Server/blob/main/CHANGELOG.md"
+    "docs_url": "https://github.com/gensecaihq/Wazuh-MCP-Server/tree/main/docs"
   },
   "stats": {
-    "forks": 26,
+    "forks": 27,
     "watchers": 7,
-    "open_issues": 6,
-    "size": 1872,
+    "open_issues": 4,
+    "size": 1962,
     "created_at": "2025-03-13T07:18:47Z",
-    "updated_at": "2025-11-22T20:08:18Z",
-    "pushed_at": "2025-10-16T11:59:33Z",
+    "updated_at": "2025-11-24T20:51:55Z",
+    "pushed_at": "2025-11-24T13:11:14Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Python": 1438785,
-    "Shell": 101076,
-    "Batchfile": 4608
+    "Python": 252496,
+    "Shell": 76954,
+    "Dockerfile": 4867,
+    "Batchfile": 735
   },
-  "updated_at": "2025-11-24T03:37:59.564Z"
+  "updated_at": "2025-11-25T03:20:17.261Z"
 }
