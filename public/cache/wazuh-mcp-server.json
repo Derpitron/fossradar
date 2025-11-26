@@ -52,7 +52,7 @@
     "docs_url": "https://github.com/gensecaihq/Wazuh-MCP-Server/tree/main/docs"
   },
   "stats": {
-    "forks": 27,
+    "forks": 26,
     "watchers": 7,
     "open_issues": 4,
     "size": 1962,
@@ -69,5 +69,5 @@
     "Dockerfile": 4867,
     "Batchfile": 735
   },
-  "updated_at": "2025-11-25T03:20:17.261Z"
+  "updated_at": "2025-11-26T03:19:51.397Z"
 }
