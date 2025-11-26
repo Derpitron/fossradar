@@ -1,0 +1,23 @@
+slug = "cf-status-dashboard"
+name = "Cloudflare Status Dashboard"
+short_desc = "Real-time infrastructure status monitoring dashboard for Cloudflare's global network built with Next.js"
+website = "https://github.com/wbfoss/cf-status-dashboard"
+repo = "https://github.com/wbfoss/cf-status-dashboard"
+license = "MIT"
+logo = "/logos/cf-status-dashboard.svg"
+added_at = "2025-11-26"
+
+primary_lang = "TypeScript"
+category = "infrastructure-devops"
+tags = ["web", "nextjs", "typescript", "monitoring", "dataviz", "react"]
+looking_for_contributors = true
+location_city = "Kolkata"
+location_indian_state = "West Bengal"
+
+good_first_issues = 0
+stars = 0
+verified = true
+
+# India Connection
+india_connection = "organization"
+india_connection_details = "Developed by the WBFOSS community to provide real-time Cloudflare infrastructure monitoring"

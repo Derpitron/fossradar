@@ -1,0 +1,23 @@
+slug = "shai-hulud-2.0-detector"
+name = "Shai-Hulud 2.0 Detector"
+short_desc = "Security scanner detecting npm packages compromised during the Shai-Hulud 2.0 supply chain attack"
+website = "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
+repo = "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
+license = "MIT"
+logo = "/logos/shai-hulud-2.0-detector.svg"
+added_at = "2025-11-26"
+
+primary_lang = "JavaScript"
+category = "security-privacy"
+tags = ["security", "devops", "cicd", "nodejs", "cli"]
+looking_for_contributors = true
+location_city = "Kolkata"
+location_indian_state = "West Bengal"
+
+good_first_issues = 0
+stars = 0
+verified = true
+
+# India Connection
+india_connection = "organization"
+india_connection_details = "Built by GenSecAI to protect the open source community from supply chain attacks"
