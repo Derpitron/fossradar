@@ -15,8 +15,8 @@ location_city = "Kolkata"
 location_indian_state = "West Bengal"
 
 good_first_issues = 0
-stars = 0
-verified = true
+stars = 2
+verified = false
 
 # India Connection
 india_connection = "organization"
