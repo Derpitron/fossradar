@@ -1,25 +1,18 @@
 import type { Metadata } from "next";
-import { VT323, Share_Tech, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
-import { Providers } from "@/components/Providers";
+import {
+  ClerkProvider,
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
 import "./globals.css";
-
-// Font configurations
-const vt323 = VT323({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-vt323",
-  display: "swap",
-});
-
-const shareTech = Share_Tech({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-share-tech",
-  display: "swap",
-});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,8 +30,8 @@ export const viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://fossradar.in'),
   title: {
-    default: "FOSSRadar.in - India's Open Source Directory",
-    template: "%s | FOSSRadar.in"
+    default: "FOSSRadar - India's Open Source Directory",
+    template: "%s | FOSSRadar"
   },
   description: "Discover and explore open source projects from India. FOSSRadar is a comprehensive directory celebrating FOSS projects through their founders, creators, contributors, and community impact.",
   keywords: [
@@ -60,7 +53,7 @@ export const metadata: Metadata = {
     "delhi",
     "hyderabad"
   ],
-  authors: [{ name: "FOSSRadar.in", url: "https://fossradar.in" }],
+  authors: [{ name: "FOSSRadar", url: "https://fossradar.in" }],
   creator: "wbfoss",
   publisher: "wbfoss",
   formatDetection: {
@@ -72,13 +65,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://fossradar.in",
-    siteName: "FOSSRadar.in",
-    title: "FOSSRadar.in - India's Open Source Directory",
+    siteName: "FOSSRadar",
+    title: "FOSSRadar - India's Open Source Directory",
     description: "Discover and explore open source projects from India. A comprehensive directory celebrating FOSS projects from Indian founders, creators, and contributors.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FOSSRadar.in - India's Open Source Directory",
+    title: "FOSSRadar - India's Open Source Directory",
     description: "Discover and explore open source projects from India",
     creator: "@wbfoss",
   },
@@ -96,9 +89,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://fossradar.in",
   },
-  verification: {
-    google: "google-site-verification-code", // Replace with actual code
-  },
 };
 
 export default function RootLayout({
@@ -109,7 +99,7 @@ export default function RootLayout({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "FOSSRadar.in",
+    "name": "FOSSRadar",
     "url": "https://fossradar.in",
     "logo": "https://fossradar.in/logos/fossradar/logo.png",
     "description": "India's comprehensive directory for discovering and exploring open source projects from Indian founders, creators, and contributors.",
@@ -132,7 +122,7 @@ export default function RootLayout({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "FOSSRadar.in",
+    "name": "FOSSRadar",
     "url": "https://fossradar.in",
     "description": "Discover and explore open source projects from India",
     "potentialAction": {
@@ -151,25 +141,35 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        />
-      </head>
-      <body className={`${inter.variable} ${vt323.variable} ${shareTech.variable} antialiased font-sans`}>
-        <Providers>
+    <ClerkProvider
+      appearance={{
+        baseTheme: dark,
+        variables: {
+          colorPrimary: "#10b981",
+          colorBackground: "#111827",
+          colorInputBackground: "#1f2937",
+          colorInputText: "#f9fafb",
+        },
+      }}
+    >
+      <html lang="en" className="dark" suppressHydrationWarning>
+        <head>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+          />
+        </head>
+        <body className={`${inter.variable} antialiased font-sans bg-gray-950 text-gray-100`}>
           {children}
-        </Providers>
-        <Analytics />
-        <SpeedInsights />
-        <GoogleAnalytics />
-      </body>
-    </html>
+          <Analytics />
+          <SpeedInsights />
+          <GoogleAnalytics />
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

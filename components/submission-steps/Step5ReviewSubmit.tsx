@@ -1,10 +1,10 @@
 "use client";
 
 import { UseFormReturn } from "react-hook-form";
-import { useState, useMemo, useEffect } from "react";
-import { useSession, signIn } from "next-auth/react";
+import { useState, useMemo } from "react";
+import { useUser, SignInButton } from "@clerk/nextjs";
 import { generateTOML } from "@/lib/toml-generator";
-import { Loader2, CheckCircle, FileText, Github, AlertCircle } from "lucide-react";
+import { Loader2, CheckCircle, FileText, Send, AlertCircle, User } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 interface Step5Props {
@@ -13,29 +13,12 @@ interface Step5Props {
 }
 
 export function Step5ReviewSubmit({ form, onBack }: Step5Props) {
-  const { data: session, status } = useSession();
+  const { isLoaded, isSignedIn, user } = useUser();
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [justAuthenticated, setJustAuthenticated] = useState(false);
 
   const formData = form.watch();
-
-  // Auto-submit after OAuth if user just authenticated
-  useEffect(() => {
-    if (typeof window !== "undefined" && session && !isSubmitting) {
-      const params = new URLSearchParams(window.location.search);
-      if (params.get("authenticated") === "true") {
-        setJustAuthenticated(true);
-        // Clean URL
-        window.history.replaceState({}, "", window.location.pathname);
-        // Auto-submit after a short delay
-        setTimeout(() => {
-          handleSubmit();
-        }, 500);
-      }
-    }
-  }, [session]);
 
   // Generate TOML preview
   const tomlPreview = useMemo(() => {
@@ -50,13 +33,7 @@ export function Step5ReviewSubmit({ form, onBack }: Step5Props) {
   }, [formData]);
 
   const handleSubmit = async () => {
-    if (!session) {
-      // Redirect to sign in with authenticated parameter
-      const callbackUrl = new URL(window.location.href);
-      callbackUrl.searchParams.set("authenticated", "true");
-      await signIn("github", {
-        callbackUrl: callbackUrl.toString(),
-      });
+    if (!isSignedIn) {
       return;
     }
 
@@ -82,15 +59,6 @@ export function Step5ReviewSubmit({ form, onBack }: Step5Props) {
       const data = await response.json();
 
       if (!response.ok) {
-        if (data.requiresAuth) {
-          const callbackUrl = new URL(window.location.href);
-          callbackUrl.searchParams.set("authenticated", "true");
-          await signIn("github", {
-            callbackUrl: callbackUrl.toString(),
-          });
-          return;
-        }
-
         // Show detailed validation errors
         if (data.details) {
           const errorMessages = data.details.map((issue: any) =>
@@ -157,7 +125,7 @@ export function Step5ReviewSubmit({ form, onBack }: Step5Props) {
           {formData.logo && (
             <div className="flex justify-between">
               <dt className="text-gray-600 dark:text-gray-400">Logo:</dt>
-              <dd className="text-green-600 dark:text-green-400">✓ Included</dd>
+              <dd className="text-green-600 dark:text-green-400">Included</dd>
             </div>
           )}
         </dl>
@@ -182,45 +150,33 @@ export function Step5ReviewSubmit({ form, onBack }: Step5Props) {
       </div>
 
       {/* Auth Status */}
-      {justAuthenticated && session ? (
-        <div className="p-4 rounded-lg bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
-          <div className="flex items-center gap-2">
-            <Loader2 className="h-5 w-5 text-blue-600 dark:text-blue-400 animate-spin" />
-            <p className="text-sm text-blue-800 dark:text-blue-200">
-              Authentication successful! Submitting your project...
-            </p>
-          </div>
-        </div>
-      ) : status === "loading" ? (
+      {!isLoaded ? (
         <div className="p-4 rounded-lg bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
           <p className="text-sm text-blue-800 dark:text-blue-200">
             Checking authentication status...
           </p>
         </div>
-      ) : !session ? (
+      ) : !isSignedIn ? (
         <div className="p-4 rounded-lg bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800">
           <p className="text-sm text-yellow-800 dark:text-yellow-200 mb-3">
-            You'll need to sign in with GitHub to submit your project
+            You'll need to sign in to submit your project
           </p>
-          <button
-            type="button"
-            onClick={() => {
-              const callbackUrl = new URL(window.location.href);
-              callbackUrl.searchParams.set("authenticated", "true");
-              signIn("github", { callbackUrl: callbackUrl.toString() });
-            }}
-            className="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-200 text-sm font-medium transition-colors min-h-[48px]"
-          >
-            <Github className="h-4 w-4" />
-            Sign in with GitHub
-          </button>
+          <SignInButton mode="modal">
+            <button
+              type="button"
+              className="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-200 text-sm font-medium transition-colors min-h-[48px]"
+            >
+              <User className="h-4 w-4" />
+              Sign in to Continue
+            </button>
+          </SignInButton>
         </div>
       ) : (
         <div className="p-4 rounded-lg bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800">
           <div className="flex items-center gap-2">
             <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400" />
             <p className="text-sm text-green-800 dark:text-green-200">
-              Signed in as <span className="font-medium">@{session.user?.name}</span>
+              Signed in as <span className="font-medium">{user?.primaryEmailAddress?.emailAddress || user?.firstName}</span>
             </p>
           </div>
         </div>
@@ -262,7 +218,7 @@ export function Step5ReviewSubmit({ form, onBack }: Step5Props) {
         <button
           type="button"
           onClick={handleSubmit}
-          disabled={isSubmitting}
+          disabled={isSubmitting || !isSignedIn}
           className="px-6 py-3 rounded-lg bg-green-600 hover:bg-green-700 text-white font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 min-h-[48px]"
         >
           {isSubmitting ? (
@@ -270,13 +226,11 @@ export function Step5ReviewSubmit({ form, onBack }: Step5Props) {
               <Loader2 className="h-5 w-5 animate-spin" />
               Creating Pull Request...
             </>
-          ) : session ? (
+          ) : (
             <>
-              <Github className="h-5 w-5" />
+              <Send className="h-5 w-5" />
               Submit Project
             </>
-          ) : (
-            "Sign in & Submit"
           )}
         </button>
       </div>

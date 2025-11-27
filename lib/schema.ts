@@ -44,7 +44,14 @@ export const ProjectSchema = z.object({
   repo: z
     .string()
     .url("Repository must be a valid URL")
-    .regex(/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/, "Must be a valid GitHub repository URL"),
+    .refine(
+      (url) => {
+        const githubRegex = /^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/;
+        const gitlabRegex = /^https:\/\/gitlab\.com\/[^/]+\/[^/]+\/?$/;
+        return githubRegex.test(url) || gitlabRegex.test(url);
+      },
+      { message: "Must be a valid GitHub or GitLab repository URL" }
+    ),
 
   license: z.string().min(1, "License is required"),
 

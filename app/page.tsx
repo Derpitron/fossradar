@@ -1,8 +1,7 @@
 import { ProjectGrid } from "@/components/ProjectGrid";
+import { Header } from "@/components/Header";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
-import { TricolorRadar } from "@/components/TricolorRadar";
-import { MeetupIcon } from "@/components/MeetupIcon";
-import { Github, Radar, Plus } from "lucide-react";
+import { Github, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import fs from "fs";
@@ -11,7 +10,7 @@ import path from "path";
 export const revalidate = 3600; // Revalidate every hour
 
 export const metadata: Metadata = {
-  title: "FOSSRadar.in - Discover Open Source Projects from India",
+  title: "FOSSRadar - Discover Open Source Projects from India",
   description: "India's leading directory of open source projects. Discover 100+ FOSS projects from Indian developers across Bangalore, Mumbai, Delhi, Kolkata & more. Search by tech stack, location & tags.",
   keywords: [
     "open source india",
@@ -24,7 +23,7 @@ export const metadata: Metadata = {
     "open source contributors"
   ],
   openGraph: {
-    title: "FOSSRadar.in - Discover Open Source Projects from India",
+    title: "FOSSRadar - Discover Open Source Projects from India",
     description: "Explore India's vibrant open source ecosystem. Search and discover FOSS projects by Indian founders and contributors.",
     url: "https://fossradar.in",
     type: "website",
@@ -34,101 +33,88 @@ export const metadata: Metadata = {
   },
 };
 
+// Load categories from JSON file
+function loadCategories() {
+  const categoriesPath = path.join(process.cwd(), "data", "categories.json");
+  const data = JSON.parse(fs.readFileSync(categoriesPath, "utf-8"));
+  return Object.entries(data.categories).map(([id, cat]: [string, any]) => ({
+    id,
+    label: cat.label,
+  }));
+}
+
 export default function Home() {
-  // Read pre-built search index instead of parsing all TOML files
-  // This dramatically improves TTFB (from ~14s to <0.8s)
+  // Read pre-built search index
   const indexPath = path.join(process.cwd(), "public", "index.json");
   const searchIndex = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+  const categories = loadCategories();
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-black">
+    <div className="min-h-screen bg-gray-950">
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://fossradar.in" },
         ]}
       />
+
       {/* Header */}
-      <header className="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-        <div className="container mx-auto px-4 py-4 sm:py-6">
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 sm:gap-3">
-                <TricolorRadar className="h-8 w-8 sm:h-10 sm:w-10 flex-shrink-0" />
-                <h1 className="text-3xl sm:text-4xl text-gray-900 dark:text-gray-100 tracking-wider truncate" style={{ fontFamily: 'var(--font-vt323)' }}>
-                  fossradar
-                </h1>
-              </div>
-              <p className="text-gray-600 dark:text-gray-400 mt-1 text-xs sm:text-sm truncate">
-                Discover Open Source Projects from India
-              </p>
-            </div>
-            <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-              <Link
-                href="/radar"
-                className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium transition-colors"
-              >
-                <Radar className="h-4 w-4" />
-                Radar
-              </Link>
-              <Link
-                href="/radar"
-                className="sm:hidden p-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors"
-                aria-label="Radar"
-              >
-                <Radar className="h-4 w-4" />
-              </Link>
-              <Link
-                href="/submit"
-                className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition-colors"
-              >
-                <Plus className="h-4 w-4" />
-                Submit Project
-              </Link>
-              <Link
-                href="/submit"
-                className="sm:hidden p-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors"
-                aria-label="Submit Project"
-              >
-                <Plus className="h-5 w-5" />
-              </Link>
-              <Link
-                href="https://github.com/wbfoss/fossradar"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 sm:p-2.5 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors"
-                aria-label="GitHub Repository"
-              >
-                <Github className="h-5 w-5 sm:h-6 sm:w-6" />
-              </Link>
-              <Link
-                href="https://www.meetup.com/wbfoss/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-1.5 sm:p-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors"
-                aria-label="Meetup Group"
-              >
-                <MeetupIcon className="h-7 w-7 sm:h-8 sm:w-8" />
-              </Link>
-            </div>
-          </div>
+      <Header />
+
+      {/* Hero Section */}
+      <section className="relative overflow-hidden">
+        {/* Background gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/20 via-gray-950 to-gray-950 pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+
+        <div className="relative container mx-auto px-4 pt-16 pb-12 text-center">
+          {/* Badge */}
+          <Link
+            href="/submit"
+            className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 text-sm font-medium hover:bg-emerald-500/20 transition-colors"
+          >
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            </span>
+            Submit Your Open Source Project
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+
+          {/* Headline */}
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            Best place to find{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-600">
+              open source
+            </span>{" "}
+            inspiration
+          </h1>
+
+          {/* Subtitle */}
+          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-8">
+            Browse our curated collection of{" "}
+            <span className="text-white font-semibold">{searchIndex.length}+</span>{" "}
+            exceptional projects from India to help you build your next big thing.
+          </p>
         </div>
-      </header>
+      </section>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8">
-        {/* Search and Filters */}
+      <main className="container mx-auto px-4 pb-16">
         {searchIndex.length > 0 ? (
-          <ProjectGrid initialProjects={searchIndex} />
+          <ProjectGrid
+            initialProjects={searchIndex}
+            categories={categories}
+            projectCount={searchIndex.length}
+          />
         ) : (
           <div className="text-center py-16">
-            <p className="text-gray-500 dark:text-gray-400 mb-4">
+            <p className="text-gray-400 mb-4">
               No projects yet. Be the first to add one!
             </p>
             <Link
               href="/submit"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium transition-colors"
             >
-              <Plus className="h-4 w-4" />
               Submit Your Project
             </Link>
           </div>
@@ -136,47 +122,50 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 dark:border-gray-800 mt-16">
+      <footer className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-center md:text-left">
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-500">
                 &copy; 2025{" "}
-                <Link
-                  href="/"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
-                >
-                  FOSSRadar.in
+                <Link href="/" className="text-emerald-400 hover:underline">
+                  FOSSRadar
                 </Link>
                 . Open source directory.
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
+              <p className="text-sm text-gray-600 mt-1">
                 An initiative by{" "}
                 <Link
                   href="https://wbfoss.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                  className="text-emerald-400 hover:underline"
                 >
                   wbfoss
                 </Link>
               </p>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-6">
               <Link
                 href="https://github.com/wbfoss/fossradar"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+                className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
               >
                 <Github className="h-4 w-4" />
                 GitHub
               </Link>
               <Link
                 href="/about"
-                className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+                className="text-sm text-gray-400 hover:text-white transition-colors"
               >
                 About
+              </Link>
+              <Link
+                href="/radar"
+                className="text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                Radar
               </Link>
             </div>
           </div>

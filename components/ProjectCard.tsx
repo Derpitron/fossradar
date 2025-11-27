@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Star, ExternalLink, MapPin } from "lucide-react";
+import { Star, MapPin, ExternalLink } from "lucide-react";
 import { Project } from "@/lib/schema";
 import { cn, formatNumber } from "@/lib/utils";
 
@@ -12,98 +12,96 @@ export function ProjectCard({ project }: ProjectCardProps) {
     <Link
       href={`/projects/${project.slug}`}
       className={cn(
-        "group block p-4 sm:p-6 rounded-xl border transition-all duration-300 ease-out",
-        "border-gray-200 dark:border-gray-800",
-        "hover:border-blue-300 dark:hover:border-blue-700",
-        // Enhanced shadows for better elevation
-        "shadow-md shadow-gray-200/50 dark:shadow-gray-950/50",
-        "hover:shadow-2xl hover:shadow-blue-200/30 dark:hover:shadow-blue-950/40",
-        // Smooth hover animation with subtle scale
-        "hover:-translate-y-2 hover:scale-[1.02]",
-        // Glassmorphism effect
-        "bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm",
-        "relative overflow-hidden"
+        "group block rounded-xl overflow-hidden transition-all duration-300",
+        "bg-gray-900 border border-gray-800",
+        "hover:border-gray-700 hover:bg-gray-800/50",
+        "hover:-translate-y-1 hover:shadow-xl hover:shadow-black/20"
       )}
     >
-      {/* Gradient overlay on hover */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-transparent to-purple-50/50 dark:from-blue-950/20 dark:via-transparent dark:to-purple-950/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
-
-      <div className="relative">
-        <div className="flex items-start justify-between gap-3 sm:gap-4 mb-3">
-          <div className="flex-1 min-w-0">
-            <div className="flex items-start gap-2 mb-2">
-              <h3 className="text-xl sm:text-2xl font-heading font-semibold text-gray-900 dark:text-gray-100 truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors tracking-wide flex-1">
-                {project.name}
-              </h3>
-              {/* Status Badges */}
-              <div className="flex items-center gap-1.5 flex-shrink-0">
-                {project.verified && (
-                  <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-xs font-medium">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    Verified
-                  </span>
-                )}
-                {project.looking_for_contributors && (
-                  <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 text-xs font-medium">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                    <span className="hidden sm:inline">Contributors</span>
-                    <span className="sm:hidden">Help</span>
-                  </span>
-                )}
-              </div>
+      {/* Project Image/Logo Area */}
+      <div className="aspect-[16/10] bg-gradient-to-br from-gray-800 to-gray-900 relative overflow-hidden">
+        {project.logo ? (
+          <div className="absolute inset-0 flex items-center justify-center p-8">
+            <img
+              src={project.logo}
+              alt={project.name}
+              className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+            />
+          </div>
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-4xl font-bold text-gray-700 group-hover:text-gray-600 transition-colors">
+              {project.name.charAt(0).toUpperCase()}
             </div>
-            <div className="flex items-center gap-2 mt-1.5">
-              {project.primary_lang && (
-                <span className="text-xs font-medium text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded-md">
-                  {project.primary_lang}
-                </span>
-              )}
-              <span className="flex items-center gap-1 text-xs text-gray-500 dark:text-gray-500">
-                <MapPin className="h-3 w-3" />
-                {project.location_city}
+          </div>
+        )}
+
+        {/* Badges overlay */}
+        <div className="absolute top-3 left-3 flex flex-wrap gap-2">
+          {project.verified && (
+            <span className="px-2 py-1 rounded-md bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs font-medium backdrop-blur-sm">
+              Verified
+            </span>
+          )}
+          {project.looking_for_contributors && (
+            <span className="px-2 py-1 rounded-md bg-blue-500/20 border border-blue-500/30 text-blue-400 text-xs font-medium backdrop-blur-sm">
+              Seeking Contributors
+            </span>
+          )}
+        </div>
+
+        {/* Stars badge */}
+        {project.stars > 0 && (
+          <div className="absolute top-3 right-3">
+            <div className="flex items-center gap-1 px-2 py-1 rounded-md bg-yellow-500/20 border border-yellow-500/30 backdrop-blur-sm">
+              <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
+              <span className="text-xs font-medium text-yellow-400">
+                {formatNumber(project.stars)}
               </span>
             </div>
           </div>
+        )}
+      </div>
+
+      {/* Content */}
+      <div className="p-4">
+        <div className="flex items-start justify-between gap-2 mb-2">
+          <h3 className="text-lg font-semibold text-white group-hover:text-emerald-400 transition-colors line-clamp-1">
+            {project.name}
+          </h3>
+          <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-emerald-400 transition-colors flex-shrink-0 mt-1" />
         </div>
 
-        <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2 mb-4 leading-relaxed">
+        <p className="text-sm text-gray-400 line-clamp-2 mb-3 leading-relaxed">
           {project.short_desc}
         </p>
 
-        <div className="flex flex-wrap gap-2 mb-4">
+        {/* Meta info */}
+        <div className="flex items-center gap-3 text-xs text-gray-500">
+          {project.primary_lang && (
+            <span className="px-2 py-0.5 rounded bg-gray-800 text-gray-400">
+              {project.primary_lang}
+            </span>
+          )}
+          <span className="flex items-center gap-1">
+            <MapPin className="w-3 h-3" />
+            {project.location_city}
+          </span>
+        </div>
+
+        {/* Tags */}
+        <div className="flex flex-wrap gap-1.5 mt-3">
           {project.tags.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className={cn(
-                "px-2.5 py-1 rounded-md text-xs font-medium",
-                "bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300",
-                "border border-blue-100 dark:border-blue-900/50"
-              )}
+              className="px-2 py-0.5 rounded text-xs text-gray-400 bg-gray-800/50"
             >
               {tag}
             </span>
           ))}
           {project.tags.length > 3 && (
-            <span className="px-2.5 py-1 rounded-md text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700">
+            <span className="px-2 py-0.5 rounded text-xs text-gray-500">
               +{project.tags.length - 3}
-            </span>
-          )}
-        </div>
-
-        <div className="flex items-center justify-between text-sm">
-          {project.stars > 0 && (
-            <div className="flex items-center gap-2">
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-yellow-50 dark:bg-yellow-950/20 border border-yellow-200 dark:border-yellow-900/30">
-                <Star className="h-4 w-4 fill-yellow-500 text-yellow-500" />
-                <span className="font-bold text-base text-gray-900 dark:text-gray-100">{formatNumber(project.stars)}</span>
-              </div>
-              <span className="text-xs text-gray-500 dark:text-gray-400">stars</span>
-            </div>
-          )}
-          {project.website && (
-            <span className="flex items-center gap-1 ml-auto text-blue-600 dark:text-blue-400 group-hover:gap-2 transition-all">
-              <span className="text-xs font-medium">Visit</span>
-              <ExternalLink className="h-3.5 w-3.5" />
             </span>
           )}
         </div>

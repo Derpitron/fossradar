@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { auth } from "@/lib/auth";
+import { auth } from "@clerk/nextjs/server";
 import { ProjectSubmissionSchema } from "@/lib/schema";
 import { generateTOML } from "@/lib/toml-generator";
 import { createProjectPR } from "@/lib/github";
@@ -18,13 +18,22 @@ const SubmissionWithLogoSchema = ProjectSubmissionSchema.extend({
 
 export async function POST(request: NextRequest) {
   try {
-    // Check authentication
-    const session = await auth();
+    // Check Clerk authentication
+    const { userId } = await auth();
 
-    if (!session || !session.accessToken || !session.user) {
+    if (!userId) {
       return NextResponse.json(
-        { error: "Unauthorized. Please sign in with GitHub." },
+        { error: "Unauthorized. Please sign in to continue." },
         { status: 401 }
+      );
+    }
+
+    // Ensure we have a GitHub token for creating PRs
+    const githubToken = process.env.GITHUB_TOKEN;
+    if (!githubToken) {
+      return NextResponse.json(
+        { error: "Server configuration error. GitHub token not available." },
+        { status: 500 }
       );
     }
 
@@ -71,12 +80,12 @@ export async function POST(request: NextRequest) {
       };
     }
 
-    // Create PR using user's access token
+    // Create PR using server's GitHub token
     const pr = await createProjectPR({
       slug: data.slug,
       content: tomlContent,
-      submitterName: session.user.name || undefined,
-      userToken: session.accessToken,
+      submitterName: `User ${userId}`,
+      userToken: githubToken,
       logo: logoData,
     });
 
@@ -100,10 +109,9 @@ export async function POST(request: NextRequest) {
     if (error.status === 401 || error.status === 403) {
       return NextResponse.json(
         {
-          error: "GitHub authentication failed. Please sign in again.",
-          requiresAuth: true,
+          error: "GitHub API error. Please try again later.",
         },
-        { status: 401 }
+        { status: 500 }
       );
     }
 
