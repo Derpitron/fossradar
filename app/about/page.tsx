@@ -285,6 +285,47 @@ export default function AboutPage() {
         </div>
       </main>
 
+      {/* SEO Content Section */}
+      <section className="border-t border-gray-800 bg-gray-900/30">
+        <div className="container mx-auto px-4 py-10">
+          {/* Related Topics */}
+          <div className="mb-8">
+            <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+              Explore Indian Open Source
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "GitHub India",
+                "FOSS India",
+                "Indian Developers",
+                "Open Source Bangalore",
+                "Made in India Software",
+                "Indian Tech Startups",
+                "Developer Tools India",
+                "Indian GitHub Projects"
+              ].map((topic) => (
+                <Link
+                  key={topic}
+                  href={`/?q=${topic.toLowerCase().replace(/ /g, "+")}`}
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  {topic}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* SEO Description */}
+          <p className="text-sm text-gray-500 leading-relaxed max-w-3xl">
+            FOSSRadar is India's premier open source directory, showcasing the best GitHub repositories
+            and FOSS projects from Indian developers. Discover production-ready tools, APIs, and frameworks
+            built by engineers across Bangalore, Mumbai, Delhi, Hyderabad, Chennai, Pune, and Kolkata.
+            Whether you're a developer seeking inspiration or looking to contribute, FOSSRadar connects you
+            with India's vibrant open source community.
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-8">

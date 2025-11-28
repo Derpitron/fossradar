@@ -10,21 +10,31 @@ import path from "path";
 export const revalidate = 3600; // Revalidate every hour
 
 export const metadata: Metadata = {
-  title: "FOSSRadar - Discover Open Source Projects from India",
-  description: "India's leading directory of open source projects. Discover 100+ FOSS projects from Indian developers across Bangalore, Mumbai, Delhi, Kolkata & more. Search by tech stack, location & tags.",
+  title: "FOSSRadar - India's Open Source Directory | Discover GitHub Projects from Indian Developers",
+  description: "Discover the best open source projects from India. Browse production-ready GitHub repositories from Indian developers in Bangalore, Mumbai, Delhi, Hyderabad, Chennai, Pune & Kolkata. Find FOSS tools, APIs, frameworks & more.",
   keywords: [
     "open source india",
-    "foss projects",
-    "indian developers",
-    "github projects india",
-    "open source directory",
-    "indian tech community",
-    "developer projects",
-    "open source contributors"
+    "indian open source projects",
+    "foss india",
+    "github india",
+    "indian developers github",
+    "open source directory india",
+    "made in india open source",
+    "indian github repositories",
+    "best indian open source",
+    "indian developer tools",
+    "foss projects india",
+    "bangalore developers",
+    "mumbai open source",
+    "delhi github projects",
+    "indian tech startups open source",
+    "india software developers",
+    "open source contributions india",
+    "indian foss community"
   ],
   openGraph: {
-    title: "FOSSRadar - Discover Open Source Projects from India",
-    description: "Explore India's vibrant open source ecosystem. Search and discover FOSS projects by Indian founders and contributors.",
+    title: "FOSSRadar - India's Open Source Directory",
+    description: "Discover production-ready open source projects from Indian developers. The definitive directory for GitHub repositories and FOSS contributions from India.",
     url: "https://fossradar.in",
     type: "website",
   },
@@ -142,6 +152,81 @@ export default function Home() {
             >
               Learn What It Takes
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* SEO Content Section */}
+      <section className="border-t border-gray-800 bg-gray-900/30">
+        <div className="container mx-auto px-4 py-12">
+          {/* Discover by City */}
+          <div className="mb-10">
+            <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+              Discover Open Source Projects by City
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {["Bangalore", "Mumbai", "Delhi", "Hyderabad", "Chennai", "Pune", "Kolkata", "Ahmedabad", "Jaipur", "Kochi"].map((city) => (
+                <Link
+                  key={city}
+                  href={`/?location=${city.toLowerCase()}`}
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  {city}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Browse by Technology */}
+          <div className="mb-10">
+            <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+              Open Source Projects by Technology
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {["JavaScript", "TypeScript", "Python", "Go", "Rust", "Java", "React", "Node.js", "Django", "FastAPI", "Next.js", "Vue.js"].map((tech) => (
+                <Link
+                  key={tech}
+                  href={`/?q=${tech.toLowerCase()}`}
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  {tech}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Popular Categories */}
+          <div className="mb-10">
+            <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+              Popular Categories
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {["Developer Tools", "APIs", "Web Frameworks", "CLI Tools", "DevOps", "Security", "AI/ML", "Databases", "Mobile", "Infrastructure"].map((category) => (
+                <Link
+                  key={category}
+                  href={`/?q=${category.toLowerCase().replace(/\//g, " ")}`}
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  {category}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* SEO Description */}
+          <div className="pt-8 border-t border-gray-800">
+            <h2 className="text-lg font-semibold text-white mb-3">
+              India's Premier Open Source Directory
+            </h2>
+            <p className="text-sm text-gray-500 leading-relaxed max-w-4xl">
+              FOSSRadar is the definitive directory for discovering open source projects from India.
+              We showcase the best GitHub repositories and FOSS contributions from Indian developers
+              across Bangalore, Mumbai, Delhi, Hyderabad, Chennai, Pune, Kolkata, and beyond.
+              Whether you're looking for production-ready developer tools, APIs, web frameworks,
+              or cutting-edge AI/ML projects—find verified, community-approved open source software
+              built by India's top engineers. Join thousands of developers discovering Made in India
+              open source projects.
+            </p>
           </div>
         </div>
       </section>

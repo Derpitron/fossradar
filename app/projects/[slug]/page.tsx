@@ -137,8 +137,54 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <ProjectDetail project={project} cache={cache} similarProjects={similarProjects} />
       </main>
 
+      {/* SEO Content Section */}
+      <section className="border-t border-gray-800 bg-gray-900/30">
+        <div className="container mx-auto px-4 py-10">
+          <div className="max-w-4xl mx-auto">
+            {/* Related Searches */}
+            <div className="mb-8">
+              <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+                Explore More Open Source from India
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {project.tags.slice(0, 5).map((tag) => (
+                  <Link
+                    key={tag}
+                    href={`/?tag=${encodeURIComponent(tag)}`}
+                    className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                  >
+                    {tag} projects
+                  </Link>
+                ))}
+                <Link
+                  href={`/?location=${project.location_city?.toLowerCase()}`}
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  {project.location_city} developers
+                </Link>
+                {project.primary_lang && (
+                  <Link
+                    href={`/?q=${project.primary_lang.toLowerCase()}`}
+                    className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                  >
+                    {project.primary_lang} open source India
+                  </Link>
+                )}
+              </div>
+            </div>
+
+            {/* SEO Description */}
+            <p className="text-sm text-gray-500 leading-relaxed">
+              {project.name} is an open source {project.primary_lang || "software"} project from {project.location_city}, India.
+              Discover more Indian open source projects, GitHub repositories from Indian developers,
+              and FOSS contributions on FOSSRadar—India's premier open source directory.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="border-t border-gray-800 mt-16">
+      <footer className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-center md:text-left">
