@@ -88,7 +88,7 @@ good_first_issues = 0
 # Verification status (auto-set based on PR author affiliation)
 # Values: true or false
 # Note: Automatically verified if you own/contribute to the repo
-verified = true
+verified = false
 
 # ------------------------------------------------------------------------------------------------
 # OPTIONAL FIELDS (Manual - Provide if applicable)

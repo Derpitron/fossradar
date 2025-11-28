@@ -5,7 +5,19 @@
       "login": "gensecai-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/216218359?v=4",
       "html_url": "https://github.com/gensecai-dev",
-      "contributions": 13
+      "contributions": 14
+    },
+    {
+      "login": "julia-infocaster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/203648077?v=4",
+      "html_url": "https://github.com/julia-infocaster",
+      "contributions": 9
+    },
+    {
+      "login": "maxie7",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15796607?v=4",
+      "html_url": "https://github.com/maxie7",
+      "contributions": 1
     }
   ],
   "installation": {
@@ -16,19 +28,19 @@
     "docs_url": "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector/tree/main/docs"
   },
   "stats": {
-    "forks": 11,
+    "forks": 16,
     "watchers": 2,
     "open_issues": 2,
-    "size": 2644,
+    "size": 1768,
     "created_at": "2025-11-24T19:19:09Z",
-    "updated_at": "2025-11-27T23:38:28Z",
-    "pushed_at": "2025-11-26T08:16:51Z",
+    "updated_at": "2025-11-28T15:59:21Z",
+    "pushed_at": "2025-11-28T11:47:12Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "TypeScript": 58559
+    "TypeScript": 66465
   },
-  "updated_at": "2025-11-28T04:00:24.367Z"
+  "updated_at": "2025-11-28T17:27:22.085Z"
 }
