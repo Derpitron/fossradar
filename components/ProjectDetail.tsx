@@ -2,7 +2,6 @@ import { Project } from "@/lib/schema";
 import { VerifiedPill } from "./VerifiedPill";
 import { InlineCopy } from "./InlineCopy";
 import { ContributorAvatars } from "./ContributorAvatars";
-import { InstallationGuide } from "./InstallationGuide";
 import { DocumentationLinks } from "./DocumentationLinks";
 import { SimilarProjects } from "./SimilarProjects";
 import { SocialShare } from "./SocialShare";
@@ -229,9 +228,6 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
       {cache?.contributors && cache.contributors.length > 0 && (
         <ContributorAvatars contributors={cache.contributors} />
       )}
-
-      {/* Installation Guide */}
-      <InstallationGuide installation={cache?.installation} repoUrl={project.repo} />
 
       {/* Documentation Links */}
       <DocumentationLinks repoUrl={project.repo} documentation={cache?.documentation} />
