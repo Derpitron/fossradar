@@ -1,6 +1,6 @@
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { Header } from "@/components/Header";
-import { Github, Plus, CheckCircle2, GitPullRequest, FileText, ExternalLink } from "lucide-react";
+import { Github, CheckCircle2, GitPullRequest, FileText, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -94,55 +94,6 @@ export default function SubmitPage() {
             <p className="text-lg sm:text-xl text-gray-400 leading-relaxed">
               Get your open source project listed on FOSSRadar and reach India's vibrant FOSS community. Follow these simple steps to submit your project.
             </p>
-          </div>
-
-          {/* Quick Form CTA */}
-          <div className="mb-12 p-6 sm:p-8 rounded-xl bg-gradient-to-br from-orange-500/20 to-green-500/20 border border-orange-500/30">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-              <div className="flex-1">
-                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-                  New: Quick Submission Form
-                </h2>
-                <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                  Skip the Git workflow! Use our interactive form to submit your project in minutes.
-                  We'll create the pull request automatically for you.
-                </p>
-                <ul className="mt-4 space-y-2 text-sm text-gray-300">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-green-400" />
-                    Auto-fetch project details from GitHub
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-green-400" />
-                    Real-time validation and guidance
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="h-4 w-4 text-green-400" />
-                    Automatic pull request creation
-                  </li>
-                </ul>
-                <p className="mt-4 text-xs text-gray-400 opacity-90">
-                  Note: Requires GitHub authentication to create pull requests on your behalf
-                </p>
-              </div>
-              <div className="flex-shrink-0">
-                <Link
-                  href="/submit/form"
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-orange-500 hover:bg-orange-600 text-white font-semibold transition-colors shadow-lg text-lg"
-                >
-                  <Plus className="h-5 w-5" />
-                  Use Quick Form
-                  <ExternalLink className="h-4 w-4" />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Divider */}
-          <div className="mb-12 flex items-center gap-4">
-            <div className="flex-1 h-px bg-gray-800"></div>
-            <span className="text-sm text-gray-500">or use the traditional Git workflow</span>
-            <div className="flex-1 h-px bg-gray-800"></div>
           </div>
 
           {/* Eligibility Section */}

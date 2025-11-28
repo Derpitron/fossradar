@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
-import { ClerkProvider } from "@clerk/nextjs";
-import { dark } from "@clerk/themes";
 import "./globals.css";
 
 const inter = Inter({
@@ -142,9 +140,7 @@ export default function RootLayout({
     }
   };
 
-  const hasClerkKey = !!process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
-
-  const content = (
+  return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
         <script
@@ -163,25 +159,5 @@ export default function RootLayout({
         <GoogleAnalytics />
       </body>
     </html>
-  );
-
-  if (!hasClerkKey) {
-    return content;
-  }
-
-  return (
-    <ClerkProvider
-      appearance={{
-        baseTheme: dark,
-        variables: {
-          colorPrimary: "#f97316",
-          colorBackground: "#111827",
-          colorInputBackground: "#1f2937",
-          colorInputText: "#f9fafb",
-        },
-      }}
-    >
-      {content}
-    </ClerkProvider>
   );
 }
