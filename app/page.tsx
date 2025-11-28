@@ -1,7 +1,7 @@
 import { ProjectGrid } from "@/components/ProjectGrid";
 import { Header } from "@/components/Header";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
-import { Github, ArrowRight } from "lucide-react";
+import { Github, ArrowRight, Plus } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import fs from "fs";
@@ -118,6 +118,33 @@ export default function Home() {
           </div>
         )}
       </main>
+
+      {/* Developer CTA Section */}
+      <section className="border-t border-gray-800 bg-gradient-to-b from-gray-950 to-gray-900">
+        <div className="container mx-auto px-4 py-16 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+            Built something worth sharing?
+          </h2>
+          <p className="text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed">
+            If your open source project is making an impact, it deserves a place here. Join India's most respected directory and let the world discover your work.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="/submit"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-orange-500 hover:bg-orange-600 text-white font-semibold transition-colors"
+            >
+              <Plus className="w-5 h-5" />
+              Submit Your Project
+            </Link>
+            <Link
+              href="/about"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-gray-700 hover:bg-gray-800 text-gray-300 font-medium transition-colors"
+            >
+              Learn What It Takes
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="border-t border-gray-800">
