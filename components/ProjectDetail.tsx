@@ -58,11 +58,11 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
       <div className="mb-8">
         <div className="flex items-start justify-between gap-4 mb-4">
           <div className="flex-1 min-w-0">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-normal text-gray-900 dark:text-gray-100 mb-2 tracking-wide break-words">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-2 break-words">
               {project.name}
             </h1>
             {project.primary_lang && (
-              <p className="text-base sm:text-lg text-gray-500 dark:text-gray-400">
+              <p className="text-base sm:text-lg text-gray-400">
                 {project.primary_lang}
               </p>
             )}
@@ -72,7 +72,7 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
           </div>
         </div>
 
-        <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+        <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed">
           {project.short_desc}
         </p>
 
@@ -85,7 +85,7 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
             href={project.repo}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 sm:px-5 py-3 sm:py-2.5 rounded-lg bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors text-sm sm:text-base min-h-[44px]"
+            className="inline-flex items-center gap-2 px-4 sm:px-5 py-3 sm:py-2.5 rounded-lg border border-gray-700 hover:bg-gray-800 text-white transition-colors text-sm sm:text-base min-h-[44px]"
           >
             <Github className="h-4 w-4 sm:h-5 sm:w-5" />
             <span className="hidden sm:inline">View on GitHub</span>
@@ -96,7 +96,7 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
               href={project.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 sm:px-5 py-3 sm:py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 text-white transition-colors text-sm sm:text-base min-h-[44px]"
+              className="inline-flex items-center gap-2 px-4 sm:px-5 py-3 sm:py-2.5 rounded-lg bg-orange-500 hover:bg-orange-600 text-white transition-colors text-sm sm:text-base min-h-[44px]"
             >
               <ExternalLink className="h-4 w-4 sm:h-5 sm:w-5" />
               <span className="hidden sm:inline">Visit Website</span>
@@ -120,80 +120,80 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
 
       {/* Stats */}
       <div className="mb-8">
-        <h2 className="text-base font-heading font-normal text-gray-700 dark:text-gray-300 tracking-wider mb-3">
+        <h2 className="text-base font-bold text-gray-300 tracking-wider mb-3">
           Repository Stats
         </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 gap-3">
           {/* Stars */}
-          <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-            <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+          <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+            <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
               <Star className="h-3.5 w-3.5" />
               Stars
             </div>
-            <div className="text-xl font-bold text-gray-900 dark:text-gray-100">
+            <div className="text-xl font-bold text-white">
               {formatNumber(project.stars || 0)}
             </div>
           </div>
 
           {cache?.stats && (
             <>
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <GitFork className="h-3.5 w-3.5" />
                   Forks
                 </div>
-                <div className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                <div className="text-xl font-bold text-white">
                   {formatNumber(cache.stats.forks)}
                 </div>
               </div>
 
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <Eye className="h-3.5 w-3.5" />
                   Watchers
                 </div>
-                <div className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                <div className="text-xl font-bold text-white">
                   {formatNumber(cache.stats.watchers)}
                 </div>
               </div>
 
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <AlertCircle className="h-3.5 w-3.5" />
                   Issues
                 </div>
-                <div className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                <div className="text-xl font-bold text-white">
                   {formatNumber(cache.stats.open_issues)}
                 </div>
               </div>
 
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <GitBranch className="h-3.5 w-3.5" />
                   Good First
                 </div>
-                <div className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                <div className="text-xl font-bold text-white">
                   {project.good_first_issues || 0}
                 </div>
               </div>
 
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <Clock className="h-3.5 w-3.5" />
                   Updated
                 </div>
-                <div className="text-sm font-semibold text-gray-900 dark:text-gray-100 truncate">
+                <div className="text-sm font-semibold text-white truncate">
                   {formatRelativeTime(cache.stats.pushed_at)}
                 </div>
               </div>
 
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <Scale className="h-3.5 w-3.5" />
                   License
                 </div>
-                <div className="text-sm font-semibold text-gray-900 dark:text-gray-100 truncate">
+                <div className="text-sm font-semibold text-white truncate">
                   {project.license}
                 </div>
               </div>
@@ -202,21 +202,21 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
 
           {!cache?.stats && (
             <>
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <GitBranch className="h-3.5 w-3.5" />
                   Good First
                 </div>
-                <div className="text-xl font-bold text-gray-900 dark:text-gray-100">
+                <div className="text-xl font-bold text-white">
                   {project.good_first_issues || 0}
                 </div>
               </div>
-              <div className="p-3 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-xs mb-1">
+              <div className="p-3 rounded-lg border border-gray-800 bg-gray-900/50">
+                <div className="flex items-center gap-2 text-gray-400 text-xs mb-1">
                   <Scale className="h-3.5 w-3.5" />
                   License
                 </div>
-                <div className="text-sm font-semibold text-gray-900 dark:text-gray-100 truncate">
+                <div className="text-sm font-semibold text-white truncate">
                   {project.license}
                 </div>
               </div>
@@ -238,7 +238,7 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
 
       {/* Tags */}
       <div className="mb-8">
-        <h2 className="text-base font-heading font-normal text-gray-700 dark:text-gray-300 tracking-wider mb-3">
+        <h2 className="text-base font-bold text-gray-300 tracking-wider mb-3">
           Tags
         </h2>
         <div className="flex flex-wrap gap-2">
@@ -246,7 +246,7 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
             <Link
               key={tag}
               href={`/?tag=${encodeURIComponent(tag)}`}
-              className="px-3 py-1.5 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+              className="px-3 py-1.5 rounded-md bg-gray-800 text-gray-300 hover:bg-orange-500/20 hover:text-orange-400 transition-colors"
             >
               {tag}
             </Link>
@@ -257,7 +257,7 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
       {/* Language Breakdown */}
       {cache?.languages && Object.keys(cache.languages).length > 0 && (
         <div className="mb-8">
-          <h2 className="text-base font-heading font-normal text-gray-700 dark:text-gray-300 tracking-wider mb-3">
+          <h2 className="text-base font-bold text-gray-300 tracking-wider mb-3">
             Language Breakdown
           </h2>
           <div className="space-y-3">
@@ -271,18 +271,18 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
                   <div key={language}>
                     <div className="flex items-center justify-between mb-1">
                       <div className="flex items-center gap-2">
-                        <Code2 className="h-4 w-4 text-gray-500 dark:text-gray-400" />
-                        <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                        <Code2 className="h-4 w-4 text-gray-400" />
+                        <span className="text-sm font-medium text-gray-300">
                           {language}
                         </span>
                       </div>
-                      <span className="text-sm text-gray-500 dark:text-gray-400">
+                      <span className="text-sm text-gray-400">
                         {percentage}%
                       </span>
                     </div>
-                    <div className="w-full bg-gray-200 dark:bg-gray-800 rounded-full h-2">
+                    <div className="w-full bg-gray-800 rounded-full h-2">
                       <div
-                        className="bg-blue-600 dark:bg-blue-400 h-2 rounded-full transition-all"
+                        className="bg-gradient-to-r from-orange-500 to-green-500 h-2 rounded-full transition-all"
                         style={{ width: `${percentage}%` }}
                       />
                     </div>
@@ -296,14 +296,14 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
 
       {/* Looking for Contributors */}
       {project.looking_for_contributors && (
-        <div className="mb-8 p-4 rounded-lg bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
+        <div className="mb-8 p-4 rounded-xl bg-green-500/10 border border-green-500/30">
           <div className="flex items-start gap-3">
-            <GitBranch className="h-5 w-5 text-blue-600 dark:text-blue-400 mt-0.5" />
+            <GitBranch className="h-5 w-5 text-green-400 mt-0.5" />
             <div>
-              <h3 className="text-lg font-heading font-normal text-blue-900 dark:text-blue-100 mb-1 tracking-wide">
+              <h3 className="text-lg font-bold text-green-400 mb-1">
                 Looking for Contributors
               </h3>
-              <p className="text-sm text-blue-700 dark:text-blue-300">
+              <p className="text-sm text-gray-300">
                 This project welcomes new contributors! Check out the repository to get started.
               </p>
             </div>
@@ -319,15 +319,15 @@ export function ProjectDetail({ project, cache, similarProjects }: ProjectDetail
       {/* Badge */}
       {project.verified && (
         <div className="mb-8">
-          <h2 className="text-base font-heading font-normal text-gray-700 dark:text-gray-300 tracking-wider mb-3">
+          <h2 className="text-base font-bold text-gray-300 tracking-wider mb-3">
             Verified Badge
           </h2>
-          <div className="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-            <p className="text-sm text-gray-600 dark:text-gray-300 mb-3">
+          <div className="p-4 rounded-xl border border-gray-800 bg-gray-900/50">
+            <p className="text-sm text-gray-300 mb-3">
               Add this badge to your README to show that your project is verified on Radar:
             </p>
             <div className="flex items-center gap-2 flex-wrap">
-              <code className="flex-1 px-3 py-2 rounded bg-gray-100 dark:bg-gray-800 text-sm text-gray-800 dark:text-gray-200 font-mono overflow-x-auto">
+              <code className="flex-1 px-3 py-2 rounded bg-gray-800 text-sm text-gray-200 font-mono overflow-x-auto">
                 {badgeMarkdown}
               </code>
               <InlineCopy text={badgeMarkdown} label="Copy Badge" />

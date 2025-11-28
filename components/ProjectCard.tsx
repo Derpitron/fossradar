@@ -9,7 +9,8 @@ interface ProjectCardProps {
 }
 
 // Extract owner/repo from GitHub URL
-function getRepoInfo(repoUrl: string): { owner: string; repo: string } | null {
+function getRepoInfo(repoUrl: string | undefined): { owner: string; repo: string } | null {
+  if (!repoUrl) return null;
   const match = repoUrl.match(/github\.com\/([^\/]+)\/([^\/]+)/);
   if (match) {
     return { owner: match[1], repo: match[2].replace(/\/?$/, '') };

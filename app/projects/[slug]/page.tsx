@@ -3,9 +3,8 @@ import { loadAllProjects, getProjectBySlug } from "@/lib/projects";
 import { findSimilarProjects } from "@/lib/similar";
 import { ProjectDetail } from "@/components/ProjectDetail";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
-import { TricolorRadar } from "@/components/TricolorRadar";
-import { MeetupIcon } from "@/components/MeetupIcon";
-import { Github, Map, Plus } from "lucide-react";
+import { Header } from "@/components/Header";
+import { Github } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import fs from "fs";
@@ -50,10 +49,10 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   const ogImageUrl = `https://fossradar.in/api/og?${ogImageParams.toString()}`;
 
   return {
-    title: `${project.name} - FOSSRadar.in`,
+    title: `${project.name} - FOSSRadar`,
     description: project.short_desc,
     keywords: [...project.tags, "open source", "fossradar", "india", project.primary_lang.toLowerCase()],
-    authors: [{ name: "FOSSRadar.in" }],
+    authors: [{ name: "FOSSRadar" }],
     creator: "wbfoss",
     publisher: "wbfoss",
     alternates: {
@@ -64,7 +63,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
       description: project.short_desc,
       type: "website",
       url: pageUrl,
-      siteName: "FOSSRadar.in",
+      siteName: "FOSSRadar",
       locale: "en_IN",
       images: [
         {
@@ -77,7 +76,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     },
     twitter: {
       card: "summary_large_image",
-      title: `${project.name} - FOSSRadar.in`,
+      title: `${project.name} - FOSSRadar`,
       description: project.short_desc,
       creator: "@wbfoss",
       images: [ogImageUrl],
@@ -121,7 +120,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   const similarProjects = findSimilarProjects(project, allProjects, 4);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-black">
+    <div className="min-h-screen bg-gray-950">
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://fossradar.in" },
@@ -129,72 +128,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           { name: project.name, url: `https://fossradar.in/projects/${slug}` },
         ]}
       />
+
       {/* Header */}
-      <header className="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-        <div className="container mx-auto px-4 py-4 sm:py-6">
-          <div className="flex items-center justify-between gap-4">
-            <Link href="/" className="flex items-start gap-2 sm:gap-3 flex-1 min-w-0">
-              <TricolorRadar className="h-8 w-8 sm:h-10 sm:w-10 flex-shrink-0 mt-1" />
-              <div className="min-w-0">
-                <h1 className="text-3xl sm:text-4xl text-gray-900 dark:text-gray-100 tracking-wider truncate" style={{ fontFamily: 'var(--font-vt323)' }}>
-                  fossradar
-                </h1>
-                <p className="text-gray-600 dark:text-gray-400 mt-1 text-xs sm:text-sm truncate">
-                  Discover Open Source Projects from India
-                </p>
-              </div>
-            </Link>
-            <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-              <Link
-                href="/radar"
-                className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium transition-colors"
-              >
-                <Map className="h-4 w-4" />
-                Radar
-              </Link>
-              <Link
-                href="/radar"
-                className="sm:hidden p-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors"
-                aria-label="Radar"
-              >
-                <Map className="h-4 w-4" />
-              </Link>
-              <Link
-                href="/submit"
-                className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition-colors"
-              >
-                <Plus className="h-4 w-4" />
-                Submit Project
-              </Link>
-              <Link
-                href="/submit"
-                className="sm:hidden p-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors"
-                aria-label="Submit Project"
-              >
-                <Plus className="h-5 w-5" />
-              </Link>
-              <Link
-                href="https://github.com/wbfoss/fossradar"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 sm:p-2.5 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors"
-                aria-label="GitHub Repository"
-              >
-                <Github className="h-5 w-5 sm:h-6 sm:w-6" />
-              </Link>
-              <Link
-                href="https://www.meetup.com/wbfoss/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-1.5 sm:p-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300 transition-colors"
-                aria-label="Meetup Group"
-              >
-                <MeetupIcon className="h-7 w-7 sm:h-8 sm:w-8" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
@@ -202,45 +138,42 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 dark:border-gray-800 mt-16">
+      <footer className="border-t border-gray-800 mt-16">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-center md:text-left">
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-500">
                 &copy; 2025{" "}
-                <Link
-                  href="/"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
-                >
-                  FOSSRadar.in
+                <Link href="/" className="text-orange-400 hover:underline">
+                  FOSSRadar
                 </Link>
                 . Open source directory.
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
+              <p className="text-sm text-gray-600 mt-1">
                 An initiative by{" "}
                 <Link
                   href="https://wbfoss.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                  className="text-green-400 hover:underline"
                 >
                   wbfoss
                 </Link>
               </p>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-6">
               <Link
                 href="https://github.com/wbfoss/fossradar"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+                className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
               >
                 <Github className="h-4 w-4" />
                 GitHub
               </Link>
               <Link
                 href="/about"
-                className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+                className="text-sm text-gray-400 hover:text-white transition-colors"
               >
                 About
               </Link>
