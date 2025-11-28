@@ -16,12 +16,12 @@
     "docs_url": "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector/tree/main/docs"
   },
   "stats": {
-    "forks": 6,
+    "forks": 11,
     "watchers": 2,
-    "open_issues": 0,
+    "open_issues": 2,
     "size": 2644,
     "created_at": "2025-11-24T19:19:09Z",
-    "updated_at": "2025-11-27T03:00:21Z",
+    "updated_at": "2025-11-27T23:38:28Z",
     "pushed_at": "2025-11-26T08:16:51Z",
     "has_wiki": false,
     "has_pages": false,
@@ -30,5 +30,5 @@
   "languages": {
     "TypeScript": 58559
   },
-  "updated_at": "2025-11-27T03:16:50.515Z"
+  "updated_at": "2025-11-28T03:16:36.064Z"
 }
