@@ -5,6 +5,26 @@
   --foreground: #f9fafb;
 }
 
+/* Mobile touch improvements */
+html {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Prevent text selection on interactive elements */
+button, a {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Smooth scrolling on iOS */
+@supports (-webkit-touch-callout: none) {
+  .overflow-x-auto,
+  .overflow-y-auto {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 @utility text-balance {
   text-wrap: balance;
 }
