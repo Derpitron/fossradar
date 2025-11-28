@@ -49,11 +49,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Geographic Radar - Explore Indian Open Source Projects by Location",
     description: "Interactive analytics dashboard showing open source project distribution across Indian states and cities.",
-    url: "https://fossradar.in/radar",
+    url: "https://fossradar.dev/radar",
     type: "website",
   },
   alternates: {
-    canonical: "https://fossradar.in/radar",
+    canonical: "https://fossradar.dev/radar",
   },
 };
 
@@ -144,8 +144,8 @@ export default function RadarPage() {
     <div className="min-h-screen bg-gray-950">
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://fossradar.in" },
-          { name: "Geographic Radar", url: "https://fossradar.in/radar" },
+          { name: "Home", url: "https://fossradar.dev" },
+          { name: "Geographic Radar", url: "https://fossradar.dev/radar" },
         ]}
       />
 

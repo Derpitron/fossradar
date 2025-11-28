@@ -165,7 +165,7 @@ india_connection_details = "Founded and maintained by developers from Kolkata, I
 #    your project will be automatically marked as "verified = true"
 #
 # 2. Add the verified badge to your project README:
-#    [![fossradar.in: Verified](https://img.shields.io/badge/fossradar.in-Verified-brightgreen?style=for-the-badge)](https://fossradar.in/projects/your-slug)
+#    [![fossradar.dev: Verified](https://img.shields.io/badge/fossradar.dev-Verified-brightgreen?style=for-the-badge)](https://fossradar.dev/projects/your-slug)
 #
 # ================================================================================================
 # NEED HELP?

@@ -14,7 +14,7 @@ There are **two ways** to add your open source project to FOSSRadar:
 
 #### Method 1: Quick Submission Form (Easiest)
 
-Visit [fossradar.in/submit/form](https://fossradar.in/submit/form) for a guided submission with:
+Visit [fossradar.dev/submit/form](https://fossradar.dev/submit/form) for a guided submission with:
 - Auto-fetch project details from GitHub
 - Real-time validation and duplicate detection
 - Smart tag suggestions from your GitHub topics

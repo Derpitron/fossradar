@@ -18,8 +18,8 @@ GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
 2. Click "New OAuth App"
 3. Fill in:
    - Application name: `FOSSRadar Production`
-   - Homepage URL: `https://fossradar.in`
-   - Authorization callback URL: `https://fossradar.in/api/auth/callback/github`
+   - Homepage URL: `https://fossradar.dev`
+   - Authorization callback URL: `https://fossradar.dev/api/auth/callback/github`
 4. Click "Register application"
 5. Copy the Client ID and generate a Client Secret
 
@@ -29,7 +29,7 @@ GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
 
 ```env
 NEXTAUTH_SECRET=your_random_secret_here
-NEXTAUTH_URL=https://fossradar.in
+NEXTAUTH_URL=https://fossradar.dev
 ```
 
 **Generate NEXTAUTH_SECRET:**
@@ -73,7 +73,7 @@ This secures the `/api/ping-sitemap` endpoint.
 | `GITHUB_CLIENT_ID` | From GitHub OAuth App | Production |
 | `GITHUB_CLIENT_SECRET` | From GitHub OAuth App | Production |
 | `NEXTAUTH_SECRET` | Generate with openssl | Production |
-| `NEXTAUTH_URL` | `https://fossradar.in` | Production |
+| `NEXTAUTH_URL` | `https://fossradar.dev` | Production |
 | `ADMIN_API_KEY` | Generate with openssl (optional) | Production |
 
 ### Step 2: Redeploy
@@ -86,7 +86,7 @@ After adding environment variables:
 
 ### Step 3: Verify
 
-1. Visit `https://fossradar.in`
+1. Visit `https://fossradar.dev`
 2. Try the GitHub Star button on any project page
 3. Check Vercel logs for any errors in `/api/auth/[...nextauth]`
 
@@ -98,7 +98,7 @@ After adding environment variables:
 
 **Solution:**
 1. Verify `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` are set in Vercel
-2. Verify the OAuth callback URL in GitHub matches: `https://fossradar.in/api/auth/callback/github`
+2. Verify the OAuth callback URL in GitHub matches: `https://fossradar.dev/api/auth/callback/github`
 3. Redeploy after adding variables
 
 ### Issue: "Configuration" errors in NextAuth
@@ -115,7 +115,7 @@ After adding environment variables:
 **Cause:** Incorrect `NEXTAUTH_URL`
 
 **Solution:**
-1. Set `NEXTAUTH_URL=https://fossradar.in` (no trailing slash)
+1. Set `NEXTAUTH_URL=https://fossradar.dev` (no trailing slash)
 2. Redeploy
 
 ## Monitoring

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
 
 async function pingSitemapToSearchEngines() {
-  const sitemapUrl = "https://fossradar.in/sitemap.xml";
+  const sitemapUrl = "https://fossradar.dev/sitemap.xml";
   const results = {
     google: false,
     bing: false,

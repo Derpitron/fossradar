@@ -48,8 +48,8 @@ interface ProjectDetailProps {
 }
 
 export function ProjectDetail({ project, cache, similarProjects }: ProjectDetailProps) {
-  const badgeMarkdown = `[![fossradar.in: Verified](https://img.shields.io/badge/fossradar.in-Verified-brightgreen?style=for-the-badge)](https://fossradar.in/projects/${project.slug})`;
-  const projectUrl = `https://fossradar.in/projects/${project.slug}`;
+  const badgeMarkdown = `[![fossradar.dev: Verified](https://img.shields.io/badge/fossradar.dev-Verified-brightgreen?style=for-the-badge)](https://fossradar.dev/projects/${project.slug})`;
+  const projectUrl = `https://fossradar.dev/projects/${project.slug}`;
 
   return (
     <div className="max-w-4xl mx-auto">

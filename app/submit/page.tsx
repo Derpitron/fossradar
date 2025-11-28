@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Submit Your Project - FOSSRadar",
     description: "Step-by-step guide to submit your open source project to FOSSRadar",
-    url: "https://fossradar.in/submit",
+    url: "https://fossradar.dev/submit",
     type: "website",
   },
   alternates: {
-    canonical: "https://fossradar.in/submit",
+    canonical: "https://fossradar.dev/submit",
   },
 };
 
@@ -68,8 +68,8 @@ export default function SubmitPage() {
   };
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://fossradar.in" },
-    { name: "Submit Project", url: "https://fossradar.in/submit" },
+    { name: "Home", url: "https://fossradar.dev" },
+    { name: "Submit Project", url: "https://fossradar.dev/submit" },
   ];
 
   return (

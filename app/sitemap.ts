@@ -5,7 +5,7 @@ import { loadAllProjects } from "@/lib/projects";
 export const revalidate = 3600;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://fossradar.in";
+  const baseUrl = "https://fossradar.dev";
   const projects = loadAllProjects();
 
   // Static pages

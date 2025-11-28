@@ -120,13 +120,13 @@ export async function getReadme(repoUrl: string): Promise<string | null> {
 }
 
 /**
- * Check if README contains the fossradar.in verified badge
+ * Check if README contains the fossradar.dev verified badge
  */
 export async function hasVerifiedBadge(repoUrl: string): Promise<boolean> {
   const readme = await getReadme(repoUrl);
   if (!readme) return false;
 
-  return /img\.shields\.io\/badge\/fossradar\.in-Verified/i.test(readme);
+  return /img\.shields\.io\/badge\/fossradar\.dev-Verified/i.test(readme);
 }
 
 /**

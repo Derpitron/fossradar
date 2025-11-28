@@ -19,7 +19,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://fossradar.in'),
+  metadataBase: new URL('https://fossradar.dev'),
   title: {
     default: "FOSSRadar - India's Open Source Directory",
     template: "%s | FOSSRadar"
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     "delhi",
     "hyderabad"
   ],
-  authors: [{ name: "FOSSRadar", url: "https://fossradar.in" }],
+  authors: [{ name: "FOSSRadar", url: "https://fossradar.dev" }],
   creator: "wbfoss",
   publisher: "wbfoss",
   formatDetection: {
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://fossradar.in",
+    url: "https://fossradar.dev",
     siteName: "FOSSRadar",
     title: "FOSSRadar - India's Open Source Directory",
     description: "Discover and explore open source projects from India. A comprehensive directory celebrating FOSS projects from Indian founders, creators, and contributors.",
     images: [
       {
-        url: "https://fossradar.in/api/og",
+        url: "https://fossradar.dev/api/og",
         width: 1200,
         height: 630,
         alt: "FOSSRadar - India's Open Source Directory",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     title: "FOSSRadar - India's Open Source Directory",
     description: "Discover and explore open source projects from India",
     creator: "@wbfoss",
-    images: ["https://fossradar.in/api/og"],
+    images: ["https://fossradar.dev/api/og"],
   },
   robots: {
     index: true,
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://fossradar.in",
+    canonical: "https://fossradar.dev",
   },
 };
 
@@ -100,8 +100,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "FOSSRadar",
-    "url": "https://fossradar.in",
-    "logo": "https://fossradar.in/logos/fossradar/logo.png",
+    "url": "https://fossradar.dev",
+    "logo": "https://fossradar.dev/logos/fossradar/logo.png",
     "description": "India's comprehensive directory for discovering and exploring open source projects from Indian founders, creators, and contributors.",
     "foundingDate": "2025",
     "foundingLocation": {
@@ -123,13 +123,13 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "FOSSRadar",
-    "url": "https://fossradar.in",
+    "url": "https://fossradar.dev",
     "description": "Discover and explore open source projects from India",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://fossradar.in/?q={search_term_string}"
+        "urlTemplate": "https://fossradar.dev/?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     },

@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     };
   }
 
-  const pageUrl = `https://fossradar.in/projects/${slug}`;
+  const pageUrl = `https://fossradar.dev/projects/${slug}`;
 
   // SEO-optimized title with keywords
   const seoTitle = `${project.name} - ${project.primary_lang} Open Source Project from ${project.location_city}, India | FOSSRadar`;
@@ -61,13 +61,13 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   ];
 
   // Build OG image URL
-  const ogImageUrl = `https://fossradar.in/projects/${slug}/opengraph-image`;
+  const ogImageUrl = `https://fossradar.dev/projects/${slug}/opengraph-image`;
 
   return {
     title: seoTitle,
     description: seoDescription.slice(0, 160),
     keywords: keywords,
-    authors: [{ name: "FOSSRadar", url: "https://fossradar.in" }],
+    authors: [{ name: "FOSSRadar", url: "https://fossradar.dev" }],
     creator: "wbfoss",
     publisher: "wbfoss",
     alternates: {
@@ -139,7 +139,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   const allProjects = loadAllProjects();
   const similarProjects = findSimilarProjects(project, allProjects, 4);
 
-  const pageUrl = `https://fossradar.in/projects/${slug}`;
+  const pageUrl = `https://fossradar.dev/projects/${slug}`;
 
   // SoftwareApplication Schema for rich results
   const softwareSchema = {
@@ -233,8 +233,8 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     <div className="min-h-screen bg-gray-950">
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://fossradar.in" },
-          { name: "Projects", url: "https://fossradar.in" },
+          { name: "Home", url: "https://fossradar.dev" },
+          { name: "Projects", url: "https://fossradar.dev" },
           { name: project.name, url: pageUrl },
         ]}
       />

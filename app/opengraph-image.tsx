@@ -148,7 +148,7 @@ export default async function Image() {
           }}
         >
           <span style={{ color: '#6b7280', fontSize: '20px' }}>
-            fossradar.in
+            fossradar.dev
           </span>
           <span style={{ color: '#6b7280', fontSize: '20px' }}>
             An initiative by wbfoss

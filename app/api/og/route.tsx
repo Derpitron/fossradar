@@ -255,7 +255,7 @@ export async function GET(request: NextRequest) {
             }}
           >
             <span style={{ color: "#6b7280", fontSize: "20px" }}>
-              fossradar.in
+              fossradar.dev
             </span>
             <span style={{ color: "#6b7280", fontSize: "20px" }}>
               India&apos;s Open Source Directory

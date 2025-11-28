@@ -23,7 +23,7 @@ function verifySignature(payload: string, signature: string, secret: string): bo
 }
 
 async function pingSitemapToSearchEngines() {
-  const sitemapUrl = "https://fossradar.in/sitemap.xml";
+  const sitemapUrl = "https://fossradar.dev/sitemap.xml";
 
   // Ping Google
   try {

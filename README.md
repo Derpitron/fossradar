@@ -9,7 +9,7 @@
 
 **Radar** is a modern, production-ready platform for creating and managing curated directories of projects, websites, startups, or any collection you want to showcase. Built with Next.js 16, it offers a complete solution with search, filtering, auto-validation, GitHub integration, and beautiful UI out of the box.
 
-**Live Reference**: [fossradar.in](https://fossradar.in) - India's open source project directory powered by Radar
+**Live Reference**: [fossradar.dev](https://fossradar.dev) - India's open source project directory powered by Radar
 
 ---
 
@@ -386,7 +386,7 @@ Optional geographic dashboard showing:
 
 ## 🌟 Production Examples
 
-**FOSSRadar.in** ([fossradar.in](https://fossradar.in))
+**FOSSRadar.in** ([fossradar.dev](https://fossradar.dev))
 - India's open source project directory
 - 50+ projects and growing
 - Geographic distribution across Indian states
@@ -501,7 +501,7 @@ If you find Radar useful, give us a star! It helps others discover this platform
 
 **Build your directory today with Radar**
 
-[Deploy Now](https://vercel.com/new/clone?repository-url=https://github.com/wbfoss/fossradar) • [View Demo](https://fossradar.in) • [Documentation](./docs/) • [Community](https://github.com/wbfoss/fossradar/discussions)
+[Deploy Now](https://vercel.com/new/clone?repository-url=https://github.com/wbfoss/fossradar) • [View Demo](https://fossradar.dev) • [Documentation](./docs/) • [Community](https://github.com/wbfoss/fossradar/discussions)
 
 **Made with ❤️ for the open source community**
 

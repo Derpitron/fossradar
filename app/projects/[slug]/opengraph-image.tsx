@@ -186,7 +186,7 @@ export default async function Image({
           }}
         >
           <span style={{ color: '#6b7280', fontSize: '20px' }}>
-            fossradar.in/projects/{slug}
+            fossradar.dev/projects/{slug}
           </span>
           <span style={{ color: '#6b7280', fontSize: '20px' }}>
             An initiative by wbfoss

@@ -57,7 +57,7 @@ jobs:
 
       - name: Ping sitemap to search engines
         run: |
-          curl -X POST https://fossradar.in/api/ping-sitemap \
+          curl -X POST https://fossradar.dev/api/ping-sitemap \
             -H "Content-Type: application/json" \
             -H "x-api-key: ${{ secrets.ADMIN_API_KEY }}" || true
         continue-on-error: true

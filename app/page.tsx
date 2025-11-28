@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "FOSSRadar - Build India's Open Source Index Together",
     description: "Join us in building India's open source index. A community-driven directory by developers, for developers. Add your project and be part of the movement.",
-    url: "https://fossradar.in",
+    url: "https://fossradar.dev",
     type: "website",
   },
   alternates: {
-    canonical: "https://fossradar.in",
+    canonical: "https://fossradar.dev",
   },
 };
 
@@ -63,7 +63,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-950">
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://fossradar.in" },
+          { name: "Home", url: "https://fossradar.dev" },
         ]}
       />
 
@@ -93,16 +93,16 @@ export default function Home() {
 
           {/* Headline */}
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight px-2">
-            Let's build India's{" "}
+            India's{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">
               open source
             </span>{" "}
-            index together
+            story. Written by you.
           </h1>
 
           {/* Subtitle */}
           <p className="text-base sm:text-xl text-gray-400 max-w-2xl mx-auto mb-6 sm:mb-8 px-2">
-            A community-driven directory by developers, for developers. Add your project, discover others, and help put Indian open source on the map.
+            One index. Every Indian dev. Add your repo, find your tribe, and let's put our code on the map.
           </p>
         </div>
       </section>
@@ -134,10 +134,10 @@ export default function Home() {
       <section className="border-t border-gray-800 bg-gradient-to-b from-gray-950 to-gray-900">
         <div className="container mx-auto px-4 py-10 sm:py-16 text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4">
-            Your code belongs here. Join us.
+            You built it. Now let India find it.
           </h2>
           <p className="text-sm sm:text-base text-gray-400 max-w-xl mx-auto mb-6 sm:mb-8 leading-relaxed px-2">
-            Every project added makes this index stronger. Whether you're a solo hacker or part of a team, your open source work deserves to be discovered. Be part of India's growing FOSS movement.
+            Solo project or team effort—if it's open source and it's Indian, it belongs here. Drop your repo. Get discovered. Simple as that.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <Link

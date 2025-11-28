@@ -141,7 +141,7 @@ git push -u origin main
    - Node.js Version: **20.x** (required for Next.js 16)
 4. Add environment variables (optional):
    ```
-   SITE_URL=https://fossradar.in
+   SITE_URL=https://fossradar.dev
    ```
 5. Deploy!
 
@@ -149,7 +149,7 @@ git push -u origin main
 
 **Step 3: Add Custom Domain**
 - Go to Project Settings → Domains
-- Add: `fossradar.in`
+- Add: `fossradar.dev`
 - Configure DNS as per Vercel instructions
 
 ### Option 2: Self-Host with Node.js

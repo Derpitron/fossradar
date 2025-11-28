@@ -34,7 +34,7 @@ If **any** of the above is true → **Verified ✓**
 ### Method 1: Quick Submission Form (Recommended)
 
 #### Overview
-Visit [fossradar.in/submit/form](https://fossradar.in/submit/form) for a guided submission experience.
+Visit [fossradar.dev/submit/form](https://fossradar.dev/submit/form) for a guided submission experience.
 
 #### Features
 - ✨ Auto-fetch project details from GitHub
@@ -46,7 +46,7 @@ Visit [fossradar.in/submit/form](https://fossradar.in/submit/form) for a guided 
 - 🤖 Automatic PR creation
 
 #### Steps
-1. Visit [fossradar.in/submit/form](https://fossradar.in/submit/form)
+1. Visit [fossradar.dev/submit/form](https://fossradar.dev/submit/form)
 2. Enter your GitHub repository URL and validate
 3. Fill in the 5-step guided form (most fields auto-filled)
 4. Review the generated TOML file
@@ -245,7 +245,7 @@ Projects marked as `verified = true` display a **Verified ✓** badge:
 Once verified, add the badge to your project README:
 
 ```markdown
-[![fossradar.in: Verified](https://img.shields.io/badge/fossradar.in-Verified-brightgreen?style=for-the-badge)](https://fossradar.in/projects/your-slug)
+[![fossradar.dev: Verified](https://img.shields.io/badge/fossradar.dev-Verified-brightgreen?style=for-the-badge)](https://fossradar.dev/projects/your-slug)
 ```
 
 This badge shows:

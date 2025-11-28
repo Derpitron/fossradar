@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About FOSSRadar - Join Us in Building India's Open Source Index",
     description: "We're building this together. Join the community of Indian developers creating the definitive open source index for India.",
-    url: "https://fossradar.in/about",
+    url: "https://fossradar.dev/about",
     type: "website",
   },
   alternates: {
-    canonical: "https://fossradar.in/about",
+    canonical: "https://fossradar.dev/about",
   },
 };
 
@@ -35,8 +35,8 @@ export default function AboutPage() {
     <div className="min-h-screen bg-gray-950">
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://fossradar.in" },
-          { name: "About", url: "https://fossradar.in/about" },
+          { name: "Home", url: "https://fossradar.dev" },
+          { name: "About", url: "https://fossradar.dev/about" },
         ]}
       />
 
@@ -49,10 +49,10 @@ export default function AboutPage() {
           {/* Hero Section */}
           <div className="mb-12">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-              We're Building This <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">Together</span>
+              Not a directory. <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">A movement.</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-400 leading-relaxed">
-              FOSSRadar isn't just a directory—it's a community effort. Developers across India are coming together to create the definitive index of Indian open source. And you can be part of it.
+              FOSSRadar is what happens when Indian devs decide their work deserves a spotlight. No gatekeepers. No algorithms. Just code, creators, and a community that ships.
             </p>
           </div>
 

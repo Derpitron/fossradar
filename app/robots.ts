@@ -14,6 +14,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/*"],
       },
     ],
-    sitemap: "https://fossradar.in/sitemap.xml",
+    sitemap: "https://fossradar.dev/sitemap.xml",
   };
 }
