@@ -1,5 +1,7 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Star, MapPin, ExternalLink, Github } from "lucide-react";
 import { Project } from "@/lib/schema";
 import { cn, formatNumber } from "@/lib/utils";
@@ -20,6 +22,10 @@ function getRepoInfo(repoUrl: string | undefined): { owner: string; repo: string
 
 export function ProjectCard({ project }: ProjectCardProps) {
   const repoInfo = getRepoInfo(project.repo);
+  const [logoError, setLogoError] = useState(false);
+
+  // Use GitHub OpenGraph as default, custom logo only if provided and loads successfully
+  const showGitHubPreview = repoInfo && (!project.logo || logoError);
 
   return (
     <Link
@@ -33,15 +39,16 @@ export function ProjectCard({ project }: ProjectCardProps) {
     >
       {/* Project Image/Logo Area */}
       <div className="aspect-[16/10] bg-gradient-to-br from-gray-800 to-gray-900 relative overflow-hidden">
-        {project.logo ? (
+        {project.logo && !logoError ? (
           <div className="absolute inset-0 flex items-center justify-center p-8">
             <img
               src={project.logo}
               alt={project.name}
               className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+              onError={() => setLogoError(true)}
             />
           </div>
-        ) : repoInfo ? (
+        ) : showGitHubPreview ? (
           /* GitHub OpenGraph preview image */
           <img
             src={`https://opengraph.githubassets.com/1/${repoInfo.owner}/${repoInfo.repo}`}

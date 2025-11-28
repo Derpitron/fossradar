@@ -4,7 +4,7 @@ short_desc = "Real-time infrastructure status monitoring dashboard for Cloudflar
 website = "https://github.com/wbfoss/cf-status-dashboard"
 repo = "https://github.com/wbfoss/cf-status-dashboard"
 license = "MIT"
-logo = "/logos/cf-status-dashboard.svg"
+logo = ""
 added_at = "2025-11-26"
 
 primary_lang = "TypeScript"

@@ -4,7 +4,7 @@ short_desc = "Security scanner detecting npm packages compromised during the Sha
 website = "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
 repo = "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
 license = "MIT"
-logo = "/logos/shai-hulud-20-detector.svg"
+logo = ""
 added_at = "2025-11-26"
 
 primary_lang = "TypeScript"
