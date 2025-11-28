@@ -41,27 +41,25 @@ export function ProjectCard({ project }: ProjectCardProps) {
               className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-opacity"
             />
           </div>
+        ) : repoInfo ? (
+          /* GitHub OpenGraph preview image */
+          <img
+            src={`https://opengraph.githubassets.com/1/${repoInfo.owner}/${repoInfo.repo}`}
+            alt={project.name}
+            className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-300"
+            loading="lazy"
+          />
         ) : (
-          /* GitHub-style repo preview */
+          /* Fallback text preview */
           <div className="absolute inset-0 flex flex-col justify-between p-4 bg-gradient-to-br from-gray-800 via-gray-850 to-gray-900">
-            {/* Top: GitHub icon and repo path */}
             <div className="flex items-center gap-2 text-gray-400">
               <Github className="w-4 h-4" />
-              {repoInfo && (
-                <span className="text-xs truncate">
-                  {repoInfo.owner}/{repoInfo.repo}
-                </span>
-              )}
             </div>
-
-            {/* Center: Project name */}
             <div className="flex-1 flex items-center justify-center">
               <h4 className="text-2xl font-bold text-white/90 text-center line-clamp-2 group-hover:text-orange-400 transition-colors">
                 {project.name}
               </h4>
             </div>
-
-            {/* Bottom: Language indicator */}
             {project.primary_lang && (
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 rounded-full bg-orange-500"></span>
