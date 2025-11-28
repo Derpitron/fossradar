@@ -84,38 +84,40 @@ export function ProjectGrid({ initialProjects, categories, projectCount }: Proje
   return (
     <div className="space-y-6">
       {/* Filter Bar */}
-      <div className="flex items-center gap-1 py-3 border-b border-gray-800 overflow-x-auto scrollbar-hide">
-        {/* Category Tabs */}
-        <div className="flex items-center gap-1 flex-1 min-w-0">
-          <button
-            onClick={() => setSelectedCategory(null)}
-            className={cn(
-              "px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-all rounded-md",
-              selectedCategory === null
-                ? "bg-gray-800 text-white"
-                : "text-gray-400 hover:text-white"
-            )}
-          >
-            All
-          </button>
-          {categories.map((category) => (
+      <div className="flex items-center gap-4 py-3 border-b border-gray-800">
+        {/* Category Tabs - Scrollable */}
+        <div className="flex-1 min-w-0 overflow-x-auto scrollbar-hide">
+          <div className="flex items-center gap-1">
             <button
-              key={category.id}
-              onClick={() => setSelectedCategory(category.id)}
+              onClick={() => setSelectedCategory(null)}
               className={cn(
                 "px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-all rounded-md",
-                selectedCategory === category.id
+                selectedCategory === null
                   ? "bg-gray-800 text-white"
                   : "text-gray-400 hover:text-white"
               )}
             >
-              {category.label}
+              All
             </button>
-          ))}
+            {categories.map((category) => (
+              <button
+                key={category.id}
+                onClick={() => setSelectedCategory(category.id)}
+                className={cn(
+                  "px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-all rounded-md",
+                  selectedCategory === category.id
+                    ? "bg-gray-800 text-white"
+                    : "text-gray-400 hover:text-white"
+                )}
+              >
+                {category.label}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Right Side Controls */}
-        <div className="flex items-center gap-2 flex-shrink-0 ml-4">
+        {/* Right Side Controls - Fixed */}
+        <div className="flex items-center gap-2 flex-shrink-0">
           {/* Search Toggle */}
           <button
             onClick={() => setShowSearch(!showSearch)}
