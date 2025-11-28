@@ -2,11 +2,35 @@ import { loadAllProjects } from "@/lib/projects";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { Header } from "@/components/Header";
 import { RadarChart } from "@/components/RadarChart";
-import { Github, MapPin, Package, TrendingUp, Building2, Star, ArrowUpRight } from "lucide-react";
+import { Github, MapPin, Package, TrendingUp, Building2, Star, ArrowUpRight, Users, GitFork, Code2, GitCommit } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
+import fs from "fs";
+import path from "path";
 
 export const revalidate = 3600; // Revalidate every hour
+
+// Load all cache data
+function loadAllCacheData() {
+  const cacheDir = path.join(process.cwd(), "public", "cache");
+  const cacheData: Record<string, any> = {};
+
+  try {
+    if (fs.existsSync(cacheDir)) {
+      const files = fs.readdirSync(cacheDir).filter(f => f.endsWith('.json'));
+      for (const file of files) {
+        const slug = file.replace('.json', '');
+        const filePath = path.join(cacheDir, file);
+        const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        cacheData[slug] = data;
+      }
+    }
+  } catch (error) {
+    console.error('Error loading cache data:', error);
+  }
+
+  return cacheData;
+}
 
 export const metadata: Metadata = {
   title: "Geographic Radar - Explore Indian Open Source Projects by Location",
@@ -35,6 +59,7 @@ export const metadata: Metadata = {
 
 export default function RadarPage() {
   const projects = loadAllProjects();
+  const cacheData = loadAllCacheData();
 
   // Aggregate projects by state
   const projectsByState = projects.reduce((acc, project) => {
@@ -72,6 +97,48 @@ export default function RadarPage() {
   const totalCities = new Set(projects.map(p => `${p.location_city}, ${p.location_indian_state}`)).size;
   const totalStars = projects.reduce((sum, p) => sum + (p.stars || 0), 0);
   const verifiedProjects = projects.filter(p => p.verified).length;
+
+  // Aggregate stats from cache
+  let totalForks = 0;
+  let totalContributors = 0;
+  let totalCommits = 0;
+  const languageStats: Record<string, number> = {};
+  const allContributors = new Set<string>();
+
+  Object.values(cacheData).forEach((cache: any) => {
+    // Forks
+    if (cache.stats?.forks) {
+      totalForks += cache.stats.forks;
+    }
+
+    // Contributors
+    if (cache.contributors) {
+      cache.contributors.forEach((c: any) => {
+        if (c.login && !c.login.includes('[bot]')) {
+          allContributors.add(c.login);
+        }
+        if (c.contributions) {
+          totalCommits += c.contributions;
+        }
+      });
+    }
+
+    // Languages
+    if (cache.languages) {
+      Object.entries(cache.languages).forEach(([lang, bytes]) => {
+        languageStats[lang] = (languageStats[lang] || 0) + (bytes as number);
+      });
+    }
+  });
+
+  totalContributors = allContributors.size;
+
+  // Sort languages by bytes
+  const sortedLanguages = Object.entries(languageStats)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 10);
+
+  const totalBytes = sortedLanguages.reduce((sum, [, bytes]) => sum + bytes, 0);
 
   return (
     <div className="min-h-screen bg-gray-950">
@@ -173,6 +240,109 @@ export default function RadarPage() {
                 <p className="text-3xl sm:text-5xl font-bold mb-1 tracking-tight">{verifiedProjects}</p>
                 <p className="text-xs opacity-80 hidden sm:block">{Math.round((verifiedProjects/totalProjects)*100)}% of total</p>
               </div>
+            </div>
+          </div>
+
+          {/* Community Stats */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+            {/* Contributors */}
+            <div className="bg-gray-900/80 border border-gray-800 rounded-xl p-4 sm:p-5 hover:border-gray-700 transition-colors">
+              <div className="flex items-center gap-2 mb-2">
+                <Users className="h-4 w-4 text-blue-400" />
+                <p className="text-xs font-semibold text-gray-400 tracking-wide">CONTRIBUTORS</p>
+              </div>
+              <p className="text-2xl sm:text-3xl font-bold text-white">{totalContributors}</p>
+              <p className="text-xs text-gray-500 mt-1">Unique developers</p>
+            </div>
+
+            {/* Forks */}
+            <div className="bg-gray-900/80 border border-gray-800 rounded-xl p-4 sm:p-5 hover:border-gray-700 transition-colors">
+              <div className="flex items-center gap-2 mb-2">
+                <GitFork className="h-4 w-4 text-purple-400" />
+                <p className="text-xs font-semibold text-gray-400 tracking-wide">FORKS</p>
+              </div>
+              <p className="text-2xl sm:text-3xl font-bold text-white">{totalForks}</p>
+              <p className="text-xs text-gray-500 mt-1">Total forks</p>
+            </div>
+
+            {/* Commits */}
+            <div className="bg-gray-900/80 border border-gray-800 rounded-xl p-4 sm:p-5 hover:border-gray-700 transition-colors">
+              <div className="flex items-center gap-2 mb-2">
+                <GitCommit className="h-4 w-4 text-green-400" />
+                <p className="text-xs font-semibold text-gray-400 tracking-wide">COMMITS</p>
+              </div>
+              <p className="text-2xl sm:text-3xl font-bold text-white">{totalCommits.toLocaleString()}</p>
+              <p className="text-xs text-gray-500 mt-1">Contributions</p>
+            </div>
+
+            {/* Languages */}
+            <div className="bg-gray-900/80 border border-gray-800 rounded-xl p-4 sm:p-5 hover:border-gray-700 transition-colors">
+              <div className="flex items-center gap-2 mb-2">
+                <Code2 className="h-4 w-4 text-orange-400" />
+                <p className="text-xs font-semibold text-gray-400 tracking-wide">LANGUAGES</p>
+              </div>
+              <p className="text-2xl sm:text-3xl font-bold text-white">{sortedLanguages.length}</p>
+              <p className="text-xs text-gray-500 mt-1">Technologies used</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Language Breakdown */}
+        <div className="mb-12">
+          <div className="bg-gray-900/80 backdrop-blur-sm border border-gray-800 rounded-xl p-6 sm:p-8 shadow-xl">
+            <div className="flex items-center gap-3 mb-6">
+              <Code2 className="h-6 w-6 text-orange-400" />
+              <div>
+                <h2 className="text-xl sm:text-2xl font-bold text-white">
+                  Language Distribution
+                </h2>
+                <p className="text-sm text-gray-400">
+                  Top programming languages across all projects
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              {sortedLanguages.map(([language, bytes], index) => {
+                const percentage = ((bytes / totalBytes) * 100).toFixed(1);
+                const colors = [
+                  'from-orange-500 to-orange-600',
+                  'from-blue-500 to-blue-600',
+                  'from-green-500 to-green-600',
+                  'from-purple-500 to-purple-600',
+                  'from-pink-500 to-pink-600',
+                  'from-yellow-500 to-yellow-600',
+                  'from-cyan-500 to-cyan-600',
+                  'from-red-500 to-red-600',
+                  'from-indigo-500 to-indigo-600',
+                  'from-teal-500 to-teal-600',
+                ];
+                const colorClass = colors[index % colors.length];
+
+                return (
+                  <div key={language} className="group">
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="flex items-center gap-3">
+                        <span className="w-6 h-6 flex items-center justify-center rounded-md bg-gray-800 text-xs font-bold text-gray-400">
+                          {index + 1}
+                        </span>
+                        <span className="font-medium text-white group-hover:text-orange-400 transition-colors">
+                          {language}
+                        </span>
+                      </div>
+                      <span className="text-sm text-gray-400 font-medium">
+                        {percentage}%
+                      </span>
+                    </div>
+                    <div className="w-full bg-gray-800 rounded-full h-2.5 overflow-hidden">
+                      <div
+                        className={`bg-gradient-to-r ${colorClass} h-2.5 rounded-full transition-all duration-700`}
+                        style={{ width: `${percentage}%` }}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
