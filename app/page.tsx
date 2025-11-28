@@ -123,10 +123,10 @@ export default function Home() {
       <section className="border-t border-gray-800 bg-gradient-to-b from-gray-950 to-gray-900">
         <div className="container mx-auto px-4 py-16 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-            Built something worth sharing?
+            Ship code that matters? Get listed.
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed">
-            If your open source project is making an impact, it deserves a place here. Join India's most respected directory and let the world discover your work.
+            You've pushed commits, squashed bugs, and built something real. Now put your project where serious developers look. No fluff—just code that counts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
