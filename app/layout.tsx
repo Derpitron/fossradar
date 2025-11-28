@@ -3,14 +3,7 @@ import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/nextjs";
+import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import "./globals.css";
 
@@ -149,6 +142,33 @@ export default function RootLayout({
     }
   };
 
+  const hasClerkKey = !!process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
+
+  const content = (
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
+      <body className={`${inter.variable} antialiased font-sans bg-gray-950 text-gray-100`}>
+        {children}
+        <Analytics />
+        <SpeedInsights />
+        <GoogleAnalytics />
+      </body>
+    </html>
+  );
+
+  if (!hasClerkKey) {
+    return content;
+  }
+
   return (
     <ClerkProvider
       appearance={{
@@ -161,24 +181,7 @@ export default function RootLayout({
         },
       }}
     >
-      <html lang="en" className="dark" suppressHydrationWarning>
-        <head>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-          />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-          />
-        </head>
-        <body className={`${inter.variable} antialiased font-sans bg-gray-950 text-gray-100`}>
-          {children}
-          <Analytics />
-          <SpeedInsights />
-          <GoogleAnalytics />
-        </body>
-      </html>
+      {content}
     </ClerkProvider>
   );
 }

@@ -4,11 +4,12 @@ import Link from "next/link";
 import { Radar, MessageSquare, Plus } from "lucide-react";
 import {
   SignInButton,
-  SignUpButton,
   SignedIn,
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+
+const hasClerkKey = !!process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
 export function Header() {
   return (
@@ -60,23 +61,27 @@ export function Header() {
               <span className="hidden sm:inline">Submit</span>
             </Link>
 
-            <SignedOut>
-              <SignInButton mode="modal">
-                <button className="px-4 py-1.5 text-sm text-white border border-gray-700 rounded-lg hover:bg-gray-800 transition-colors">
-                  Login
-                </button>
-              </SignInButton>
-            </SignedOut>
-            <SignedIn>
-              <UserButton
-                afterSignOutUrl="/"
-                appearance={{
-                  elements: {
-                    avatarBox: "w-8 h-8"
-                  }
-                }}
-              />
-            </SignedIn>
+            {hasClerkKey && (
+              <>
+                <SignedOut>
+                  <SignInButton mode="modal">
+                    <button className="px-4 py-1.5 text-sm text-white border border-gray-700 rounded-lg hover:bg-gray-800 transition-colors">
+                      Login
+                    </button>
+                  </SignInButton>
+                </SignedOut>
+                <SignedIn>
+                  <UserButton
+                    afterSignOutUrl="/"
+                    appearance={{
+                      elements: {
+                        avatarBox: "w-8 h-8"
+                      }
+                    }}
+                  />
+                </SignedIn>
+              </>
+            )}
           </div>
         </div>
       </div>

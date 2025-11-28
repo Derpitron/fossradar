@@ -4,6 +4,8 @@ import { Github, Map } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: "Quick Submit Form - FOSSRadar.in",
   description: "Submit your open source project to FOSSRadar.in using our quick and easy submission form",
