@@ -82,16 +82,16 @@ export default function Home() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Where India's best{" "}
+            India's{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">
               open source
             </span>{" "}
-            lives
+            hall of fame
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-            Not every project makes it here. We spotlight only the most impactful open source work from Indian creators—rigorously vetted, community approved.
+            Production-grade repos. Real commits. Zero toy projects. The code Indian devs are actually shipping.
           </p>
         </div>
       </section>
