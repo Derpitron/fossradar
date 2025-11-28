@@ -107,7 +107,7 @@ export default async function Image() {
                 color: '#ffffff',
               }}
             >
-              FOSS<span style={{ color: '#f97316' }}>Radar</span>
+              foss<span style={{ color: '#f97316' }}>radar</span><span style={{ color: '#6b7280' }}>.dev</span>
             </span>
           </div>
 
