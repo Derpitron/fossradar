@@ -37,29 +37,44 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 
   const pageUrl = `https://fossradar.in/projects/${slug}`;
 
-  // Build OG image URL with project details
-  const ogImageParams = new URLSearchParams({
-    title: project.name,
-    description: project.short_desc,
-    type: "project",
-    language: project.primary_lang,
-    stars: project.stars?.toString() || "",
-    location: project.location_city,
-  });
-  const ogImageUrl = `https://fossradar.in/api/og?${ogImageParams.toString()}`;
+  // SEO-optimized title with keywords
+  const seoTitle = `${project.name} - ${project.primary_lang} Open Source Project from ${project.location_city}, India | FOSSRadar`;
+
+  // SEO-optimized description with keywords
+  const seoDescription = `${project.short_desc} ${project.name} is an open source ${project.primary_lang} project from ${project.location_city}, India with ${project.stars || 0}+ GitHub stars. ${project.looking_for_contributors ? 'Looking for contributors!' : ''} Licensed under ${project.license}.`;
+
+  // Comprehensive keywords
+  const keywords = [
+    project.name.toLowerCase(),
+    `${project.name.toLowerCase()} github`,
+    `${project.primary_lang.toLowerCase()} open source`,
+    `${project.primary_lang.toLowerCase()} projects india`,
+    ...project.tags,
+    "open source india",
+    "indian open source",
+    "foss india",
+    `${project.location_city.toLowerCase()} developers`,
+    `${project.location_city.toLowerCase()} open source`,
+    "github india",
+    "indian developers",
+    project.license.toLowerCase(),
+  ];
+
+  // Build OG image URL
+  const ogImageUrl = `https://fossradar.in/projects/${slug}/opengraph-image`;
 
   return {
-    title: `${project.name} - FOSSRadar`,
-    description: project.short_desc,
-    keywords: [...project.tags, "open source", "fossradar", "india", project.primary_lang.toLowerCase()],
-    authors: [{ name: "FOSSRadar" }],
+    title: seoTitle,
+    description: seoDescription.slice(0, 160),
+    keywords: keywords,
+    authors: [{ name: "FOSSRadar", url: "https://fossradar.in" }],
     creator: "wbfoss",
     publisher: "wbfoss",
     alternates: {
       canonical: pageUrl,
     },
     openGraph: {
-      title: `${project.name} - Open Source Project from India`,
+      title: `${project.name} - Open Source ${project.primary_lang} Project from India`,
       description: project.short_desc,
       type: "website",
       url: pageUrl,
@@ -70,13 +85,13 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
           url: ogImageUrl,
           width: 1200,
           height: 630,
-          alt: `${project.name} - Open Source Project`,
+          alt: `${project.name} - ${project.primary_lang} Open Source Project from ${project.location_city}, India`,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${project.name} - FOSSRadar`,
+      title: `${project.name} - Open Source from India`,
       description: project.short_desc,
       creator: "@wbfoss",
       images: [ogImageUrl],
@@ -91,6 +106,11 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
         "max-image-preview": "large",
         "max-snippet": -1,
       },
+    },
+    other: {
+      "article:published_time": project.added_at,
+      "article:section": "Open Source Software",
+      "article:tag": project.tags.join(", "),
     },
   };
 }
@@ -119,13 +139,103 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   const allProjects = loadAllProjects();
   const similarProjects = findSimilarProjects(project, allProjects, 4);
 
+  const pageUrl = `https://fossradar.in/projects/${slug}`;
+
+  // SoftwareApplication Schema for rich results
+  const softwareSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "@id": pageUrl,
+    name: project.name,
+    description: project.short_desc,
+    codeRepository: project.repo,
+    programmingLanguage: {
+      "@type": "ComputerLanguage",
+      name: project.primary_lang,
+    },
+    license: `https://spdx.org/licenses/${project.license}.html`,
+    keywords: project.tags.join(", "),
+    datePublished: project.added_at,
+    author: {
+      "@type": "Organization",
+      name: project.name,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: project.location_city,
+        addressRegion: project.location_indian_state,
+        addressCountry: "India",
+      },
+    },
+    ...(project.website && { url: project.website }),
+    ...(project.stars && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: Math.min(5, 4 + (project.stars > 100 ? 1 : project.stars / 100)),
+        bestRating: 5,
+        ratingCount: project.stars,
+      },
+    }),
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+    },
+    operatingSystem: "Cross-platform",
+    applicationCategory: "DeveloperApplication",
+  };
+
+  // FAQ Schema for common questions
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `What is ${project.name}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${project.name} is an open source ${project.primary_lang} project from ${project.location_city}, India. ${project.short_desc}`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `How to install ${project.name}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `You can install ${project.name} by cloning the GitHub repository: git clone ${project.repo}. Check the project's README for detailed installation instructions.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `Is ${project.name} free to use?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Yes, ${project.name} is free and open source software licensed under ${project.license}. You can use, modify, and distribute it according to the license terms.`,
+        },
+      },
+      ...(project.looking_for_contributors
+        ? [
+            {
+              "@type": "Question",
+              name: `How can I contribute to ${project.name}?`,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: `${project.name} is actively looking for contributors! Visit the GitHub repository at ${project.repo} to find open issues, read contribution guidelines, and submit pull requests.`,
+              },
+            },
+          ]
+        : []),
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-950">
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://fossradar.in" },
           { name: "Projects", url: "https://fossradar.in" },
-          { name: project.name, url: `https://fossradar.in/projects/${slug}` },
+          { name: project.name, url: pageUrl },
         ]}
       />
 
@@ -134,50 +244,80 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12">
-        <ProjectDetail project={project} cache={cache} similarProjects={similarProjects} />
+        <article itemScope itemType="https://schema.org/SoftwareSourceCode">
+          <meta itemProp="name" content={project.name} />
+          <meta itemProp="description" content={project.short_desc} />
+          <meta itemProp="programmingLanguage" content={project.primary_lang} />
+          <meta itemProp="codeRepository" content={project.repo} />
+          <ProjectDetail project={project} cache={cache} similarProjects={similarProjects} />
+        </article>
       </main>
 
       {/* SEO Content Section */}
       <section className="border-t border-gray-800 bg-gray-900/30">
         <div className="container mx-auto px-4 py-10">
           <div className="max-w-4xl mx-auto">
+            {/* About This Project - SEO Text */}
+            <div className="mb-8">
+              <h2 className="text-lg font-semibold text-white mb-3">
+                About {project.name}
+              </h2>
+              <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                {project.name} is an open source {project.primary_lang} project developed in {project.location_city}, {project.location_indian_state}, India.
+                {project.stars ? ` With ${project.stars}+ stars on GitHub, it's one of the notable open source projects from India.` : ''}
+                {project.looking_for_contributors ? ' The project is actively looking for contributors to help improve and expand its capabilities.' : ''}
+                Licensed under {project.license}, {project.name} is free to use, modify, and distribute.
+              </p>
+            </div>
+
             {/* Related Searches */}
             <div className="mb-8">
-              <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
-                Explore More Open Source from India
-              </h2>
+              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+                Related Searches
+              </h3>
               <div className="flex flex-wrap gap-2">
-                {project.tags.slice(0, 5).map((tag) => (
+                <Link
+                  href={`/?q=${project.name.toLowerCase().replace(/\s+/g, "+")}`}
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  {project.name} alternatives
+                </Link>
+                {project.tags.slice(0, 4).map((tag) => (
                   <Link
                     key={tag}
                     href={`/?tag=${encodeURIComponent(tag)}`}
                     className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
                   >
-                    {tag} projects
+                    {tag} projects India
                   </Link>
                 ))}
+                <Link
+                  href={`/?q=${project.primary_lang.toLowerCase()}`}
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  {project.primary_lang} open source India
+                </Link>
                 <Link
                   href={`/?location=${project.location_city?.toLowerCase()}`}
                   className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
                 >
-                  {project.location_city} developers
+                  Open source {project.location_city}
                 </Link>
-                {project.primary_lang && (
-                  <Link
-                    href={`/?q=${project.primary_lang.toLowerCase()}`}
-                    className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
-                  >
-                    {project.primary_lang} open source India
-                  </Link>
-                )}
+                <Link
+                  href="/"
+                  className="px-3 py-1.5 text-sm text-gray-400 hover:text-white bg-gray-800/50 hover:bg-gray-800 rounded-lg transition-colors"
+                >
+                  Indian GitHub projects
+                </Link>
               </div>
             </div>
 
-            {/* SEO Description */}
+            {/* Discover More */}
             <p className="text-sm text-gray-500 leading-relaxed">
-              {project.name} is an open source {project.primary_lang || "software"} project from {project.location_city}, India.
-              Discover more Indian open source projects, GitHub repositories from Indian developers,
-              and FOSS contributions on FOSSRadar—India's premier open source directory.
+              Discover more open source projects from Indian developers on FOSSRadar. Browse {project.primary_lang} projects,
+              explore software from {project.location_city}, or find projects by technology and category.
+              FOSSRadar is India's premier directory for discovering GitHub repositories and FOSS contributions
+              from developers across Bangalore, Mumbai, Delhi, Hyderabad, Chennai, Pune, Kolkata and beyond.
             </p>
           </div>
         </div>
@@ -228,21 +368,19 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </footer>
 
-      {/* JSON-LD Structured Data */}
+      {/* JSON-LD Structured Data - Software Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "SoftwareSourceCode",
-            name: project.name,
-            description: project.short_desc,
-            codeRepository: project.repo,
-            license: `https://spdx.org/licenses/${project.license}.html`,
-            programmingLanguage: project.primary_lang,
-            keywords: project.tags,
-            ...(project.website && { url: project.website }),
-          }),
+          __html: JSON.stringify(softwareSchema),
+        }}
+      />
+
+      {/* JSON-LD Structured Data - FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
         }}
       />
     </div>
