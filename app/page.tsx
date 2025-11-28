@@ -82,16 +82,16 @@ export default function Home() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            India's{" "}
+            The definitive{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">
               open source
             </span>{" "}
-            hall of fame
+            index for India
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-            Production-grade repos. Real commits. Zero toy projects. The code Indian devs are actually shipping.
+            A curated directory of production-ready projects built by Indian developers. Every repo vetted. Every contributor verified.
           </p>
         </div>
       </section>
