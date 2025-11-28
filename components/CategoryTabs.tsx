@@ -16,7 +16,7 @@ export function CategoryTabs({ categories, selectedCategory, onSelect }: Categor
         className={cn(
           "px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all",
           selectedCategory === null
-            ? "bg-white text-gray-900"
+            ? "bg-orange-500 text-white"
             : "bg-gray-800/50 text-gray-400 hover:text-white hover:bg-gray-800"
         )}
       >
@@ -29,7 +29,7 @@ export function CategoryTabs({ categories, selectedCategory, onSelect }: Categor
           className={cn(
             "px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all",
             selectedCategory === category.id
-              ? "bg-white text-gray-900"
+              ? "bg-orange-500 text-white"
               : "bg-gray-800/50 text-gray-400 hover:text-white hover:bg-gray-800"
           )}
         >

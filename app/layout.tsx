@@ -68,12 +68,21 @@ export const metadata: Metadata = {
     siteName: "FOSSRadar",
     title: "FOSSRadar - India's Open Source Directory",
     description: "Discover and explore open source projects from India. A comprehensive directory celebrating FOSS projects from Indian founders, creators, and contributors.",
+    images: [
+      {
+        url: "https://fossradar.in/api/og",
+        width: 1200,
+        height: 630,
+        alt: "FOSSRadar - India's Open Source Directory",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "FOSSRadar - India's Open Source Directory",
     description: "Discover and explore open source projects from India",
     creator: "@wbfoss",
+    images: ["https://fossradar.in/api/og"],
   },
   robots: {
     index: true,
@@ -145,7 +154,7 @@ export default function RootLayout({
       appearance={{
         baseTheme: dark,
         variables: {
-          colorPrimary: "#10b981",
+          colorPrimary: "#f97316",
           colorBackground: "#111827",
           colorInputBackground: "#1f2937",
           colorInputText: "#f9fafb",

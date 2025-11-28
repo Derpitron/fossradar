@@ -201,7 +201,7 @@ export default function RadarPage() {
             </div>
 
             {/* States */}
-            <div className="relative overflow-hidden bg-gradient-to-br from-green-500 to-emerald-600 dark:from-green-600 dark:to-emerald-700 rounded-xl p-4 sm:p-6 text-white shadow-xl shadow-green-500/30 dark:shadow-green-950/50 hover:shadow-2xl hover:shadow-green-500/40 dark:hover:shadow-green-950/60 transition-all duration-300 hover:scale-105 hover:-translate-y-1 cursor-default backdrop-blur-sm">
+            <div className="relative overflow-hidden bg-gradient-to-br from-green-500 to-green-600 dark:from-green-600 dark:to-green-700 rounded-xl p-4 sm:p-6 text-white shadow-xl shadow-green-500/30 dark:shadow-green-950/50 hover:shadow-2xl hover:shadow-green-500/40 dark:hover:shadow-green-950/60 transition-all duration-300 hover:scale-105 hover:-translate-y-1 cursor-default backdrop-blur-sm">
               <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -mr-8 -mt-8"></div>
               <div className="relative">
                 <div className="flex items-center gap-2 mb-3">

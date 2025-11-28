@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Star, MapPin, ExternalLink } from "lucide-react";
+import Image from "next/image";
+import { Star, MapPin, ExternalLink, Github } from "lucide-react";
 import { Project } from "@/lib/schema";
 import { cn, formatNumber } from "@/lib/utils";
 
@@ -7,7 +8,18 @@ interface ProjectCardProps {
   project: Project;
 }
 
+// Extract owner/repo from GitHub URL
+function getRepoInfo(repoUrl: string): { owner: string; repo: string } | null {
+  const match = repoUrl.match(/github\.com\/([^\/]+)\/([^\/]+)/);
+  if (match) {
+    return { owner: match[1], repo: match[2].replace(/\/?$/, '') };
+  }
+  return null;
+}
+
 export function ProjectCard({ project }: ProjectCardProps) {
+  const repoInfo = getRepoInfo(project.repo);
+
   return (
     <Link
       href={`/projects/${project.slug}`}
@@ -29,17 +41,39 @@ export function ProjectCard({ project }: ProjectCardProps) {
             />
           </div>
         ) : (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-4xl font-bold text-gray-700 group-hover:text-gray-600 transition-colors">
-              {project.name.charAt(0).toUpperCase()}
+          /* GitHub-style repo preview */
+          <div className="absolute inset-0 flex flex-col justify-between p-4 bg-gradient-to-br from-gray-800 via-gray-850 to-gray-900">
+            {/* Top: GitHub icon and repo path */}
+            <div className="flex items-center gap-2 text-gray-400">
+              <Github className="w-4 h-4" />
+              {repoInfo && (
+                <span className="text-xs truncate">
+                  {repoInfo.owner}/{repoInfo.repo}
+                </span>
+              )}
             </div>
+
+            {/* Center: Project name */}
+            <div className="flex-1 flex items-center justify-center">
+              <h4 className="text-2xl font-bold text-white/90 text-center line-clamp-2 group-hover:text-orange-400 transition-colors">
+                {project.name}
+              </h4>
+            </div>
+
+            {/* Bottom: Language indicator */}
+            {project.primary_lang && (
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 rounded-full bg-orange-500"></span>
+                <span className="text-xs text-gray-400">{project.primary_lang}</span>
+              </div>
+            )}
           </div>
         )}
 
         {/* Badges overlay */}
         <div className="absolute top-3 left-3 flex flex-wrap gap-2">
           {project.verified && (
-            <span className="px-2 py-1 rounded-md bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs font-medium backdrop-blur-sm">
+            <span className="px-2 py-1 rounded-md bg-green-500/20 border border-green-500/30 text-green-400 text-xs font-medium backdrop-blur-sm">
               Verified
             </span>
           )}
@@ -66,10 +100,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
       {/* Content */}
       <div className="p-4">
         <div className="flex items-start justify-between gap-2 mb-2">
-          <h3 className="text-lg font-semibold text-white group-hover:text-emerald-400 transition-colors line-clamp-1">
+          <h3 className="text-lg font-semibold text-white group-hover:text-orange-400 transition-colors line-clamp-1">
             {project.name}
           </h3>
-          <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-emerald-400 transition-colors flex-shrink-0 mt-1" />
+          <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-orange-400 transition-colors flex-shrink-0 mt-1" />
         </div>
 
         <p className="text-sm text-gray-400 line-clamp-2 mb-3 leading-relaxed">

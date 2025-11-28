@@ -62,19 +62,19 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/20 via-gray-950 to-gray-950 pointer-events-none" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+        {/* Background gradient - India flag inspired */}
+        <div className="absolute inset-0 bg-gradient-to-b from-orange-950/20 via-gray-950 to-gray-950 pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative container mx-auto px-4 pt-16 pb-12 text-center">
           {/* Badge */}
           <Link
             href="/submit"
-            className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 text-sm font-medium hover:bg-emerald-500/20 transition-colors"
+            className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full border border-orange-500/30 bg-orange-500/10 text-orange-400 text-sm font-medium hover:bg-orange-500/20 transition-colors"
           >
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
             </span>
             Submit Your Open Source Project
             <ArrowRight className="w-4 h-4" />
@@ -83,7 +83,7 @@ export default function Home() {
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Best place to find{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">
               open source
             </span>{" "}
             inspiration
@@ -113,7 +113,7 @@ export default function Home() {
             </p>
             <Link
               href="/submit"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-orange-500 hover:bg-orange-600 text-white text-sm font-medium transition-colors"
             >
               Submit Your Project
             </Link>
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-500">
                 &copy; 2025{" "}
-                <Link href="/" className="text-emerald-400 hover:underline">
+                <Link href="/" className="text-orange-400 hover:underline">
                   FOSSRadar
                 </Link>
                 . Open source directory.
@@ -139,7 +139,7 @@ export default function Home() {
                   href="https://wbfoss.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-emerald-400 hover:underline"
+                  className="text-green-400 hover:underline"
                 >
                   wbfoss
                 </Link>

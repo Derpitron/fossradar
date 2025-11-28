@@ -93,19 +93,19 @@ export function Step1RepositoryDetails({ form, onNext, onBack }: Step1Props) {
           Repository Details
         </h2>
         <p className="text-sm text-gray-600 dark:text-gray-400">
-          We'll fetch project details automatically from GitHub or GitLab.
+          We'll fetch project details automatically from GitHub.
         </p>
       </div>
 
       <div>
         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-          Repository URL <span className="text-red-500">*</span>
+          GitHub Repository URL <span className="text-red-500">*</span>
         </label>
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-2">
           <input
             type="url"
             {...form.register("repo")}
-            placeholder="https://github.com/username/project or https://gitlab.com/username/project"
+            placeholder="https://github.com/username/project"
             className="flex-1 px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 text-base focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
           <button
@@ -192,7 +192,7 @@ export function Step1RepositoryDetails({ form, onNext, onBack }: Step1Props) {
                 </div>
               </div>
 
-              {!validationResult.hasFossradarTopic && validationResult.platform === "github" && (
+              {!validationResult.hasFossradarTopic && (
                 <div className="pl-8 p-3 rounded bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800">
                   <p className="text-sm text-yellow-800 dark:text-yellow-200">
                     <strong>Note:</strong> This repository doesn't have the{" "}

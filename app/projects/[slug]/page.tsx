@@ -38,6 +38,17 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 
   const pageUrl = `https://fossradar.in/projects/${slug}`;
 
+  // Build OG image URL with project details
+  const ogImageParams = new URLSearchParams({
+    title: project.name,
+    description: project.short_desc,
+    type: "project",
+    language: project.primary_lang,
+    stars: project.stars?.toString() || "",
+    location: project.location_city,
+  });
+  const ogImageUrl = `https://fossradar.in/api/og?${ogImageParams.toString()}`;
+
   return {
     title: `${project.name} - FOSSRadar.in`,
     description: project.short_desc,
@@ -55,12 +66,21 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
       url: pageUrl,
       siteName: "FOSSRadar.in",
       locale: "en_IN",
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: `${project.name} - Open Source Project`,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: `${project.name} - FOSSRadar.in`,
       description: project.short_desc,
       creator: "@wbfoss",
+      images: [ogImageUrl],
     },
     robots: {
       index: true,

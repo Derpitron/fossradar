@@ -132,7 +132,7 @@ export function ProjectGrid({ initialProjects, categories, projectCount }: Proje
                     className={cn(
                       "w-full px-4 py-2.5 text-sm text-left transition-colors",
                       sortBy === option
-                        ? "bg-emerald-500/10 text-emerald-400"
+                        ? "bg-orange-500/10 text-orange-400"
                         : "text-gray-300 hover:bg-gray-800"
                     )}
                   >
