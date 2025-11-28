@@ -1,5 +1,5 @@
 # ================================================================================================
-# FOSSRadar.in Project Reference Template
+# FOSSRadar.dev.in Project Reference Template
 # ================================================================================================
 # ⚠️  NOTE: This file is for REFERENCE ONLY and is NOT displayed on the website.
 #
@@ -27,7 +27,7 @@ name = "Example Reference Project"
 # Brief description of what your project does
 # Rules: 10-160 characters (optimized for SEO and social sharing)
 # Tip: Make it clear, concise, and compelling
-short_desc = "A comprehensive reference template demonstrating all available TOML fields for FOSSRadar.in project submissions with detailed examples"
+short_desc = "A comprehensive reference template demonstrating all available TOML fields for FOSSRadar.dev.in project submissions with detailed examples"
 
 # Public GitHub repository URL
 # Rules: Must be a valid GitHub URL format
@@ -40,7 +40,7 @@ repo = "https://github.com/yourusername/your-project-name"
 # See: https://spdx.org/licenses/ for full list
 license = "MIT"
 
-# Date when project was added to FOSSRadar
+# Date when project was added to FOSSRadar.dev
 # Rules: YYYY-MM-DD format
 # Tip: Use today's date
 added_at = "2025-11-09"
@@ -108,7 +108,7 @@ location_city = "Kolkata"
 location_indian_state = "West Bengal"
 
 # ------------------------------------------------------------------------------------------------
-# OPTIONAL FIELDS (Automatically updated by FOSSRadar system)
+# OPTIONAL FIELDS (Automatically updated by FOSSRadar.dev system)
 # ------------------------------------------------------------------------------------------------
 
 # GitHub star count (auto-updated nightly by enrichment script)

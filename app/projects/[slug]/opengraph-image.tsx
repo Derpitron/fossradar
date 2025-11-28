@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og';
 import { getProjectBySlug } from '@/lib/projects';
 
 export const runtime = 'edge';
-export const alt = 'Project on FOSSRadar';
+export const alt = 'Project on FOSSRadar.dev';
 export const size = {
   width: 1200,
   height: 630,
@@ -121,7 +121,7 @@ export default async function Image({
                 color: '#ffffff',
               }}
             >
-              foss<span style={{ color: '#f97316' }}>radar</span><span style={{ color: '#6b7280' }}>.dev</span>
+              FOSS<span style={{ color: '#f97316' }}>Radar</span><span style={{ color: '#6b7280' }}>.dev</span>
             </span>
           </div>
 
@@ -171,7 +171,7 @@ export default async function Image({
               lineHeight: 1.4,
             }}
           >
-            Discover this project on FOSSRadar - India's Open Source Directory
+            Discover this project on FOSSRadar.dev - India's Open Source Directory
           </p>
         </div>
 

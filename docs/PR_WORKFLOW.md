@@ -2,7 +2,7 @@
 
 ## Overview
 
-FOSSRadar.in offers **two submission methods** for project owners:
+FOSSRadar.dev.in offers **two submission methods** for project owners:
 
 1. **Quick Submission Form**: An interactive 5-step form that automatically creates pull requests (recommended for most users)
 2. **Manual PR Workflow**: Traditional Git workflow for developers who prefer direct control
@@ -71,7 +71,7 @@ After form submission, the PR undergoes the same auto-verification process as ma
 # Click About → Settings → Add topic: fossradar
 ```
 
-#### Step 2: Fork FOSSRadar
+#### Step 2: Fork FOSSRadar.dev
 ```bash
 # Fork the repository on GitHub
 https://github.com/wbfoss/fossradar
@@ -230,7 +230,7 @@ Result: verified = false
 
 ## Verified Badge
 
-### On FOSSRadar
+### On FOSSRadar.dev
 Projects marked as `verified = true` display a **Verified ✓** badge:
 
 ```tsx
@@ -249,7 +249,7 @@ Once verified, add the badge to your project README:
 ```
 
 This badge shows:
-- ✅ Project is in FOSSRadar directory
+- ✅ Project is in FOSSRadar.dev directory
 - ✅ Submitted by affiliated member
 - ✅ India connection verified
 
@@ -387,7 +387,7 @@ For typical PRs (1-2 projects), we're well within limits.
 
 ## Summary
 
-FOSSRadar offers two submission methods with auto-verification:
+FOSSRadar.dev offers two submission methods with auto-verification:
 
 **Quick Submission Form:**
 - ✅ Guided 5-step process with auto-fill

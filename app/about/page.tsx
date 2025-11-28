@@ -5,8 +5,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About FOSSRadar - Join Us in Building India's Open Source Index",
-  description: "FOSSRadar is built by developers like you. A community-driven, Git-based platform where Indian developers come together to build the definitive open source index. Contribute, collaborate, belong.",
+  title: "About FOSSRadar.dev - Join Us in Building India's Open Source Index",
+  description: "FOSSRadar.dev is built by developers like you. A community-driven, Git-based platform where Indian developers come together to build the definitive open source index. Contribute, collaborate, belong.",
   keywords: [
     "about fossradar",
     "foss india",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "indian developer community",
   ],
   openGraph: {
-    title: "About FOSSRadar - Join Us in Building India's Open Source Index",
+    title: "About FOSSRadar.dev - Join Us in Building India's Open Source Index",
     description: "We're building this together. Join the community of Indian developers creating the definitive open source index for India.",
     url: "https://fossradar.dev/about",
     type: "website",
@@ -52,7 +52,7 @@ export default function AboutPage() {
               Not a directory. <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">A movement.</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-400 leading-relaxed">
-              FOSSRadar is what happens when Indian devs decide their work deserves a spotlight. No gatekeepers. No algorithms. Just code, creators, and a community that ships.
+              FOSSRadar.dev is what happens when Indian devs decide their work deserves a spotlight. No gatekeepers. No algorithms. Just code, creators, and a community that ships.
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Why FOSSRadar Section */}
+          {/* Why FOSSRadar.dev Section */}
           <div className="mb-12">
             <div className="flex items-center gap-3 mb-4">
               <Radar className="h-5 w-5 sm:h-6 sm:w-6 text-orange-500" />
@@ -135,13 +135,13 @@ export default function AboutPage() {
               <div className="p-4 rounded-xl bg-orange-500/10 border border-orange-500/30">
                 <h3 className="font-semibold text-orange-400 mb-2">Visibility for Your Work</h3>
                 <p className="text-sm text-gray-300">
-                  You've built something. Now let people find it. FOSSRadar puts your project where developers are looking—alongside the best open source from India.
+                  You've built something. Now let people find it. FOSSRadar.dev puts your project where developers are looking—alongside the best open source from India.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-orange-500/10 border border-orange-500/30">
                 <h3 className="font-semibold text-orange-400 mb-2">Find Your People</h3>
                 <p className="text-sm text-gray-300">
-                  Looking for contributors? Want to find projects to contribute to? FOSSRadar connects developers who ship with developers who want to help ship.
+                  Looking for contributors? Want to find projects to contribute to? FOSSRadar.dev connects developers who ship with developers who want to help ship.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-green-500/10 border border-green-500/30">
@@ -153,7 +153,7 @@ export default function AboutPage() {
               <div className="p-4 rounded-xl bg-green-500/10 border border-green-500/30">
                 <h3 className="font-semibold text-green-400 mb-2">100% Open & Transparent</h3>
                 <p className="text-sm text-gray-300">
-                  No gatekeepers. No black boxes. FOSSRadar runs on Git—submit via PR, everything is public, the code is open source. You own this as much as we do.
+                  No gatekeepers. No black boxes. FOSSRadar.dev runs on Git—submit via PR, everything is public, the code is open source. You own this as much as we do.
                 </p>
               </div>
             </div>
@@ -202,7 +202,7 @@ export default function AboutPage() {
             </ol>
           </div>
 
-          {/* Behind FOSSRadar Section */}
+          {/* Behind FOSSRadar.dev Section */}
           <div className="mb-12">
             <div className="flex items-center gap-3 mb-4">
               <Users className="h-5 w-5 sm:h-6 sm:w-6 text-orange-500" />
@@ -211,10 +211,10 @@ export default function AboutPage() {
               </h2>
             </div>
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4">
-              FOSSRadar started as a project by <Link href="https://wbfoss.org" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline font-semibold">wbfoss</Link>, but it belongs to everyone who contributes. Every developer who adds a project, every person who submits a PR, every user who spreads the word—you're all part of this.
+              FOSSRadar.dev started as a project by <Link href="https://wbfoss.org" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline font-semibold">wbfoss</Link>, but it belongs to everyone who contributes. Every developer who adds a project, every person who submits a PR, every user who spreads the word—you're all part of this.
             </p>
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4">
-              We're not building a platform we control. We're building a resource the community owns. The code is open. The data is open. The process is open. If FOSSRadar becomes valuable, it's because developers like you made it that way.
+              We're not building a platform we control. We're building a resource the community owns. The code is open. The data is open. The process is open. If FOSSRadar.dev becomes valuable, it's because developers like you made it that way.
             </p>
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
               Built with Next.js, TypeScript, and Tailwind CSS. Every line of code is on GitHub. Fork it, improve it, make it yours.
@@ -318,7 +318,7 @@ export default function AboutPage() {
 
           {/* SEO Description */}
           <p className="text-sm text-gray-500 leading-relaxed max-w-3xl">
-            FOSSRadar is a community-built index of open source projects from India.
+            FOSSRadar.dev is a community-built index of open source projects from India.
             Developers from Bangalore, Mumbai, Delhi, Hyderabad, Chennai, Pune, Kolkata and beyond
             are coming together to create a shared resource for Indian open source.
             Add your project, discover what others are building, and be part of India's growing FOSS movement.
@@ -334,7 +334,7 @@ export default function AboutPage() {
               <p className="text-sm text-gray-500">
                 &copy; 2025{" "}
                 <Link href="/" className="text-orange-400 hover:underline">
-                  FOSSRadar
+                  FOSSRadar.dev
                 </Link>
                 . Open source directory.
               </p>

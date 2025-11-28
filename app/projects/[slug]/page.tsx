@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   const pageUrl = `https://fossradar.dev/projects/${slug}`;
 
   // SEO-optimized title with keywords
-  const seoTitle = `${project.name} - ${project.primary_lang} Open Source Project from ${project.location_city}, India | FOSSRadar`;
+  const seoTitle = `${project.name} - ${project.primary_lang} Open Source Project from ${project.location_city}, India | FOSSRadar.dev`;
 
   // SEO-optimized description with keywords
   const seoDescription = `${project.short_desc} ${project.name} is an open source ${project.primary_lang} project from ${project.location_city}, India with ${project.stars || 0}+ GitHub stars. ${project.looking_for_contributors ? 'Looking for contributors!' : ''} Licensed under ${project.license}.`;
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     title: seoTitle,
     description: seoDescription.slice(0, 160),
     keywords: keywords,
-    authors: [{ name: "FOSSRadar", url: "https://fossradar.dev" }],
+    authors: [{ name: "FOSSRadar.dev", url: "https://fossradar.dev" }],
     creator: "wbfoss",
     publisher: "wbfoss",
     alternates: {
@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
       description: project.short_desc,
       type: "website",
       url: pageUrl,
-      siteName: "FOSSRadar",
+      siteName: "FOSSRadar.dev",
       locale: "en_IN",
       images: [
         {
@@ -314,9 +314,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
             {/* Discover More */}
             <p className="text-sm text-gray-500 leading-relaxed">
-              Discover more open source projects from Indian developers on FOSSRadar. Browse {project.primary_lang} projects,
+              Discover more open source projects from Indian developers on FOSSRadar.dev. Browse {project.primary_lang} projects,
               explore software from {project.location_city}, or find projects by technology and category.
-              FOSSRadar is India's premier directory for discovering GitHub repositories and FOSS contributions
+              FOSSRadar.dev is India's premier directory for discovering GitHub repositories and FOSS contributions
               from developers across Bangalore, Mumbai, Delhi, Hyderabad, Chennai, Pune, Kolkata and beyond.
             </p>
           </div>
@@ -331,7 +331,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <p className="text-sm text-gray-500">
                 &copy; 2025{" "}
                 <Link href="/" className="text-orange-400 hover:underline">
-                  FOSSRadar
+                  FOSSRadar.dev
                 </Link>
                 . Open source directory.
               </p>

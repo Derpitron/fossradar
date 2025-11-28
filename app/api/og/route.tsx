@@ -8,7 +8,7 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
 
     // Get params from URL
-    const title = searchParams.get("title") || "FOSSRadar";
+    const title = searchParams.get("title") || "FOSSRadar.dev";
     const description = searchParams.get("description") || "India's Open Source Directory";
     const type = searchParams.get("type") || "default"; // "project" or "default"
     const language = searchParams.get("language") || "";
@@ -116,7 +116,7 @@ export async function GET(request: NextRequest) {
                   color: "#ffffff",
                 }}
               >
-                foss<span style={{ color: "#f97316" }}>radar</span><span style={{ color: "#6b7280" }}>.dev</span>
+                FOSS<span style={{ color: "#f97316" }}>Radar</span><span style={{ color: "#6b7280" }}>.dev</span>
               </span>
             </div>
 

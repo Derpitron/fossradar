@@ -1,6 +1,6 @@
-# FOSSRadar Documentation
+# FOSSRadar.dev Documentation
 
-Additional documentation for FOSSRadar developers and contributors.
+Additional documentation for FOSSRadar.dev developers and contributors.
 
 ## Developer Documentation
 
@@ -11,6 +11,6 @@ Additional documentation for FOSSRadar developers and contributors.
 
 For project owners and general users, see:
 - **[README](../README.md)** - Getting started, project overview, and submission guide
-- **[CONTRIBUTING](../CONTRIBUTING.md)** - How to contribute to FOSSRadar
+- **[CONTRIBUTING](../CONTRIBUTING.md)** - How to contribute to FOSSRadar.dev
 - **[SECURITY](../SECURITY.md)** - Security policy and vulnerability reporting
 - **[CODE_OF_CONDUCT](../CODE_OF_CONDUCT.md)** - Community guidelines

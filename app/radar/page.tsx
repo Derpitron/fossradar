@@ -546,7 +546,7 @@ export default function RadarPage() {
               <p className="text-sm text-gray-500">
                 &copy; 2025{" "}
                 <Link href="/" className="text-orange-400 hover:underline">
-                  FOSSRadar
+                  FOSSRadar.dev
                 </Link>
                 . Open source directory.
               </p>

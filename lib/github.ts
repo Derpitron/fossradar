@@ -481,7 +481,7 @@ ${params.logo ? `**Logo:** Included (${params.logo.filename})\n` : "**Logo:** No
 ${params.logo ? "- [ ] Logo file is valid and optimized" : ""}
 
 ---
-*This PR was automatically generated via the FOSSRadar.in submission form.*`;
+*This PR was automatically generated via the FOSSRadar.dev submission form.*`;
 
     // Create PR from fork branch to upstream main branch
     const headRef = forkOwner === owner ? branch : `${forkOwner}:${branch}`;

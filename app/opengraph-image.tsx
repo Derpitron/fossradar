@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = "FOSSRadar - India's Open Source Directory";
+export const alt = "FOSSRadar.dev - India's Open Source Directory";
 export const size = {
   width: 1200,
   height: 630,
@@ -107,7 +107,7 @@ export default async function Image() {
                 color: '#ffffff',
               }}
             >
-              foss<span style={{ color: '#f97316' }}>radar</span><span style={{ color: '#6b7280' }}>.dev</span>
+              FOSS<span style={{ color: '#f97316' }}>Radar</span><span style={{ color: '#6b7280' }}>.dev</span>
             </span>
           </div>
 

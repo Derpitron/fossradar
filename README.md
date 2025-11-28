@@ -386,7 +386,7 @@ Optional geographic dashboard showing:
 
 ## 🌟 Production Examples
 
-**FOSSRadar.in** ([fossradar.dev](https://fossradar.dev))
+**FOSSRadar.dev** ([fossradar.dev](https://fossradar.dev))
 - India's open source project directory
 - 50+ projects and growing
 - Geographic distribution across Indian states
@@ -472,7 +472,7 @@ By contributing, you agree your contributions will be licensed under MIT.
 
 **Special Thanks**:
 - All contributors to the Radar platform
-- FOSSRadar.in community for testing and feedback
+- FOSSRadar.dev community for testing and feedback
 - Open source community for inspiration
 
 ---

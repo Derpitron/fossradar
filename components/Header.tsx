@@ -17,7 +17,7 @@ export function Header() {
               <Radar className="w-5 h-5 text-white" />
             </div>
             <span className="text-lg sm:text-xl font-bold text-white">
-              foss<span className="text-orange-400">radar</span><span className="text-gray-400">.dev</span>
+              FOSS<span className="text-orange-400">Radar</span><span className="text-gray-400">.dev</span>
             </span>
           </Link>
 

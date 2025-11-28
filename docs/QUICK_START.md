@@ -1,6 +1,6 @@
-# Quick Start Guide - FOSSRadar
+# Quick Start Guide - FOSSRadar.dev
 
-Complete guide for setting up FOSSRadar locally and deploying to production.
+Complete guide for setting up FOSSRadar.dev locally and deploying to production.
 
 ---
 
@@ -125,7 +125,7 @@ fossradar/
 # Initialize git (if not already done)
 git init
 git add .
-git commit -m "Initial commit: FOSSRadar.in"
+git commit -m "Initial commit: FOSSRadar.dev.in"
 git branch -M main
 git remote add origin https://github.com/wbfoss/fossradar.git
 git push -u origin main

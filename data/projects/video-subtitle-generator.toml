@@ -28,7 +28,7 @@ repo = "https://github.com/hoichoi-opensource/video-subtitle-generator"
 # See: https://spdx.org/licenses/ for full list
 license = "MIT"
 
-# Date when project was added to FOSSRadar
+# Date when project was added to FOSSRadar.dev
 # Rules: YYYY-MM-DD format
 # Tip: Use today's date
 added_at = "2025-11-10"
@@ -74,7 +74,7 @@ location_city = "Kolkata"
 location_indian_state = "West Bengal"
 
 # ------------------------------------------------------------------------------------------------
-# OPTIONAL FIELDS (Automatically updated by FOSSRadar system)
+# OPTIONAL FIELDS (Automatically updated by FOSSRadar.dev system)
 # ------------------------------------------------------------------------------------------------
 
 # GitHub star count (auto-updated nightly by enrichment script)

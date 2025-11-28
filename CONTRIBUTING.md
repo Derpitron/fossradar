@@ -1,6 +1,6 @@
-# Contributing to FOSSRadar
+# Contributing to FOSSRadar.dev
 
-Thank you for your interest in contributing to FOSSRadar! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to FOSSRadar.dev! This document provides guidelines and instructions for contributing.
 
 ## Code of Conduct
 
@@ -10,7 +10,7 @@ This project adheres to the [Contributor Covenant Code of Conduct](./CODE_OF_CON
 
 ### 1. Add Your Project
 
-There are **two ways** to add your open source project to FOSSRadar:
+There are **two ways** to add your open source project to FOSSRadar.dev:
 
 #### Method 1: Quick Submission Form (Easiest)
 
@@ -74,7 +74,7 @@ Have an idea? Open an issue with:
 
 ### 5. Code Contributions
 
-Want to improve FOSSRadar itself? We welcome contributions to the platform!
+Want to improve FOSSRadar.dev itself? We welcome contributions to the platform!
 
 #### Setup Development Environment
 

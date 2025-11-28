@@ -1,6 +1,6 @@
 # Vercel Production Setup Guide
 
-This document outlines the required environment variables and configuration for deploying FOSSRadar to Vercel.
+This document outlines the required environment variables and configuration for deploying FOSSRadar.dev to Vercel.
 
 ## Required Environment Variables
 
@@ -17,7 +17,7 @@ GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
 1. Go to https://github.com/settings/developers
 2. Click "New OAuth App"
 3. Fill in:
-   - Application name: `FOSSRadar Production`
+   - Application name: `FOSSRadar.dev Production`
    - Homepage URL: `https://fossradar.dev`
    - Authorization callback URL: `https://fossradar.dev/api/auth/callback/github`
 4. Click "Register application"

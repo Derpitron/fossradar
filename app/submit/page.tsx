@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Submit Your Open Source Project - FOSSRadar",
+  title: "Submit Your Open Source Project - FOSSRadar.dev",
   description: "Add your project to India's leading FOSS directory. Step-by-step guide with TOML examples, validation scripts & PR workflow. Get discovered by 1000s of developers across India.",
   keywords: [
     "submit project",
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     "project listing",
   ],
   openGraph: {
-    title: "Submit Your Project - FOSSRadar",
-    description: "Step-by-step guide to submit your open source project to FOSSRadar",
+    title: "Submit Your Project - FOSSRadar.dev",
+    description: "Step-by-step guide to submit your open source project to FOSSRadar.dev",
     url: "https://fossradar.dev/submit",
     type: "website",
   },
@@ -34,15 +34,15 @@ export default function SubmitPage() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "How do I submit my project to FOSSRadar?",
+        "name": "How do I submit my project to FOSSRadar.dev?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Fork the FOSSRadar GitHub repository, create a TOML file in data/projects/ with your project details, validate it using 'npm run validate', and submit a pull request. Our team will review and merge it within 2-3 business days."
+          "text": "Fork the FOSSRadar.dev GitHub repository, create a TOML file in data/projects/ with your project details, validate it using 'npm run validate', and submit a pull request. Our team will review and merge it within 2-3 business days."
         }
       },
       {
         "@type": "Question",
-        "name": "Is my project eligible for FOSSRadar?",
+        "name": "Is my project eligible for FOSSRadar.dev?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Your project is eligible if it meets any one of these criteria: Founded in India, has core contributors from India, maintained by Indian organizations, or serves the Indian community."
@@ -53,7 +53,7 @@ export default function SubmitPage() {
         "name": "How do I get the verified badge?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Add 'fossradar' as a GitHub topic to your repository and include the FOSSRadar badge in your README. Once we verify this, your project will receive the verified status."
+          "text": "Add 'fossradar' as a GitHub topic to your repository and include the FOSSRadar.dev badge in your README. Once we verify this, your project will receive the verified status."
         }
       },
       {
@@ -92,7 +92,7 @@ export default function SubmitPage() {
               Submit Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">Project</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-400 leading-relaxed">
-              Get your open source project listed on FOSSRadar and reach India's vibrant FOSS community. Follow these simple steps to submit your project.
+              Get your open source project listed on FOSSRadar.dev and reach India's vibrant FOSS community. Follow these simple steps to submit your project.
             </p>
           </div>
 
@@ -156,7 +156,7 @@ export default function SubmitPage() {
               </h2>
             </div>
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-6">
-              FOSSRadar uses a Git-based submission workflow. Follow these steps to submit your project:
+              FOSSRadar.dev uses a Git-based submission workflow. Follow these steps to submit your project:
             </p>
             <ol className="space-y-6 text-gray-300">
               <li className="flex gap-4">
@@ -164,7 +164,7 @@ export default function SubmitPage() {
                 <div>
                   <strong className="text-white block mb-2">Fork the Repository</strong>
                   <p className="text-gray-400 mb-3">
-                    Visit the FOSSRadar GitHub repository and click the "Fork" button to create your own copy.
+                    Visit the FOSSRadar.dev GitHub repository and click the "Fork" button to create your own copy.
                   </p>
                   <Link
                     href="https://github.com/wbfoss/fossradar"
@@ -239,7 +239,7 @@ looking_for_contributors = false`}</code></pre>
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-gray-400 ml-4">
                     <li>Add <code className="px-2 py-1 rounded bg-gray-800 text-sm text-green-400">fossradar</code> as a GitHub topic to your repository</li>
-                    <li>Include the FOSSRadar badge in your README (we'll provide the markdown)</li>
+                    <li>Include the FOSSRadar.dev badge in your README (we'll provide the markdown)</li>
                   </ul>
                 </div>
               </li>
@@ -264,7 +264,7 @@ looking_for_contributors = false`}</code></pre>
               <div className="p-4 rounded-xl bg-orange-500/10 border border-orange-500/30">
                 <h3 className="font-semibold text-orange-400 mb-2">Feedback & Approval</h3>
                 <p className="text-sm text-gray-300">
-                  If any changes are needed, we'll comment on your PR with specific requests. Once approved, your PR will be merged and your project will appear on FOSSRadar within an hour.
+                  If any changes are needed, we'll comment on your PR with specific requests. Once approved, your PR will be merged and your project will appear on FOSSRadar.dev within an hour.
                 </p>
               </div>
               <div className="p-4 rounded-xl bg-green-500/10 border border-green-500/30">
@@ -335,7 +335,7 @@ looking_for_contributors = false`}</code></pre>
               <p className="text-sm text-gray-500">
                 &copy; 2025{" "}
                 <Link href="/" className="text-orange-400 hover:underline">
-                  FOSSRadar
+                  FOSSRadar.dev
                 </Link>
                 . Open source directory.
               </p>

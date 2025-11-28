@@ -10,7 +10,7 @@ import path from "path";
 export const revalidate = 3600; // Revalidate every hour
 
 export const metadata: Metadata = {
-  title: "FOSSRadar - Build India's Open Source Index Together | Community-Driven FOSS Directory",
+  title: "FOSSRadar.dev - Build India's Open Source Index Together | Community-Driven FOSS Directory",
   description: "Join us in building India's open source index. A community-driven directory by developers, for developers. Add your project, discover others, and help put Indian open source on the map.",
   keywords: [
     "open source india",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "indian foss community"
   ],
   openGraph: {
-    title: "FOSSRadar - Build India's Open Source Index Together",
+    title: "FOSSRadar.dev - Build India's Open Source Index Together",
     description: "Join us in building India's open source index. A community-driven directory by developers, for developers. Add your project and be part of the movement.",
     url: "https://fossradar.dev",
     type: "website",
@@ -220,7 +220,7 @@ export default function Home() {
               Built by the Community, for the Community
             </h2>
             <p className="text-xs sm:text-sm text-gray-500 leading-relaxed max-w-4xl">
-              FOSSRadar is a community-driven index of open source projects from India.
+              FOSSRadar.dev is a community-driven index of open source projects from India.
               We're building this together—developers from Bangalore, Mumbai, Delhi, Hyderabad,
               Chennai, Pune, Kolkata, and every corner of India contributing to a shared directory.
               Add your project, discover what others are building, and help grow India's FOSS ecosystem.
@@ -238,7 +238,7 @@ export default function Home() {
               <p className="text-xs sm:text-sm text-gray-500">
                 &copy; 2025{" "}
                 <Link href="/" className="text-orange-400 hover:underline">
-                  FOSSRadar
+                  FOSSRadar.dev
                 </Link>
                 . Open source directory.
               </p>
