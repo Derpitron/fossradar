@@ -82,18 +82,16 @@ export default function Home() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Best place to find{" "}
+            Where India's best{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-white to-green-500">
               open source
             </span>{" "}
-            inspiration
+            lives
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-            Browse our curated collection of{" "}
-            <span className="text-white font-semibold">{searchIndex.length}+</span>{" "}
-            exceptional projects from India to help you build your next big thing.
+            Not every project makes it here. We spotlight only the most impactful open source work from Indian creators—rigorously vetted, community approved.
           </p>
         </div>
       </section>
