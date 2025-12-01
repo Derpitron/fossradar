@@ -1,0 +1,26 @@
+# SENSE AI - Shadow AI Detection for Enterprise
+
+slug = "sense-ai"
+name = "SENSE AI"
+short_desc = "Shadow Exposure & eNterprise Surveillance for AI - A security tool to detect and monitor unauthorized shadow AI instances in enterprise environments"
+repo = "https://github.com/Faux16/sense-ai"
+website = "https://github.com/Faux16/sense-ai"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "TypeScript"
+category = "security-privacy"
+tags = ["security", "typescript", "ai", "monitoring", "api"]
+looking_for_contributors = true
+
+# Location
+location_city = "Kolkata"
+location_indian_state = "West Bengal"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Developed by Indian security researchers, presented at Black Hat MEA focusing on shadow AI detection in enterprise networks."
+
+# Auto-updated fields
+stars = 2
+good_first_issues = 0
+verified = false
