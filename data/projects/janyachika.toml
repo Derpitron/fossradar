@@ -1,0 +1,26 @@
+# JanYachika - Public Grievance Platform
+
+slug = "janyachika"
+name = "JanYachika"
+short_desc = "Open source platform for citizens to submit and track public grievances with government departments in India"
+repo = "https://github.com/mymadhavyadav07/JanYachika"
+website = "https://github.com/mymadhavyadav07/JanYachika"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "TypeScript"
+category = "web-applications"
+tags = ["typescript", "web", "nextjs", "social"]
+looking_for_contributors = true
+
+# Location
+location_city = "Lucknow"
+location_indian_state = "Uttar Pradesh"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Civic tech platform to improve government accountability and citizen engagement in India."
+
+# Auto-updated fields
+stars = 2
+good_first_issues = 0
+verified = false

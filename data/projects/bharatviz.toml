@@ -1,0 +1,26 @@
+# BharatViz - India Data Visualization
+
+slug = "bharatviz"
+name = "BharatViz"
+short_desc = "Python library for creating beautiful visualizations of Indian geographic and demographic data with Matplotlib"
+repo = "https://github.com/saketlab/bharatviz"
+website = "https://github.com/saketlab/bharatviz"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "data-analytics"
+tags = ["python", "dataviz", "data", "library"]
+looking_for_contributors = true
+
+# Location
+location_city = "Delhi"
+location_indian_state = "Delhi"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Purpose-built for visualizing Indian data - maps, demographics, and statistical charts."
+
+# Auto-updated fields
+stars = 2
+good_first_issues = 0
+verified = false

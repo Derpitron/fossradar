@@ -1,0 +1,26 @@
+# Naampy - Indian Name Analysis
+
+slug = "naampy"
+name = "Naampy"
+short_desc = "Python package to predict gender, caste, and religion from Indian names using machine learning models"
+repo = "https://github.com/appeler/naampy"
+website = "https://github.com/appeler/naampy"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "ai-ml"
+tags = ["python", "ml", "data", "library"]
+looking_for_contributors = true
+
+# Location
+location_city = "Delhi"
+location_indian_state = "Delhi"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Research tool for demographic analysis using Indian naming conventions and patterns."
+
+# Auto-updated fields
+stars = 10
+good_first_issues = 0
+verified = false

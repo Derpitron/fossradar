@@ -1,0 +1,26 @@
+# Digipin - Digital PIN Code Library
+
+slug = "digipin"
+name = "Digipin"
+short_desc = "TypeScript library for working with India Post's Digital Addressing system - encode, decode, and validate DigiPINs"
+repo = "https://github.com/ronitjadhav/digipin"
+website = "https://github.com/ronitjadhav/digipin"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "TypeScript"
+category = "libraries-frameworks"
+tags = ["typescript", "library", "nodejs"]
+looking_for_contributors = true
+
+# Location
+location_city = "Pune"
+location_indian_state = "Maharashtra"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Implementation of India Post's Digital Addressing system for precise location identification."
+
+# Auto-updated fields
+stars = 3
+good_first_issues = 0
+verified = false

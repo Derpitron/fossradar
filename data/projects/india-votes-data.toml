@@ -1,0 +1,26 @@
+# India Votes Data - Election Analytics
+
+slug = "india-votes-data"
+name = "India Votes Data"
+short_desc = "Comprehensive dataset and analysis of Indian election data - Lok Sabha, state assemblies, and voter demographics"
+repo = "https://github.com/thecont1/india-votes-data"
+website = "https://github.com/thecont1/india-votes-data"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "data-analytics"
+tags = ["python", "data", "dataviz", "analytics"]
+looking_for_contributors = true
+
+# Location
+location_city = "Bangalore"
+location_indian_state = "Karnataka"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Open data project providing cleaned and structured Indian election data for research and analysis."
+
+# Auto-updated fields
+stars = 3
+good_first_issues = 0
+verified = false

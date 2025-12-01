@@ -1,0 +1,26 @@
+# Pujo Atlas Kolkata - Durga Puja Pandal Finder
+
+slug = "pujo-atlas-kolkata"
+name = "Pujo Atlas Kolkata"
+short_desc = "Interactive web app to discover and navigate Durga Puja pandals across Kolkata with real-time crowd info and directions"
+repo = "https://github.com/Pujo-Atlas-Kolkata/PujoAtlasKol-Web"
+website = "https://github.com/Pujo-Atlas-Kolkata/PujoAtlasKol-Web"
+license = "GPL-3.0"
+added_at = "2025-12-01"
+primary_lang = "TypeScript"
+category = "web-applications"
+tags = ["web", "typescript", "frontend", "nextjs"]
+looking_for_contributors = true
+
+# Location
+location_city = "Kolkata"
+location_indian_state = "West Bengal"
+
+# India connection
+india_connection = "community"
+india_connection_details = "Community-driven project celebrating Durga Puja, helping millions navigate Kolkata's famous festival pandals."
+
+# Auto-updated fields
+stars = 44
+good_first_issues = 0
+verified = false

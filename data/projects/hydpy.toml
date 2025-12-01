@@ -1,0 +1,26 @@
+# HydPy - Hyderabad Python Community
+
+slug = "hydpy"
+name = "HydPy"
+short_desc = "Official website and resources for Hyderabad Python user group - meetups, events, and community resources"
+repo = "https://github.com/HydPy/HydPy"
+website = "https://github.com/HydPy/HydPy"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "HTML"
+category = "education-documentation"
+tags = ["python", "education", "web"]
+looking_for_contributors = true
+
+# Location
+location_city = "Hyderabad"
+location_indian_state = "Telangana"
+
+# India connection
+india_connection = "community"
+india_connection_details = "Official community platform for Python developers in Hyderabad, organizing meetups and tech events."
+
+# Auto-updated fields
+stars = 9
+good_first_issues = 0
+verified = false

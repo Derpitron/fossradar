@@ -1,0 +1,26 @@
+# VoiceDeck - Citizen Journalism Platform
+
+slug = "voicedeck"
+name = "VoiceDeck"
+short_desc = "Open source platform empowering citizen journalists to report and share hyperlocal news stories from India"
+repo = "https://github.com/VoiceDeck/app"
+website = "https://github.com/VoiceDeck/app"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "TypeScript"
+category = "web-applications"
+tags = ["typescript", "web", "nextjs", "social"]
+looking_for_contributors = true
+
+# Location
+location_city = "Bangalore"
+location_indian_state = "Karnataka"
+
+# India connection
+india_connection = "organization"
+india_connection_details = "Platform built to amplify voices of citizen journalists reporting on local issues across India."
+
+# Auto-updated fields
+stars = 5
+good_first_issues = 0
+verified = false

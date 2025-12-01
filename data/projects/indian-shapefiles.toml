@@ -1,0 +1,26 @@
+# Indian Shapefiles - GIS Data for India
+
+slug = "indian-shapefiles"
+name = "Indian Shapefiles"
+short_desc = "Comprehensive collection of GeoJSON and shapefiles for India - states, districts, and administrative boundaries for mapping"
+repo = "https://github.com/datta07/INDIAN-SHAPEFILES"
+website = "https://github.com/datta07/INDIAN-SHAPEFILES"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Unknown"
+category = "data-analytics"
+tags = ["data", "dataviz"]
+looking_for_contributors = true
+
+# Location
+location_city = "Hyderabad"
+location_indian_state = "Telangana"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Curated by Indian developers providing essential geographic data for India mapping and visualization projects."
+
+# Auto-updated fields
+stars = 165
+good_first_issues = 0
+verified = false

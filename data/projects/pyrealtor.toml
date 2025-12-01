@@ -1,0 +1,26 @@
+# pyRealtor - Indian Real Estate Data
+
+slug = "pyrealtor"
+name = "pyRealtor"
+short_desc = "Python library to scrape and analyze Indian real estate data from major property listing websites"
+repo = "https://github.com/rachitt96/pyRealtor"
+website = "https://github.com/rachitt96/pyRealtor"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "data-analytics"
+tags = ["python", "data", "automation"]
+looking_for_contributors = true
+
+# Location
+location_city = "Delhi"
+location_indian_state = "Delhi"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Built for analyzing Indian real estate market data from popular property listing platforms."
+
+# Auto-updated fields
+stars = 13
+good_first_issues = 0
+verified = false
