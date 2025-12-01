@@ -1,0 +1,26 @@
+# ShadowGate - Stealth Redirector and Deception Gateway
+
+slug = "shadowgate"
+name = "ShadowGate"
+short_desc = "A high-performance stealth redirector and deception gateway in Go that filters traffic, serves decoys, and protects infrastructure from scanners"
+repo = "https://github.com/gensecaihq/shadowgate"
+website = "https://github.com/gensecaihq/shadowgate"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Go"
+category = "security-privacy"
+tags = ["security", "go", "devops", "infrastructure"]
+looking_for_contributors = true
+
+# Location
+location_city = "Kolkata"
+location_indian_state = "West Bengal"
+
+# India connection
+india_connection = "organization"
+india_connection_details = "Developed by GenSecAI, an organization focused on security tools and infrastructure protection."
+
+# Auto-updated fields
+stars = 3
+good_first_issues = 0
+verified = false
