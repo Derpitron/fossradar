@@ -1,0 +1,34 @@
+{
+  "slug": "india-state-district",
+  "contributors": [
+    {
+      "login": "surajaswal29",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87890258?v=4",
+      "html_url": "https://github.com/surajaswal29",
+      "contributions": 18
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install india-state-district"
+  },
+  "documentation": {
+    "changelog_url": "https://github.com/surajaswal29/india-state-district/blob/main/CHANGELOG.md"
+  },
+  "stats": {
+    "forks": 3,
+    "watchers": 5,
+    "open_issues": 1,
+    "size": 3248,
+    "created_at": "2022-06-12T03:24:12Z",
+    "updated_at": "2025-06-29T21:13:38Z",
+    "pushed_at": "2025-06-24T15:10:45Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "TypeScript": 13252
+  },
+  "updated_at": "2025-12-01T11:30:53.510Z"
+}

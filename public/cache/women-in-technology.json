@@ -1,0 +1,88 @@
+{
+  "slug": "women-in-technology",
+  "contributors": [
+    {
+      "login": "shikha-16",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68149849?v=4",
+      "html_url": "https://github.com/shikha-16",
+      "contributions": 331
+    },
+    {
+      "login": "nehakalbande",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65285162?v=4",
+      "html_url": "https://github.com/nehakalbande",
+      "contributions": 68
+    },
+    {
+      "login": "madhhuurrii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64744084?v=4",
+      "html_url": "https://github.com/madhhuurrii",
+      "contributions": 30
+    },
+    {
+      "login": "shreyshreyansh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53744971?v=4",
+      "html_url": "https://github.com/shreyshreyansh",
+      "contributions": 20
+    },
+    {
+      "login": "umang-sinha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58984048?v=4",
+      "html_url": "https://github.com/umang-sinha",
+      "contributions": 20
+    },
+    {
+      "login": "sungod12",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55348832?v=4",
+      "html_url": "https://github.com/sungod12",
+      "contributions": 19
+    },
+    {
+      "login": "akshatnema",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76521428?v=4",
+      "html_url": "https://github.com/akshatnema",
+      "contributions": 12
+    },
+    {
+      "login": "T-Dahiya-003",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72456198?v=4",
+      "html_url": "https://github.com/T-Dahiya-003",
+      "contributions": 9
+    },
+    {
+      "login": "shriy-singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60431081?v=4",
+      "html_url": "https://github.com/shriy-singh",
+      "contributions": 8
+    },
+    {
+      "login": "stark-3k",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62797354?v=4",
+      "html_url": "https://github.com/stark-3k",
+      "contributions": 7
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/shikha-16/Women-in-Technology"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 163,
+    "watchers": 14,
+    "open_issues": 23,
+    "size": 97401,
+    "created_at": "2020-08-04T12:37:45Z",
+    "updated_at": "2025-11-03T17:07:04Z",
+    "pushed_at": "2025-11-27T08:53:54Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false
+  },
+  "languages": {
+    "JavaScript": 139996,
+    "CSS": 25828,
+    "HTML": 2221
+  },
+  "updated_at": "2025-12-01T11:32:14.429Z"
+}

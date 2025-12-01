@@ -1,0 +1,88 @@
+{
+  "slug": "pujo-atlas-kolkata",
+  "contributors": [
+    {
+      "login": "AyanavaKarmakar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89210438?v=4",
+      "html_url": "https://github.com/AyanavaKarmakar",
+      "contributions": 642
+    },
+    {
+      "login": "wriddhi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62843840?v=4",
+      "html_url": "https://github.com/wriddhi",
+      "contributions": 129
+    },
+    {
+      "login": "Heisen47",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89003879?v=4",
+      "html_url": "https://github.com/Heisen47",
+      "contributions": 34
+    },
+    {
+      "login": "Dyslex7c",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98543992?v=4",
+      "html_url": "https://github.com/Dyslex7c",
+      "contributions": 21
+    },
+    {
+      "login": "TheHappyBaloney",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92734728?v=4",
+      "html_url": "https://github.com/TheHappyBaloney",
+      "contributions": 15
+    },
+    {
+      "login": "SBhattacharya45",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43139047?v=4",
+      "html_url": "https://github.com/SBhattacharya45",
+      "contributions": 15
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 9
+    },
+    {
+      "login": "yashchaurasia667",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67152174?v=4",
+      "html_url": "https://github.com/yashchaurasia667",
+      "contributions": 9
+    },
+    {
+      "login": "itsarijitray",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35370469?v=4",
+      "html_url": "https://github.com/itsarijitray",
+      "contributions": 7
+    },
+    {
+      "login": "aizaysi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165036898?v=4",
+      "html_url": "https://github.com/aizaysi",
+      "contributions": 6
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install pujo-atlas-kol-web"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 22,
+    "watchers": 1,
+    "open_issues": 22,
+    "size": 9704,
+    "created_at": "2024-08-28T05:54:41Z",
+    "updated_at": "2025-10-06T07:38:25Z",
+    "pushed_at": "2025-10-02T08:19:50Z",
+    "has_wiki": false,
+    "has_pages": true,
+    "has_discussions": false
+  },
+  "languages": {
+    "TypeScript": 107341,
+    "JavaScript": 5393,
+    "CSS": 3113
+  },
+  "updated_at": "2025-12-01T11:31:34.529Z"
+}

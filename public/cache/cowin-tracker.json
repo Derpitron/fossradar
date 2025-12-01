@@ -1,0 +1,44 @@
+{
+  "slug": "cowin-tracker",
+  "contributors": [
+    {
+      "login": "vinodnimbalkar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16244310?v=4",
+      "html_url": "https://github.com/vinodnimbalkar",
+      "contributions": 17
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 9
+    },
+    {
+      "login": "AdityaKadam1994",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20122407?v=4",
+      "html_url": "https://github.com/AdityaKadam1994",
+      "contributions": 2
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install cowin-tracker"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 3,
+    "watchers": 1,
+    "open_issues": 0,
+    "size": 73,
+    "created_at": "2021-05-03T09:54:40Z",
+    "updated_at": "2025-09-13T13:50:23Z",
+    "pushed_at": "2025-09-13T13:50:26Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "JavaScript": 3682
+  },
+  "updated_at": "2025-12-01T11:30:27.916Z"
+}

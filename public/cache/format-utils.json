@@ -1,0 +1,53 @@
+{
+  "slug": "format-utils",
+  "contributors": [
+    {
+      "login": "mastermunj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/968242?v=4",
+      "html_url": "https://github.com/mastermunj",
+      "contributions": 1870
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 1752
+    },
+    {
+      "login": "dependabot-preview[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2141?v=4",
+      "html_url": "https://github.com/apps/dependabot-preview",
+      "contributions": 62
+    },
+    {
+      "login": "arpankumarde",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134305585?v=4",
+      "html_url": "https://github.com/arpankumarde",
+      "contributions": 5
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install format-utils"
+  },
+  "documentation": {
+    "changelog_url": "https://github.com/mastermunj/format-utils/blob/main/CHANGELOG.md"
+  },
+  "stats": {
+    "forks": 4,
+    "watchers": 1,
+    "open_issues": 0,
+    "size": 9806,
+    "created_at": "2020-04-27T10:33:27Z",
+    "updated_at": "2025-12-01T08:23:35Z",
+    "pushed_at": "2025-12-01T08:23:38Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "TypeScript": 16041,
+    "JavaScript": 1834
+  },
+  "updated_at": "2025-12-01T11:30:34.658Z"
+}

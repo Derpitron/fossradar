@@ -1,0 +1,45 @@
+{
+  "slug": "bharatviz",
+  "contributors": [
+    {
+      "login": "saketkc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/682153?v=4",
+      "html_url": "https://github.com/saketkc",
+      "contributions": 142
+    },
+    {
+      "login": "lovable-dev[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/818760?v=4",
+      "html_url": "https://github.com/apps/lovable-dev",
+      "contributions": 6
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install bharatviz"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 1,
+    "size": 87230,
+    "created_at": "2025-07-13T12:41:39Z",
+    "updated_at": "2025-11-13T08:06:58Z",
+    "pushed_at": "2025-11-16T14:55:48Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "Jupyter Notebook": 12247114,
+    "TypeScript": 331600,
+    "R": 52169,
+    "Python": 30018,
+    "HTML": 7047,
+    "Shell": 5307,
+    "JavaScript": 4273,
+    "CSS": 2963
+  },
+  "updated_at": "2025-12-01T11:30:18.209Z"
+}

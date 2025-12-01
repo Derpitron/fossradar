@@ -1,0 +1,40 @@
+{
+  "slug": "indian-iptv-app",
+  "contributors": [
+    {
+      "login": "kananinirav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30398499?v=4",
+      "html_url": "https://github.com/kananinirav",
+      "contributions": 26
+    },
+    {
+      "login": "nisargpro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74541944?v=4",
+      "html_url": "https://github.com/nisargpro",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/kananinirav/Indian-IPTV-App"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 46,
+    "watchers": 6,
+    "open_issues": 12,
+    "size": 3762,
+    "created_at": "2024-02-22T09:55:40Z",
+    "updated_at": "2025-11-30T11:17:09Z",
+    "pushed_at": "2025-11-04T04:11:13Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "Dart": 8819,
+    "HTML": 1835,
+    "Kotlin": 119
+  },
+  "updated_at": "2025-12-01T11:31:03.119Z"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "portfoliomanager",
+  "contributors": [
+    {
+      "login": "krishnakuruvadi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26920497?v=4",
+      "html_url": "https://github.com/krishnakuruvadi",
+      "contributions": 385
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 61
+    },
+    {
+      "login": "lal309",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51451936?v=4",
+      "html_url": "https://github.com/lal309",
+      "contributions": 38
+    },
+    {
+      "login": "sathaley1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24955485?v=4",
+      "html_url": "https://github.com/sathaley1",
+      "contributions": 1
+    },
+    {
+      "login": "jagrao99",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19499123?v=4",
+      "html_url": "https://github.com/jagrao99",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/krishnakuruvadi/portfoliomanager"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 28,
+    "watchers": 9,
+    "open_issues": 3,
+    "size": 6815,
+    "created_at": "2020-05-11T11:39:04Z",
+    "updated_at": "2025-11-25T06:19:46Z",
+    "pushed_at": "2025-11-25T06:19:44Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "Python": 1546105,
+    "HTML": 834595,
+    "JavaScript": 17386,
+    "CSS": 16660,
+    "Dockerfile": 1292,
+    "Shell": 634
+  },
+  "updated_at": "2025-12-01T11:31:27.382Z"
+}

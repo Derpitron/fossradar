@@ -1,0 +1,89 @@
+{
+  "slug": "hydpy",
+  "contributors": [
+    {
+      "login": "chirag200666",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1426350?v=4",
+      "html_url": "https://github.com/chirag200666",
+      "contributions": 31
+    },
+    {
+      "login": "manitha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4222464?v=4",
+      "html_url": "https://github.com/manitha",
+      "contributions": 29
+    },
+    {
+      "login": "RajatRajdeep",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46029666?v=4",
+      "html_url": "https://github.com/RajatRajdeep",
+      "contributions": 13
+    },
+    {
+      "login": "ananyo2012",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10486343?v=4",
+      "html_url": "https://github.com/ananyo2012",
+      "contributions": 13
+    },
+    {
+      "login": "bhansa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9723884?v=4",
+      "html_url": "https://github.com/bhansa",
+      "contributions": 10
+    },
+    {
+      "login": "inovizz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3849885?v=4",
+      "html_url": "https://github.com/inovizz",
+      "contributions": 9
+    },
+    {
+      "login": "prashant0493",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17614997?v=4",
+      "html_url": "https://github.com/prashant0493",
+      "contributions": 5
+    },
+    {
+      "login": "alokreddy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8848642?v=4",
+      "html_url": "https://github.com/alokreddy",
+      "contributions": 1
+    },
+    {
+      "login": "bhanuvrat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499894?v=4",
+      "html_url": "https://github.com/bhanuvrat",
+      "contributions": 1
+    },
+    {
+      "login": "glebkema",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3881568?v=4",
+      "html_url": "https://github.com/glebkema",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/HydPy/HydPy"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 22,
+    "watchers": 9,
+    "open_issues": 6,
+    "size": 10515,
+    "created_at": "2016-08-25T18:40:36Z",
+    "updated_at": "2025-07-13T12:43:46Z",
+    "pushed_at": "2025-07-13T12:43:43Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false
+  },
+  "languages": {
+    "HTML": 23987,
+    "JavaScript": 9669,
+    "SCSS": 8917,
+    "Ruby": 129
+  },
+  "updated_at": "2025-12-01T11:30:40.803Z"
+}

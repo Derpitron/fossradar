@@ -1,0 +1,41 @@
+{
+  "slug": "janyachika",
+  "contributors": [
+    {
+      "login": "mymadhavyadav07",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66372332?v=4",
+      "html_url": "https://github.com/mymadhavyadav07",
+      "contributions": 73
+    },
+    {
+      "login": "MohammadImran906",
+      "avatar_url": "https://avatars.githubusercontent.com/u/229086397?v=4",
+      "html_url": "https://github.com/MohammadImran906",
+      "contributions": 4
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/mymadhavyadav07/JanYachika"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 0,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 4790,
+    "created_at": "2025-08-27T15:56:59Z",
+    "updated_at": "2025-11-18T04:38:34Z",
+    "pushed_at": "2025-11-04T17:40:56Z",
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "TypeScript": 395389,
+    "Python": 46217,
+    "CSS": 9793,
+    "JavaScript": 616
+  },
+  "updated_at": "2025-12-01T11:31:15.103Z"
+}

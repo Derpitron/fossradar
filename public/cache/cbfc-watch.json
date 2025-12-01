@@ -1,0 +1,43 @@
+{
+  "slug": "cbfc-watch",
+  "contributors": [
+    {
+      "login": "thedivtagguy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6006888?v=4",
+      "html_url": "https://github.com/thedivtagguy",
+      "contributions": 20
+    },
+    {
+      "login": "Vonter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25414711?v=4",
+      "html_url": "https://github.com/Vonter",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install cbfc-watch"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 1,
+    "watchers": 0,
+    "open_issues": 0,
+    "size": 22108,
+    "created_at": "2025-09-14T10:16:59Z",
+    "updated_at": "2025-12-01T06:57:33Z",
+    "pushed_at": "2025-12-01T06:57:30Z",
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "HTML": 10001595,
+    "Svelte": 332416,
+    "TypeScript": 116095,
+    "Python": 53136,
+    "CSS": 22681,
+    "JavaScript": 22419
+  },
+  "updated_at": "2025-12-01T11:30:21.694Z"
+}
