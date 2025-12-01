@@ -1,0 +1,26 @@
+# Banti Telugu OCR
+
+slug = "banti-telugu-ocr"
+name = "Banti Telugu OCR"
+short_desc = "Optical Character Recognition system for Telugu language using deep learning and neural networks"
+repo = "https://github.com/TeluguOCR/banti_telugu_ocr"
+website = "https://github.com/TeluguOCR/banti_telugu_ocr"
+license = "GPL-3.0"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "ai-ml"
+tags = ["python", "ai", "ocr", "deep-learning"]
+looking_for_contributors = true
+
+# Location
+location_city = "Hyderabad"
+location_indian_state = "Andhra Pradesh"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Deep learning OCR system specifically designed to recognize Telugu script with high accuracy."
+
+# Auto-updated fields
+stars = 52
+good_first_issues = 0
+verified = false

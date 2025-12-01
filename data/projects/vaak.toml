@@ -1,0 +1,26 @@
+# Vaak - Speech Recognition for Indian Languages
+
+slug = "vaak"
+name = "Vaak"
+short_desc = "Speech recognition and text-to-speech library supporting Punjabi and other Indian languages"
+repo = "https://github.com/AISangam/vaak"
+website = "https://github.com/AISangam/vaak"
+license = "Apache-2.0"
+added_at = "2025-12-01"
+primary_lang = "Kotlin"
+category = "ai-ml"
+tags = ["kotlin", "ai", "speech-recognition", "android"]
+looking_for_contributors = true
+
+# Location
+location_city = "Chandigarh"
+location_indian_state = "Punjab"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Speech technology project focused on Indian language support including Punjabi and Hindi."
+
+# Auto-updated fields
+stars = 21
+good_first_issues = 0
+verified = false

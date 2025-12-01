@@ -1,0 +1,26 @@
+# OpenOdia - Odia Language Tools
+
+slug = "openodia"
+name = "OpenOdia"
+short_desc = "Python package for Odia language processing with tools for text manipulation and NLP tasks"
+repo = "https://github.com/soumendrak/openodia"
+website = "https://github.com/soumendrak/openodia"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "libraries-frameworks"
+tags = ["python", "library", "nlp", "language"]
+looking_for_contributors = true
+
+# Location
+location_city = "Bhubaneswar"
+location_indian_state = "Odisha"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Python library enabling Odia language computing and NLP for developers working with Odia text."
+
+# Auto-updated fields
+stars = 7
+good_first_issues = 0
+verified = false

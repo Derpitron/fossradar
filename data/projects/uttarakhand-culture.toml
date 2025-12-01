@@ -1,0 +1,26 @@
+# Uttarakhand Culture Preservation
+
+slug = "uttarakhand-culture"
+name = "Uttarakhand Culture"
+short_desc = "Platform to discover and preserve Uttarakhand's vibrant culture, history, and heritage for future generations"
+repo = "https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project"
+website = "https://github.com/ajaynegi45/Uttarakhand-Culture-Preservation-Project"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "JavaScript"
+category = "web-applications"
+tags = ["javascript", "web", "frontend", "culture"]
+looking_for_contributors = true
+
+# Location
+location_city = "Dehradun"
+location_indian_state = "Uttarakhand"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Digital platform preserving and showcasing Uttarakhand's unique cultural heritage and traditions."
+
+# Auto-updated fields
+stars = 12
+good_first_issues = 0
+verified = false

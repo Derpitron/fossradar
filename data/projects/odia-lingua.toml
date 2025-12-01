@@ -1,0 +1,26 @@
+# OdiaLingua - AI Chatbot for Odia
+
+slug = "odia-lingua"
+name = "OdiaLingua"
+short_desc = "AI-powered chatbot platform to preserve and promote Odia language with text-to-speech capabilities"
+repo = "https://github.com/HimanshuMohanty-Git24/OdiaLingua"
+website = "https://github.com/HimanshuMohanty-Git24/OdiaLingua"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "TypeScript"
+category = "ai-ml"
+tags = ["typescript", "ai", "chatbot", "language"]
+looking_for_contributors = true
+
+# Location
+location_city = "Bhubaneswar"
+location_indian_state = "Odisha"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "AI chatbot designed to make Odia language accessible through modern conversational technology."
+
+# Auto-updated fields
+stars = 5
+good_first_issues = 0
+verified = false

@@ -1,0 +1,26 @@
+# Malluscript - Malayalam Programming Language
+
+slug = "malluscript"
+name = "Malluscript"
+short_desc = "A Malayalam programming language written in Rust enabling native speakers to code in their mother tongue"
+repo = "https://github.com/Sreyas-Sreelal/malluscript"
+website = "https://github.com/Sreyas-Sreelal/malluscript"
+license = "GPL-3.0"
+added_at = "2025-12-01"
+primary_lang = "Rust"
+category = "developer-tools"
+tags = ["rust", "programming-language", "language", "education"]
+looking_for_contributors = true
+
+# Location
+location_city = "Thiruvananthapuram"
+location_indian_state = "Kerala"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Programming language allowing developers to write code using Malayalam syntax and keywords."
+
+# Auto-updated fields
+stars = 176
+good_first_issues = 0
+verified = false

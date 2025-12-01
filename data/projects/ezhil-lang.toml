@@ -1,0 +1,26 @@
+# Ezhil Lang - Tamil Programming Language
+
+slug = "ezhil-lang"
+name = "Ezhil Lang"
+short_desc = "Tamil programming language enabling native Tamil speakers to write code in their mother tongue"
+repo = "https://github.com/Ezhil-Language-Foundation/Ezhil-Lang"
+website = "http://ezhillang.org/"
+license = "GPL-3.0"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "developer-tools"
+tags = ["python", "programming-language", "education", "language"]
+looking_for_contributors = true
+
+# Location
+location_city = "Chennai"
+location_indian_state = "Tamil Nadu"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "First Tamil programming language allowing developers to write code using Tamil script and keywords."
+
+# Auto-updated fields
+stars = 187
+good_first_issues = 0
+verified = false

@@ -1,0 +1,26 @@
+# E-Cell NITS Website
+
+slug = "ecell-nits"
+name = "E-Cell NIT Silchar"
+short_desc = "Website for Entrepreneurship Cell of NIT Silchar - promoting startup culture in Northeast India"
+repo = "https://github.com/Ecell-NITS/e-cell-website-22"
+website = "https://github.com/Ecell-NITS/e-cell-website-22"
+license = "GPL-3.0"
+added_at = "2025-12-01"
+primary_lang = "JavaScript"
+category = "web-applications"
+tags = ["javascript", "web", "frontend", "education"]
+looking_for_contributors = true
+
+# Location
+location_city = "Silchar"
+location_indian_state = "Assam"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Entrepreneurship Cell website promoting startup ecosystem in NIT Silchar, Northeast India."
+
+# Auto-updated fields
+stars = 5
+good_first_issues = 0
+verified = false
