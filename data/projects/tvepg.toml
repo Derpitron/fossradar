@@ -1,0 +1,26 @@
+# TV EPG - Indian Live TV Guide
+
+slug = "tvepg"
+name = "TV EPG India"
+short_desc = "Electronic Program Guide (EPG) for all major Indian OTT platforms and live TV channels with schedule data"
+repo = "https://github.com/mitthu786/tvepg"
+website = "https://github.com/mitthu786/tvepg"
+license = "GPL-3.0"
+added_at = "2025-12-01"
+primary_lang = "Unknown"
+category = "content-media"
+tags = ["video", "data", "automation"]
+looking_for_contributors = true
+
+# Location
+location_city = "Mumbai"
+location_indian_state = "Maharashtra"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Provides comprehensive TV program guide data for Indian channels across all major streaming platforms."
+
+# Auto-updated fields
+stars = 157
+good_first_issues = 0
+verified = false

@@ -1,0 +1,26 @@
+# DIVOC - Digital Vaccination Platform
+
+slug = "divoc"
+name = "DIVOC"
+short_desc = "Open source digital platform for large-scale vaccination programs with verifiable digital credentials, powering CoWIN"
+repo = "https://github.com/egovernments/DIVOC"
+website = "https://divoc.dev"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "JavaScript"
+category = "web-applications"
+tags = ["javascript", "web", "backend", "api"]
+looking_for_contributors = true
+
+# Location
+location_city = "Bangalore"
+location_indian_state = "Karnataka"
+
+# India connection
+india_connection = "organization"
+india_connection_details = "Built by eGov Foundation, powered India's CoWIN vaccination platform serving over 2 billion doses."
+
+# Auto-updated fields
+stars = 164
+good_first_issues = 0
+verified = false

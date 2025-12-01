@@ -1,0 +1,26 @@
+# BSEData - Bombay Stock Exchange Library
+
+slug = "bsedata"
+name = "BSEData"
+short_desc = "Python library for extracting real-time data from Bombay Stock Exchange India including quotes, indices, and corporate actions"
+repo = "https://github.com/sdabhi23/bsedata"
+website = "https://github.com/sdabhi23/bsedata"
+license = "MIT"
+added_at = "2025-12-01"
+primary_lang = "Python"
+category = "libraries-frameworks"
+tags = ["python", "library", "data", "api"]
+looking_for_contributors = true
+
+# Location
+location_city = "Ahmedabad"
+location_indian_state = "Gujarat"
+
+# India connection
+india_connection = "founder"
+india_connection_details = "Python wrapper for BSE India data, complementing NSE libraries for complete Indian market coverage."
+
+# Auto-updated fields
+stars = 110
+good_first_issues = 0
+verified = false
