@@ -1,0 +1,52 @@
+{
+  "slug": "bsedata",
+  "contributors": [
+    {
+      "login": "sdabhi23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25759344?v=4",
+      "html_url": "https://github.com/sdabhi23",
+      "contributions": 150
+    },
+    {
+      "login": "paul-antony",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41820716?v=4",
+      "html_url": "https://github.com/paul-antony",
+      "contributions": 5
+    },
+    {
+      "login": "codacy-badger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23704769?v=4",
+      "html_url": "https://github.com/codacy-badger",
+      "contributions": 2
+    },
+    {
+      "login": "vvyomjjain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19145803?v=4",
+      "html_url": "https://github.com/vvyomjjain",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "pip",
+    "command": "pip install bsedata"
+  },
+  "documentation": {
+    "docs_url": "https://github.com/sdabhi23/bsedata/tree/main/docs"
+  },
+  "stats": {
+    "forks": 50,
+    "watchers": 9,
+    "open_issues": 4,
+    "size": 308,
+    "created_at": "2018-06-26T20:55:22Z",
+    "updated_at": "2025-09-10T10:18:07Z",
+    "pushed_at": "2025-06-19T01:57:53Z",
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": true
+  },
+  "languages": {
+    "Python": 33775
+  },
+  "updated_at": "2025-12-01T11:35:09.060Z"
+}

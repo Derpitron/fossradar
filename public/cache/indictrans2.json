@@ -1,0 +1,72 @@
+{
+  "slug": "indictrans2",
+  "contributors": [
+    {
+      "login": "jaygala24",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36330252?v=4",
+      "html_url": "https://github.com/jaygala24",
+      "contributions": 51
+    },
+    {
+      "login": "PranjalChitale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62383456?v=4",
+      "html_url": "https://github.com/PranjalChitale",
+      "contributions": 40
+    },
+    {
+      "login": "GokulNC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10559293?v=4",
+      "html_url": "https://github.com/GokulNC",
+      "contributions": 14
+    },
+    {
+      "login": "VarunGumma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45076943?v=4",
+      "html_url": "https://github.com/VarunGumma",
+      "contributions": 4
+    },
+    {
+      "login": "sumanthd17",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28291870?v=4",
+      "html_url": "https://github.com/sumanthd17",
+      "contributions": 3
+    },
+    {
+      "login": "anoopkunchukuttan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2256602?v=4",
+      "html_url": "https://github.com/anoopkunchukuttan",
+      "contributions": 1
+    },
+    {
+      "login": "safikhanSoofiyani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31161768?v=4",
+      "html_url": "https://github.com/safikhanSoofiyani",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/AI4Bharat/IndicTrans2"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 99,
+    "watchers": 14,
+    "open_issues": 11,
+    "size": 4276,
+    "created_at": "2023-03-15T17:03:05Z",
+    "updated_at": "2025-11-22T04:57:14Z",
+    "pushed_at": "2025-10-03T07:05:20Z",
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "Python": 262621,
+    "Shell": 44978,
+    "Jupyter Notebook": 25832,
+    "Perl": 3824,
+    "Dockerfile": 626
+  },
+  "updated_at": "2025-12-01T11:36:00.699Z"
+}

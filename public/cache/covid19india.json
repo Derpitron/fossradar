@@ -1,0 +1,89 @@
+{
+  "slug": "covid19india",
+  "contributors": [
+    {
+      "login": "shuklaayush",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27727946?v=4",
+      "html_url": "https://github.com/shuklaayush",
+      "contributions": 446
+    },
+    {
+      "login": "jeremyphilemon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17938322?v=4",
+      "html_url": "https://github.com/jeremyphilemon",
+      "contributions": 317
+    },
+    {
+      "login": "JunaidBabu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1820279?v=4",
+      "html_url": "https://github.com/JunaidBabu",
+      "contributions": 62
+    },
+    {
+      "login": "nayakrahul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11428805?v=4",
+      "html_url": "https://github.com/nayakrahul",
+      "contributions": 23
+    },
+    {
+      "login": "Binu42",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45959932?v=4",
+      "html_url": "https://github.com/Binu42",
+      "contributions": 22
+    },
+    {
+      "login": "kousiksatish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6641694?v=4",
+      "html_url": "https://github.com/kousiksatish",
+      "contributions": 11
+    },
+    {
+      "login": "tannakartikey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/422544?v=4",
+      "html_url": "https://github.com/tannakartikey",
+      "contributions": 8
+    },
+    {
+      "login": "KrishnaPravin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17372422?v=4",
+      "html_url": "https://github.com/KrishnaPravin",
+      "contributions": 8
+    },
+    {
+      "login": "s-naveen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7128309?v=4",
+      "html_url": "https://github.com/s-naveen",
+      "contributions": 7
+    },
+    {
+      "login": "abhishekakade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26276153?v=4",
+      "html_url": "https://github.com/abhishekakade",
+      "contributions": 6
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install covid19india"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 3378,
+    "watchers": 275,
+    "open_issues": 43,
+    "size": 192706,
+    "created_at": "2020-03-15T02:16:02Z",
+    "updated_at": "2025-11-28T05:29:43Z",
+    "pushed_at": "2025-11-17T18:57:26Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false
+  },
+  "languages": {
+    "JavaScript": 273609,
+    "SCSS": 90788,
+    "HTML": 8267,
+    "Shell": 623
+  },
+  "updated_at": "2025-12-01T11:35:16.475Z"
+}

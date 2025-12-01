@@ -22,5 +22,5 @@ india_connection_details = "Django library with India-specific features like mob
 
 # Auto-updated fields
 stars = 160
-good_first_issues = 0
+good_first_issues = 1
 verified = false

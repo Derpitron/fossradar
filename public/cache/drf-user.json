@@ -1,0 +1,90 @@
+{
+  "slug": "drf-user",
+  "contributors": [
+    {
+      "login": "sumit4613",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42776881?v=4",
+      "html_url": "https://github.com/sumit4613",
+      "contributions": 46
+    },
+    {
+      "login": "iamhssingh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20599876?v=4",
+      "html_url": "https://github.com/iamhssingh",
+      "contributions": 40
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 20
+    },
+    {
+      "login": "pre-commit-ci[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/68672?v=4",
+      "html_url": "https://github.com/apps/pre-commit-ci",
+      "contributions": 17
+    },
+    {
+      "login": "iamdipanshusingh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38358260?v=4",
+      "html_url": "https://github.com/iamdipanshusingh",
+      "contributions": 8
+    },
+    {
+      "login": "ag93999",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22621230?v=4",
+      "html_url": "https://github.com/ag93999",
+      "contributions": 8
+    },
+    {
+      "login": "iamvivekkaushik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10868176?v=4",
+      "html_url": "https://github.com/iamvivekkaushik",
+      "contributions": 2
+    },
+    {
+      "login": "yummyweb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33229117?v=4",
+      "html_url": "https://github.com/yummyweb",
+      "contributions": 2
+    },
+    {
+      "login": "aayush-jaiswal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32239884?v=4",
+      "html_url": "https://github.com/aayush-jaiswal",
+      "contributions": 1
+    },
+    {
+      "login": "iamaditya-gaur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25701766?v=4",
+      "html_url": "https://github.com/iamaditya-gaur",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "pip",
+    "command": "pip install drf-user"
+  },
+  "documentation": {
+    "docs_url": "https://github.com/101Loop/drf-user/tree/main/docs",
+    "changelog_url": "https://github.com/101Loop/drf-user/blob/main/CHANGELOG.md"
+  },
+  "stats": {
+    "forks": 70,
+    "watchers": 6,
+    "open_issues": 12,
+    "size": 454,
+    "created_at": "2017-07-04T10:07:18Z",
+    "updated_at": "2025-10-08T14:50:05Z",
+    "pushed_at": "2025-11-10T20:19:17Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": true
+  },
+  "languages": {
+    "Python": 121110,
+    "Makefile": 2419
+  },
+  "updated_at": "2025-12-01T11:35:26.020Z"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "tvepg",
+  "contributors": [
+    {
+      "login": "github-actions[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "html_url": "https://github.com/apps/github-actions",
+      "contributions": 5115
+    },
+    {
+      "login": "mitthu786",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95748483?v=4",
+      "html_url": "https://github.com/mitthu786",
+      "contributions": 52
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/mitthu786/tvepg"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 41,
+    "watchers": 12,
+    "open_issues": 6,
+    "size": 11038192,
+    "created_at": "2022-01-20T13:24:51Z",
+    "updated_at": "2025-11-30T20:44:27Z",
+    "pushed_at": "2025-11-30T20:44:23Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false
+  },
+  "updated_at": "2025-12-01T11:36:56.683Z"
+}

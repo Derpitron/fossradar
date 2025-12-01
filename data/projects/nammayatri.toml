@@ -22,5 +22,5 @@ india_connection_details = "India's first open-source ride-hailing platform, ini
 
 # Auto-updated fields
 stars = 2439
-good_first_issues = 0
+good_first_issues = 1
 verified = false

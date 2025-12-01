@@ -1,0 +1,91 @@
+{
+  "slug": "vigybag",
+  "contributors": [
+    {
+      "login": "codervivek5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62784060?v=4",
+      "html_url": "https://github.com/codervivek5",
+      "contributions": 932
+    },
+    {
+      "login": "Tanmay-Mirgal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138283976?v=4",
+      "html_url": "https://github.com/Tanmay-Mirgal",
+      "contributions": 125
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 121
+    },
+    {
+      "login": "SadafKausar2025",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137484958?v=4",
+      "html_url": "https://github.com/SadafKausar2025",
+      "contributions": 117
+    },
+    {
+      "login": "SyedImtiyaz-1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121503426?v=4",
+      "html_url": "https://github.com/SyedImtiyaz-1",
+      "contributions": 90
+    },
+    {
+      "login": "Anuja1227",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121712572?v=4",
+      "html_url": "https://github.com/Anuja1227",
+      "contributions": 75
+    },
+    {
+      "login": "Ansh101112",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87803348?v=4",
+      "html_url": "https://github.com/Ansh101112",
+      "contributions": 71
+    },
+    {
+      "login": "saisurya123658",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154744703?v=4",
+      "html_url": "https://github.com/saisurya123658",
+      "contributions": 46
+    },
+    {
+      "login": "techy4shri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141991095?v=4",
+      "html_url": "https://github.com/techy4shri",
+      "contributions": 41
+    },
+    {
+      "login": "tayyab-ilyas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110786036?v=4",
+      "html_url": "https://github.com/tayyab-ilyas",
+      "contributions": 38
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install vigybag"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 397,
+    "watchers": 1,
+    "open_issues": 298,
+    "size": 298785,
+    "created_at": "2023-02-20T10:59:15Z",
+    "updated_at": "2025-11-12T13:11:51Z",
+    "pushed_at": "2025-11-12T13:11:46Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": true
+  },
+  "languages": {
+    "JavaScript": 746546,
+    "Java": 45451,
+    "CSS": 29206,
+    "Kotlin": 27422,
+    "HTML": 17065,
+    "Shell": 56
+  },
+  "updated_at": "2025-12-01T11:37:11.112Z"
+}

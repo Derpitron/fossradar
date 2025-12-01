@@ -1,0 +1,64 @@
+{
+  "slug": "leetcode-compensation",
+  "contributors": [
+    {
+      "login": "kuutsav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79240312?v=4",
+      "html_url": "https://github.com/kuutsav",
+      "contributions": 212
+    },
+    {
+      "login": "krumutsav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167090805?v=4",
+      "html_url": "https://github.com/krumutsav",
+      "contributions": 30
+    },
+    {
+      "login": "Nik-git1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88608366?v=4",
+      "html_url": "https://github.com/Nik-git1",
+      "contributions": 13
+    },
+    {
+      "login": "anxkhn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83116240?v=4",
+      "html_url": "https://github.com/anxkhn",
+      "contributions": 8
+    },
+    {
+      "login": "sonuKumar03",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45958357?v=4",
+      "html_url": "https://github.com/sonuKumar03",
+      "contributions": 4
+    },
+    {
+      "login": "MayThirtyOne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38375226?v=4",
+      "html_url": "https://github.com/MayThirtyOne",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "pip",
+    "command": "pip install leetcode-compensation"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 58,
+    "watchers": 11,
+    "open_issues": 8,
+    "size": 21401,
+    "created_at": "2021-06-18T09:33:07Z",
+    "updated_at": "2025-11-28T04:09:17Z",
+    "pushed_at": "2025-11-11T18:20:47Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": true
+  },
+  "languages": {
+    "Python": 26928,
+    "JavaScript": 23201,
+    "HTML": 8858
+  },
+  "updated_at": "2025-12-01T11:36:07.904Z"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "mftool",
+  "contributors": [
+    {
+      "login": "NayakwadiS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39816455?v=4",
+      "html_url": "https://github.com/NayakwadiS",
+      "contributions": 230
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 14
+    },
+    {
+      "login": "Kk-ships",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50666420?v=4",
+      "html_url": "https://github.com/Kk-ships",
+      "contributions": 3
+    },
+    {
+      "login": "ParthS28",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51957674?v=4",
+      "html_url": "https://github.com/ParthS28",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "pip",
+    "command": "pip install mftool"
+  },
+  "documentation": {
+    "docs_url": "https://github.com/NayakwadiS/mftool/tree/main/docs"
+  },
+  "stats": {
+    "forks": 63,
+    "watchers": 7,
+    "open_issues": 4,
+    "size": 2598,
+    "created_at": "2019-08-18T12:35:32Z",
+    "updated_at": "2025-10-29T15:04:41Z",
+    "pushed_at": "2025-09-16T07:11:46Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false
+  },
+  "languages": {
+    "Python": 32101
+  },
+  "updated_at": "2025-12-01T11:36:10.184Z"
+}

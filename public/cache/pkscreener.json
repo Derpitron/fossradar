@@ -1,0 +1,43 @@
+{
+  "slug": "pkscreener",
+  "contributors": [
+    {
+      "login": "pkjmesra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1358101?v=4",
+      "html_url": "https://github.com/pkjmesra",
+      "contributions": 1078
+    },
+    {
+      "login": "github-actions[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "html_url": "https://github.com/apps/github-actions",
+      "contributions": 11
+    }
+  ],
+  "installation": {
+    "type": "pip",
+    "command": "pip install PKScreener"
+  },
+  "documentation": {
+    "docs_url": "https://github.com/pkjmesra/PKScreener/tree/main/docs"
+  },
+  "stats": {
+    "forks": 122,
+    "watchers": 14,
+    "open_issues": 40,
+    "size": 14053076,
+    "created_at": "2023-07-08T07:32:10Z",
+    "updated_at": "2025-11-29T13:00:31Z",
+    "pushed_at": "2025-12-01T10:55:09Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": true
+  },
+  "languages": {
+    "Python": 2096919,
+    "HTML": 23606,
+    "Dockerfile": 2606,
+    "JavaScript": 2386
+  },
+  "updated_at": "2025-12-01T11:36:26.772Z"
+}

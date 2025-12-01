@@ -1,0 +1,90 @@
+{
+  "slug": "hi-react-dev",
+  "contributors": [
+    {
+      "login": "gaearon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/810438?v=4",
+      "html_url": "https://github.com/gaearon",
+      "contributions": 927
+    },
+    {
+      "login": "zpao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8445?v=4",
+      "html_url": "https://github.com/zpao",
+      "contributions": 481
+    },
+    {
+      "login": "arshadkazmi42",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4654382?v=4",
+      "html_url": "https://github.com/arshadkazmi42",
+      "contributions": 480
+    },
+    {
+      "login": "bvaughn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29597?v=4",
+      "html_url": "https://github.com/bvaughn",
+      "contributions": 461
+    },
+    {
+      "login": "sophiebits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6820?v=4",
+      "html_url": "https://github.com/sophiebits",
+      "contributions": 284
+    },
+    {
+      "login": "alexkrolick",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1571667?v=4",
+      "html_url": "https://github.com/alexkrolick",
+      "contributions": 194
+    },
+    {
+      "login": "petehunt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/239742?v=4",
+      "html_url": "https://github.com/petehunt",
+      "contributions": 133
+    },
+    {
+      "login": "react-translations-bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89879766?v=4",
+      "html_url": "https://github.com/react-translations-bot",
+      "contributions": 112
+    },
+    {
+      "login": "reactjs-translation-bot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47307013?v=4",
+      "html_url": "https://github.com/reactjs-translation-bot",
+      "contributions": 112
+    },
+    {
+      "login": "rickhanlonii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2440089?v=4",
+      "html_url": "https://github.com/rickhanlonii",
+      "contributions": 110
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install react-dev"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 133,
+    "watchers": 7,
+    "open_issues": 17,
+    "size": 166916,
+    "created_at": "2019-02-10T07:21:37Z",
+    "updated_at": "2025-10-24T22:55:13Z",
+    "pushed_at": "2025-12-01T01:35:47Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "TypeScript": 318791,
+    "JavaScript": 170078,
+    "CSS": 36046,
+    "HTML": 1327,
+    "Shell": 58
+  },
+  "updated_at": "2025-12-01T11:35:35.894Z"
+}

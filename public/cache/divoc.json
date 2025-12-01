@@ -1,0 +1,99 @@
+{
+  "slug": "divoc",
+  "contributors": [
+    {
+      "login": "tejash-jl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11186563?v=4",
+      "html_url": "https://github.com/tejash-jl",
+      "contributions": 698
+    },
+    {
+      "login": "dileepbapat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/633838?v=4",
+      "html_url": "https://github.com/dileepbapat",
+      "contributions": 616
+    },
+    {
+      "login": "burhanrashid52",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14251963?v=4",
+      "html_url": "https://github.com/burhanrashid52",
+      "contributions": 316
+    },
+    {
+      "login": "varadeth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48722296?v=4",
+      "html_url": "https://github.com/varadeth",
+      "contributions": 201
+    },
+    {
+      "login": "prasanna-egov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95067867?v=4",
+      "html_url": "https://github.com/prasanna-egov",
+      "contributions": 166
+    },
+    {
+      "login": "samarthgr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17510391?v=4",
+      "html_url": "https://github.com/samarthgr",
+      "contributions": 161
+    },
+    {
+      "login": "saiprakash-v",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56248457?v=4",
+      "html_url": "https://github.com/saiprakash-v",
+      "contributions": 139
+    },
+    {
+      "login": "bhanuprakash-egov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109132521?v=4",
+      "html_url": "https://github.com/bhanuprakash-egov",
+      "contributions": 136
+    },
+    {
+      "login": "pramodkvarma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3581134?v=4",
+      "html_url": "https://github.com/pramodkvarma",
+      "contributions": 128
+    },
+    {
+      "login": "ajay-beehyv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95673587?v=4",
+      "html_url": "https://github.com/ajay-beehyv",
+      "contributions": 124
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/egovernments/DIVOC"
+  },
+  "documentation": {
+    "docs_url": "https://github.com/egovernments/DIVOC/tree/main/docs"
+  },
+  "stats": {
+    "forks": 202,
+    "watchers": 20,
+    "open_issues": 438,
+    "size": 272122,
+    "created_at": "2020-10-02T09:41:50Z",
+    "updated_at": "2025-11-18T16:22:20Z",
+    "pushed_at": "2025-11-02T03:36:35Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": true
+  },
+  "languages": {
+    "JavaScript": 602926,
+    "Go": 474264,
+    "FreeMarker": 93049,
+    "HTML": 58688,
+    "CSS": 43057,
+    "Makefile": 19179,
+    "Scala": 18714,
+    "Java": 17958,
+    "Shell": 17058,
+    "Jinja": 12776,
+    "Python": 10979,
+    "Dockerfile": 9531
+  },
+  "updated_at": "2025-12-01T11:35:23.416Z"
+}

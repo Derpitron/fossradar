@@ -22,5 +22,5 @@ india_connection_details = "Volunteer-driven crowdsourced project that became In
 
 # Auto-updated fields
 stars = 6827
-good_first_issues = 0
+good_first_issues = 1
 verified = false
