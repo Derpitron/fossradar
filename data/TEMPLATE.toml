@@ -1,0 +1,112 @@
+# ================================================================================================
+# FOSSRadar.dev Project Submission Template
+# ================================================================================================
+#
+# HOW TO USE THIS TEMPLATE:
+# 1. Copy this file to data/projects/your-project-slug.toml
+# 2. Replace all placeholder values with your actual project details
+# 3. Submit a Pull Request
+#
+# File naming: Use your project slug as the filename (e.g., my-awesome-project.toml)
+# ================================================================================================
+
+# ------------------------------------------------------------------------------------------------
+# REQUIRED FIELDS
+# ------------------------------------------------------------------------------------------------
+
+# Unique identifier for your project (used in URLs)
+# Rules: lowercase letters, numbers, and hyphens only, 2-60 characters
+slug = "your-project-slug"
+
+# Display name of your project
+# Rules: 2-80 characters
+name = "Your Project Name"
+
+# Brief description of what your project does
+# Rules: 10-160 characters (optimized for SEO and social sharing)
+short_desc = "A brief description of your project in under 160 characters"
+
+# Public GitHub repository URL
+repo = "https://github.com/username/repository"
+
+# Project website (can be same as repo if no separate website)
+website = "https://your-project-website.com"
+
+# Open source license (must be OSI-approved)
+# Common values: "MIT", "Apache-2.0", "GPL-3.0", "BSD-3-Clause", "ISC"
+license = "MIT"
+
+# Date when project is added (use today's date)
+# Format: YYYY-MM-DD
+added_at = "2025-12-01"
+
+# Primary programming language
+# Examples: "TypeScript", "Python", "JavaScript", "Go", "Rust", "Java"
+primary_lang = "TypeScript"
+
+# Category (exactly one from the list below)
+# Options:
+#   - "developer-tools"
+#   - "web-applications"
+#   - "mobile-applications"
+#   - "libraries-frameworks"
+#   - "infrastructure-devops"
+#   - "data-analytics"
+#   - "ai-ml"
+#   - "security-privacy"
+#   - "content-media"
+#   - "education-documentation"
+#   - "automation-productivity"
+#   - "iot-embedded"
+#   - "blockchain-crypto"
+#   - "gaming"
+#   - "networking"
+#   - "system-utilities"
+#   - "other"
+category = "web-applications"
+
+# Project tags (1-10 tags from data/tags.toml)
+tags = ["typescript", "web", "frontend"]
+
+# Whether actively seeking contributors
+looking_for_contributors = true
+
+# Location in India
+location_city = "Kolkata"
+location_indian_state = "West Bengal"
+
+# ------------------------------------------------------------------------------------------------
+# INDIA CONNECTION (Required)
+# ------------------------------------------------------------------------------------------------
+
+# Type of India connection
+# Values: "founder", "organization", "community", "contributor"
+india_connection = "founder"
+
+# Details about the India connection (max 500 characters)
+india_connection_details = "Brief description of how your project connects to India"
+
+# ------------------------------------------------------------------------------------------------
+# AUTO-UPDATED FIELDS (Leave as default - system will update these)
+# ------------------------------------------------------------------------------------------------
+
+stars = 0
+good_first_issues = 0
+verified = false
+
+# ================================================================================================
+# SUBMISSION CHECKLIST
+# ================================================================================================
+# Before submitting your PR:
+# [ ] All required fields filled with accurate information
+# [ ] GitHub repository URL is correct and accessible
+# [ ] Project has OSI-approved license
+# [ ] short_desc is between 10-160 characters
+# [ ] slug matches filename (without .toml)
+# [ ] Location is a valid Indian city/state
+# [ ] Added "fossradar" topic to your GitHub repository (optional but recommended)
+#
+# NEED HELP?
+# - Docs: https://github.com/wbfoss/fossradar#readme
+# - Issues: https://github.com/wbfoss/fossradar/issues
+# ================================================================================================
