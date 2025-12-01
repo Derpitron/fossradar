@@ -1,0 +1,62 @@
+{
+  "slug": "malluscript",
+  "contributors": [
+    {
+      "login": "Sreyas-Sreelal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17766494?v=4",
+      "html_url": "https://github.com/Sreyas-Sreelal",
+      "contributions": 178
+    },
+    {
+      "login": "Navaneethp007",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76899241?v=4",
+      "html_url": "https://github.com/Navaneethp007",
+      "contributions": 4
+    },
+    {
+      "login": "de-sh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18750864?v=4",
+      "html_url": "https://github.com/de-sh",
+      "contributions": 2
+    },
+    {
+      "login": "ByteJoseph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131424720?v=4",
+      "html_url": "https://github.com/ByteJoseph",
+      "contributions": 2
+    },
+    {
+      "login": "RahulMahesh62",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41413029?v=4",
+      "html_url": "https://github.com/RahulMahesh62",
+      "contributions": 1
+    },
+    {
+      "login": "coswat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97345827?v=4",
+      "html_url": "https://github.com/coswat",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "cargo",
+    "command": "cargo install malluscript"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 11,
+    "watchers": 9,
+    "open_issues": 2,
+    "size": 1730,
+    "created_at": "2020-02-01T15:40:23Z",
+    "updated_at": "2025-10-03T13:13:57Z",
+    "pushed_at": "2025-07-21T09:03:32Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "Rust": 214646
+  },
+  "updated_at": "2025-12-01T11:47:57.595Z"
+}

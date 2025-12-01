@@ -1,0 +1,34 @@
+{
+  "slug": "jammu-hotel",
+  "contributors": [
+    {
+      "login": "prince-monga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115544913?v=4",
+      "html_url": "https://github.com/prince-monga",
+      "contributions": 17
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/prince-monga/Jammu-Hotel-Project-"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 0,
+    "watchers": 1,
+    "open_issues": 0,
+    "size": 57300,
+    "created_at": "2024-11-27T16:50:15Z",
+    "updated_at": "2025-10-16T17:35:30Z",
+    "pushed_at": "2025-07-03T18:58:03Z",
+    "has_wiki": false,
+    "has_pages": true,
+    "has_discussions": false
+  },
+  "languages": {
+    "HTML": 85820,
+    "CSS": 16328,
+    "JavaScript": 1961
+  },
+  "updated_at": "2025-12-01T11:47:50.557Z"
+}

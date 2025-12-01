@@ -1,0 +1,61 @@
+{
+  "slug": "amche-atlas",
+  "contributors": [
+    {
+      "login": "planemad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126868?v=4",
+      "html_url": "https://github.com/planemad",
+      "contributions": 588
+    },
+    {
+      "login": "pratapvardhan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3757165?v=4",
+      "html_url": "https://github.com/pratapvardhan",
+      "contributions": 9
+    },
+    {
+      "login": "alansaviolobo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1202289?v=4",
+      "html_url": "https://github.com/alansaviolobo",
+      "contributions": 4
+    },
+    {
+      "login": "davepaiva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34977572?v=4",
+      "html_url": "https://github.com/davepaiva",
+      "contributions": 2
+    },
+    {
+      "login": "batpad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72280?v=4",
+      "html_url": "https://github.com/batpad",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install amche-goa"
+  },
+  "documentation": {
+    "docs_url": "https://github.com/publicmap/amche-atlas/tree/main/docs"
+  },
+  "stats": {
+    "forks": 4,
+    "watchers": 1,
+    "open_issues": 70,
+    "size": 37556,
+    "created_at": "2024-11-14T06:37:55Z",
+    "updated_at": "2025-12-01T04:42:12Z",
+    "pushed_at": "2025-11-28T17:58:06Z",
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": true
+  },
+  "languages": {
+    "JavaScript": 1015517,
+    "Python": 153286,
+    "HTML": 138456,
+    "CSS": 78635
+  },
+  "updated_at": "2025-12-01T11:46:33.959Z"
+}

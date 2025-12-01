@@ -1,0 +1,99 @@
+{
+  "slug": "ezhil-lang",
+  "contributors": [
+    {
+      "login": "arcturusannamalai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3316245?v=4",
+      "html_url": "https://github.com/arcturusannamalai",
+      "contributions": 356
+    },
+    {
+      "login": "nchokkan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5175521?v=4",
+      "html_url": "https://github.com/nchokkan",
+      "contributions": 40
+    },
+    {
+      "login": "msathia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4493341?v=4",
+      "html_url": "https://github.com/msathia",
+      "contributions": 11
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 9
+    },
+    {
+      "login": "sbuvaneshkumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12863319?v=4",
+      "html_url": "https://github.com/sbuvaneshkumar",
+      "contributions": 7
+    },
+    {
+      "login": "kracekumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/311929?v=4",
+      "html_url": "https://github.com/kracekumar",
+      "contributions": 5
+    },
+    {
+      "login": "marathonfail",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2345641?v=4",
+      "html_url": "https://github.com/marathonfail",
+      "contributions": 4
+    },
+    {
+      "login": "tshrinivasan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1268536?v=4",
+      "html_url": "https://github.com/tshrinivasan",
+      "contributions": 2
+    },
+    {
+      "login": "askalot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59402100?v=4",
+      "html_url": "https://github.com/askalot",
+      "contributions": 1
+    },
+    {
+      "login": "digital-carver",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28880?v=4",
+      "html_url": "https://github.com/digital-carver",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "pip",
+    "command": "pip install Ezhil-Lang"
+  },
+  "documentation": {
+    "docs_url": "https://github.com/Ezhil-Language-Foundation/Ezhil-Lang/tree/main/docs"
+  },
+  "stats": {
+    "forks": 49,
+    "watchers": 32,
+    "open_issues": 95,
+    "size": 9453,
+    "created_at": "2013-06-08T14:38:24Z",
+    "updated_at": "2025-11-19T16:31:05Z",
+    "pushed_at": "2025-11-19T16:31:06Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "Roff": 626720,
+    "Python": 470778,
+    "HTML": 236998,
+    "JavaScript": 44543,
+    "Nemerle": 30413,
+    "CSS": 17442,
+    "Shell": 13880,
+    "PHP": 5345,
+    "Emacs Lisp": 4481,
+    "Dockerfile": 1233,
+    "Batchfile": 313,
+    "Makefile": 26
+  },
+  "updated_at": "2025-12-01T11:47:10.137Z"
+}

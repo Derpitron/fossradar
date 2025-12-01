@@ -22,5 +22,5 @@ india_connection_details = "Enables easy typing in Indian languages through phon
 
 # Auto-updated fields
 stars = 155
-good_first_issues = 0
+good_first_issues = 1
 verified = false

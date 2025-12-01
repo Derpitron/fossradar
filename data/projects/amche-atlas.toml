@@ -22,5 +22,5 @@ india_connection_details = "Open source GIS platform specifically designed for G
 
 # Auto-updated fields
 stars = 14
-good_first_issues = 0
+good_first_issues = 1
 verified = false

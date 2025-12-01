@@ -1,0 +1,46 @@
+{
+  "slug": "banti-telugu-ocr",
+  "contributors": [
+    {
+      "login": "rakeshvar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2840906?v=4",
+      "html_url": "https://github.com/rakeshvar",
+      "contributions": 77
+    },
+    {
+      "login": "chprasad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4160611?v=4",
+      "html_url": "https://github.com/chprasad",
+      "contributions": 4
+    },
+    {
+      "login": "ChillarAnand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4463796?v=4",
+      "html_url": "https://github.com/ChillarAnand",
+      "contributions": 4
+    }
+  ],
+  "installation": {
+    "type": "git",
+    "command": "git clone https://github.com/TeluguOCR/banti_telugu_ocr"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 17,
+    "watchers": 16,
+    "open_issues": 6,
+    "size": 13301,
+    "created_at": "2015-01-12T06:00:30Z",
+    "updated_at": "2025-11-18T06:29:50Z",
+    "pushed_at": "2025-08-11T20:21:54Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "Jupyter Notebook": 324791,
+    "Python": 124971,
+    "Dockerfile": 561
+  },
+  "updated_at": "2025-12-01T11:46:39.978Z"
+}

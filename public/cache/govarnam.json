@@ -1,0 +1,53 @@
+{
+  "slug": "govarnam",
+  "contributors": [
+    {
+      "login": "subins2000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2305675?v=4",
+      "html_url": "https://github.com/subins2000",
+      "contributions": 328
+    },
+    {
+      "login": "anoop142",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40671157?v=4",
+      "html_url": "https://github.com/anoop142",
+      "contributions": 8
+    },
+    {
+      "login": "agx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2052773?v=4",
+      "html_url": "https://github.com/agx",
+      "contributions": 7
+    },
+    {
+      "login": "anoopmsivadas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46913894?v=4",
+      "html_url": "https://github.com/anoopmsivadas",
+      "contributions": 1
+    }
+  ],
+  "installation": {
+    "type": "go",
+    "command": "go install github.com/varnamproject/govarnam@latest"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 13,
+    "watchers": 4,
+    "open_issues": 31,
+    "size": 384,
+    "created_at": "2021-08-17T18:21:04Z",
+    "updated_at": "2025-11-29T06:34:25Z",
+    "pushed_at": "2025-09-07T11:29:01Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": true
+  },
+  "languages": {
+    "Go": 173819,
+    "C": 9763,
+    "Shell": 6596,
+    "Makefile": 3449
+  },
+  "updated_at": "2025-12-01T11:47:17.503Z"
+}

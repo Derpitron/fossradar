@@ -1,0 +1,89 @@
+{
+  "slug": "ecell-nits",
+  "contributors": [
+    {
+      "login": "Ruler45",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136236694?v=4",
+      "html_url": "https://github.com/Ruler45",
+      "contributions": 97
+    },
+    {
+      "login": "hereisadi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106585924?v=4",
+      "html_url": "https://github.com/hereisadi",
+      "contributions": 72
+    },
+    {
+      "login": "Bishal-NITS-2003",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172064726?v=4",
+      "html_url": "https://github.com/Bishal-NITS-2003",
+      "contributions": 67
+    },
+    {
+      "login": "muskan170604",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172146482?v=4",
+      "html_url": "https://github.com/muskan170604",
+      "contributions": 35
+    },
+    {
+      "login": "DhrubaAgarwalla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195435643?v=4",
+      "html_url": "https://github.com/DhrubaAgarwalla",
+      "contributions": 32
+    },
+    {
+      "login": "Ecell23",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126353441?v=4",
+      "html_url": "https://github.com/Ecell23",
+      "contributions": 19
+    },
+    {
+      "login": "r4inr3aper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132095134?v=4",
+      "html_url": "https://github.com/r4inr3aper",
+      "contributions": 8
+    },
+    {
+      "login": "dheeraj1922d",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121663078?v=4",
+      "html_url": "https://github.com/dheeraj1922d",
+      "contributions": 7
+    },
+    {
+      "login": "tech-hunter-mainak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153637016?v=4",
+      "html_url": "https://github.com/tech-hunter-mainak",
+      "contributions": 6
+    },
+    {
+      "login": "Sristi2004-developer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155093708?v=4",
+      "html_url": "https://github.com/Sristi2004-developer",
+      "contributions": 6
+    }
+  ],
+  "installation": {
+    "type": "npm",
+    "command": "npm install e-cell_ui"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 28,
+    "watchers": 1,
+    "open_issues": 9,
+    "size": 76186,
+    "created_at": "2022-09-11T05:02:00Z",
+    "updated_at": "2025-11-11T15:42:43Z",
+    "pushed_at": "2025-11-12T18:45:10Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "JavaScript": 665266,
+    "CSS": 204738,
+    "SCSS": 25685,
+    "HTML": 3304
+  },
+  "updated_at": "2025-12-01T11:47:05.176Z"
+}

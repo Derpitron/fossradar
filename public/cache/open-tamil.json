@@ -1,0 +1,98 @@
+{
+  "slug": "open-tamil",
+  "contributors": [
+    {
+      "login": "arcturusannamalai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3316245?v=4",
+      "html_url": "https://github.com/arcturusannamalai",
+      "contributions": 146
+    },
+    {
+      "login": "arulalant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1246493?v=4",
+      "html_url": "https://github.com/arulalant",
+      "contributions": 56
+    },
+    {
+      "login": "dependabot[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "html_url": "https://github.com/apps/dependabot",
+      "contributions": 12
+    },
+    {
+      "login": "abuvanth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20999104?v=4",
+      "html_url": "https://github.com/abuvanth",
+      "contributions": 10
+    },
+    {
+      "login": "ssurenr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8192995?v=4",
+      "html_url": "https://github.com/ssurenr",
+      "contributions": 4
+    },
+    {
+      "login": "sbuvaneshkumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12863319?v=4",
+      "html_url": "https://github.com/sbuvaneshkumar",
+      "contributions": 3
+    },
+    {
+      "login": "Parathantl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5859130?v=4",
+      "html_url": "https://github.com/Parathantl",
+      "contributions": 3
+    },
+    {
+      "login": "msathia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4493341?v=4",
+      "html_url": "https://github.com/msathia",
+      "contributions": 3
+    },
+    {
+      "login": "atvKumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1712217?v=4",
+      "html_url": "https://github.com/atvKumar",
+      "contributions": 2
+    },
+    {
+      "login": "laxmena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12819059?v=4",
+      "html_url": "https://github.com/laxmena",
+      "contributions": 2
+    }
+  ],
+  "installation": {
+    "type": "pip",
+    "command": "pip install open-tamil"
+  },
+  "documentation": {},
+  "stats": {
+    "forks": 83,
+    "watchers": 44,
+    "open_issues": 87,
+    "size": 107238,
+    "created_at": "2013-11-09T19:48:48Z",
+    "updated_at": "2025-11-30T07:04:44Z",
+    "pushed_at": "2025-11-19T16:27:32Z",
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false
+  },
+  "languages": {
+    "JavaScript": 5380069,
+    "Python": 1868475,
+    "HTML": 231235,
+    "Less": 177531,
+    "Java": 169963,
+    "CSS": 44888,
+    "Rust": 27119,
+    "C": 14505,
+    "Shell": 2443,
+    "Ruby": 1959,
+    "MATLAB": 1120,
+    "Makefile": 952,
+    "Dockerfile": 104
+  },
+  "updated_at": "2025-12-01T11:48:18.710Z"
+}
