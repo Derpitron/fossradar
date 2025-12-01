@@ -13,8 +13,8 @@ tags = ["security", "typescript", "ai", "monitoring", "api"]
 looking_for_contributors = true
 
 # Location
-location_city = "Kolkata"
-location_indian_state = "West Bengal"
+location_city = "Mumbai"
+location_indian_state = "Maharashtra"
 
 # India connection
 india_connection = "founder"
