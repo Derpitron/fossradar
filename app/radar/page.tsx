@@ -2,7 +2,7 @@ import { loadAllProjects } from "@/lib/projects";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { Header } from "@/components/Header";
 import { RadarChart } from "@/components/RadarChart";
-import { Github, MapPin, Package, TrendingUp, Building2, Star, ArrowUpRight, Users, GitFork, Code2, GitCommit } from "lucide-react";
+import { Github, MapPin, Package, Building2, Star, ArrowUpRight, Users, GitFork, Code2, GitCommit } from "lucide-react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import fs from "fs";
@@ -96,7 +96,6 @@ export default function RadarPage() {
   const totalStates = sortedStates.length;
   const totalCities = new Set(projects.map(p => `${p.location_city}, ${p.location_indian_state}`)).size;
   const totalStars = projects.reduce((sum, p) => sum + (p.stars || 0), 0);
-  const verifiedProjects = projects.filter(p => p.verified).length;
 
   // Aggregate stats from cache
   let totalForks = 0;
@@ -176,7 +175,7 @@ export default function RadarPage() {
           </div>
 
           {/* Stats Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 mb-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-8">
             {/* Total Projects */}
             <div className="relative overflow-hidden bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl p-4 sm:p-6 text-white shadow-xl shadow-orange-500/30 hover:shadow-2xl hover:shadow-orange-500/40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 cursor-default">
               <div className="absolute top-0 right-0 w-24 h-24 bg-white/10 rounded-full -mr-8 -mt-8"></div>
@@ -229,18 +228,6 @@ export default function RadarPage() {
               </div>
             </div>
 
-            {/* Verified */}
-            <div className="relative overflow-hidden bg-gradient-to-br from-white/90 to-gray-100 rounded-xl p-4 sm:p-6 text-gray-900 shadow-xl shadow-white/20 hover:shadow-2xl hover:shadow-white/30 transition-all duration-300 hover:scale-105 hover:-translate-y-1 cursor-default">
-              <div className="absolute top-0 right-0 w-24 h-24 bg-orange-500/10 rounded-full -mr-8 -mt-8"></div>
-              <div className="relative">
-                <div className="flex items-center gap-2 mb-3">
-                  <TrendingUp className="h-4 w-4 sm:h-5 sm:w-5 opacity-90" />
-                  <p className="text-xs sm:text-sm font-semibold opacity-90 tracking-wide">VERIFIED</p>
-                </div>
-                <p className="text-3xl sm:text-5xl font-bold mb-1 tracking-tight">{verifiedProjects}</p>
-                <p className="text-xs opacity-80 hidden sm:block">{Math.round((verifiedProjects/totalProjects)*100)}% of total</p>
-              </div>
-            </div>
           </div>
 
           {/* Community Stats */}
