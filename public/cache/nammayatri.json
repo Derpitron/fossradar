@@ -73,21 +73,21 @@
     "forks": 352,
     "watchers": 15,
     "open_issues": 1319,
-    "size": 838901,
+    "size": 838979,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2025-12-01T11:47:09Z",
-    "pushed_at": "2025-12-01T11:47:06Z",
+    "updated_at": "2025-12-01T18:11:28Z",
+    "pushed_at": "2025-12-01T15:15:58Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "PureScript": 15162658,
-    "Haskell": 13728691,
+    "Haskell": 13735349,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1575550,
-    "Dhall": 235286,
+    "Dhall": 235611,
     "Nix": 50249,
     "Python": 46733,
     "Shell": 38636,
@@ -95,5 +95,5 @@
     "Ruby": 6099,
     "CSS": 202
   },
-  "updated_at": "2025-12-01T11:48:08.440Z"
+  "updated_at": "2025-12-02T03:24:39.951Z"
 }

@@ -5,7 +5,13 @@
       "login": "Faux16",
       "avatar_url": "https://avatars.githubusercontent.com/u/24447754?v=4",
       "html_url": "https://github.com/Faux16",
-      "contributions": 2
+      "contributions": 5
+    },
+    {
+      "login": "alokemajumder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
+      "html_url": "https://github.com/alokemajumder",
+      "contributions": 1
     }
   ],
   "installation": {
@@ -17,20 +23,20 @@
     "forks": 1,
     "watchers": 1,
     "open_issues": 1,
-    "size": 653,
+    "size": 1396,
     "created_at": "2025-06-21T08:08:07Z",
-    "updated_at": "2025-12-01T08:41:17Z",
-    "pushed_at": "2025-11-22T20:28:09Z",
+    "updated_at": "2025-12-01T16:14:35Z",
+    "pushed_at": "2025-12-01T16:14:31Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "TypeScript": 35116,
-    "Go": 21602,
+    "TypeScript": 177576,
+    "Go": 22382,
     "JavaScript": 2192,
     "HTML": 1171,
     "CSS": 1031
   },
-  "updated_at": "2025-12-01T11:48:48.736Z"
+  "updated_at": "2025-12-02T03:25:16.151Z"
 }

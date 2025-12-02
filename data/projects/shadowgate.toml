@@ -21,6 +21,6 @@ india_connection = "organization"
 india_connection_details = "Developed by GenSecAI, an organization focused on security tools and infrastructure protection."
 
 # Auto-updated fields
-stars = 3
+stars = 6
 good_first_issues = 0
 verified = false
