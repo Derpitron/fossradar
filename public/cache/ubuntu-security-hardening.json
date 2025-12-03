@@ -5,12 +5,18 @@
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
-      "contributions": 22
+      "contributions": 23
     },
     {
       "login": "actions-user",
       "avatar_url": "https://avatars.githubusercontent.com/u/65916846?v=4",
       "html_url": "https://github.com/actions-user",
+      "contributions": 2
+    },
+    {
+      "login": "gensecai-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/216218359?v=4",
+      "html_url": "https://github.com/gensecai-dev",
       "contributions": 1
     }
   ],
@@ -20,19 +26,19 @@
   },
   "documentation": {},
   "stats": {
-    "forks": 9,
+    "forks": 10,
     "watchers": 3,
     "open_issues": 0,
-    "size": 128,
+    "size": 153,
     "created_at": "2024-04-07T07:17:52Z",
-    "updated_at": "2025-11-30T01:58:25Z",
-    "pushed_at": "2025-11-30T01:58:21Z",
+    "updated_at": "2025-12-02T18:44:01Z",
+    "pushed_at": "2025-12-02T18:43:57Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Shell": 126979
+    "Shell": 161722
   },
-  "updated_at": "2025-12-02T03:25:27.508Z"
+  "updated_at": "2025-12-03T03:24:23.940Z"
 }
