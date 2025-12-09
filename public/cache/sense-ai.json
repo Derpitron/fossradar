@@ -8,6 +8,12 @@
       "contributions": 11
     },
     {
+      "login": "SnehanjanTC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28733250?v=4",
+      "html_url": "https://github.com/SnehanjanTC",
+      "contributions": 4
+    },
+    {
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
@@ -21,8 +27,8 @@
   "documentation": {},
   "stats": {
     "forks": 3,
-    "watchers": 2,
-    "open_issues": 1,
+    "watchers": 1,
+    "open_issues": 2,
     "size": 3534,
     "created_at": "2025-06-21T08:08:07Z",
     "updated_at": "2025-12-05T12:57:15Z",
@@ -40,5 +46,5 @@
     "CSS": 1031,
     "Shell": 959
   },
-  "updated_at": "2025-12-08T03:29:00.368Z"
+  "updated_at": "2025-12-09T03:26:08.892Z"
 }
