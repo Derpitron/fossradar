@@ -17,7 +17,7 @@
       "login": "dependabot[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
       "html_url": "https://github.com/apps/dependabot",
-      "contributions": 12
+      "contributions": 13
     },
     {
       "login": "abuvanth",
@@ -70,11 +70,11 @@
   "stats": {
     "forks": 83,
     "watchers": 44,
-    "open_issues": 88,
+    "open_issues": 87,
     "size": 107241,
     "created_at": "2013-11-09T19:48:48Z",
-    "updated_at": "2025-11-30T07:04:44Z",
-    "pushed_at": "2025-12-03T14:57:50Z",
+    "updated_at": "2025-12-09T20:55:14Z",
+    "pushed_at": "2025-12-09T20:55:16Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
@@ -94,5 +94,5 @@
     "Makefile": 952,
     "Dockerfile": 104
   },
-  "updated_at": "2025-12-09T03:25:33.661Z"
+  "updated_at": "2025-12-10T03:29:21.692Z"
 }
