@@ -23,7 +23,7 @@
       "login": "ljain112",
       "avatar_url": "https://avatars.githubusercontent.com/u/108322669?v=4",
       "html_url": "https://github.com/ljain112",
-      "contributions": 260
+      "contributions": 270
     },
     {
       "login": "nabinhait",
@@ -70,22 +70,22 @@
   "stats": {
     "forks": 208,
     "watchers": 9,
-    "open_issues": 81,
-    "size": 11265,
+    "open_issues": 78,
+    "size": 11319,
     "created_at": "2021-12-27T15:30:35Z",
-    "updated_at": "2025-12-09T13:43:45Z",
-    "pushed_at": "2025-12-10T13:15:58Z",
+    "updated_at": "2025-12-12T14:04:24Z",
+    "pushed_at": "2025-12-12T14:34:58Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 1989118,
+    "Python": 1995424,
     "JavaScript": 507586,
     "HTML": 55358,
     "Vue": 45986,
     "CSS": 13181,
     "SCSS": 2515
   },
-  "updated_at": "2025-12-12T03:38:32.108Z"
+  "updated_at": "2025-12-13T03:21:48.719Z"
 }

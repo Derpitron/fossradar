@@ -5,12 +5,18 @@
       "login": "gensecai-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/216218359?v=4",
       "html_url": "https://github.com/gensecai-dev",
-      "contributions": 51
+      "contributions": 52
     },
     {
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
+      "contributions": 13
+    },
+    {
+      "login": "alokemajumder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
+      "html_url": "https://github.com/alokemajumder",
       "contributions": 12
     },
     {
@@ -20,16 +26,10 @@
       "contributions": 11
     },
     {
-      "login": "alokemajumder",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
-      "html_url": "https://github.com/alokemajumder",
-      "contributions": 10
-    },
-    {
       "login": "albe",
       "avatar_url": "https://avatars.githubusercontent.com/u/4259532?v=4",
       "html_url": "https://github.com/albe",
-      "contributions": 4
+      "contributions": 10
     },
     {
       "login": "julien1619",
@@ -60,19 +60,19 @@
   },
   "stats": {
     "forks": 32,
-    "watchers": 6,
-    "open_issues": 3,
-    "size": 5519,
+    "watchers": 7,
+    "open_issues": 1,
+    "size": 7587,
     "created_at": "2025-11-24T19:19:09Z",
-    "updated_at": "2025-12-11T15:36:13Z",
-    "pushed_at": "2025-12-12T00:55:09Z",
+    "updated_at": "2025-12-12T07:06:37Z",
+    "pushed_at": "2025-12-13T00:51:48Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "TypeScript": 101911,
+    "TypeScript": 103098,
     "JavaScript": 6907
   },
-  "updated_at": "2025-12-12T03:39:52.203Z"
+  "updated_at": "2025-12-13T03:23:32.353Z"
 }
