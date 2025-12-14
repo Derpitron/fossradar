@@ -59,13 +59,13 @@
     "changelog_url": "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector/blob/main/CHANGELOG.md"
   },
   "stats": {
-    "forks": 32,
+    "forks": 33,
     "watchers": 7,
     "open_issues": 1,
-    "size": 7587,
+    "size": 7554,
     "created_at": "2025-11-24T19:19:09Z",
     "updated_at": "2025-12-12T07:06:37Z",
-    "pushed_at": "2025-12-13T00:51:48Z",
+    "pushed_at": "2025-12-14T00:59:04Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
@@ -74,5 +74,5 @@
     "TypeScript": 103098,
     "JavaScript": 6907
   },
-  "updated_at": "2025-12-13T03:23:32.353Z"
+  "updated_at": "2025-12-14T03:44:57.411Z"
 }
