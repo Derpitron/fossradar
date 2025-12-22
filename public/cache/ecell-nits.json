@@ -23,7 +23,7 @@
       "login": "muskan170604",
       "avatar_url": "https://avatars.githubusercontent.com/u/172146482?v=4",
       "html_url": "https://github.com/muskan170604",
-      "contributions": 35
+      "contributions": 37
     },
     {
       "login": "DhrubaAgarwalla",
@@ -71,19 +71,19 @@
     "forks": 28,
     "watchers": 1,
     "open_issues": 9,
-    "size": 76193,
+    "size": 76202,
     "created_at": "2022-09-11T05:02:00Z",
-    "updated_at": "2025-11-11T15:42:43Z",
-    "pushed_at": "2025-12-13T13:30:38Z",
+    "updated_at": "2025-12-21T18:30:39Z",
+    "pushed_at": "2025-12-21T18:55:17Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "JavaScript": 665266,
+    "JavaScript": 665325,
     "CSS": 204738,
-    "SCSS": 25685,
+    "SCSS": 25697,
     "HTML": 3304
   },
-  "updated_at": "2025-12-21T03:43:16.736Z"
+  "updated_at": "2025-12-22T03:47:53.575Z"
 }
