@@ -21,6 +21,6 @@ india_connection = "founder"
 india_connection_details = "Built to analyze and visualize air quality data from Indian Central Pollution Control Board stations."
 
 # Auto-updated fields
-stars = 4
+stars = 5
 good_first_issues = 0
 verified = false

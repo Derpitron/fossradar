@@ -17,13 +17,13 @@
       "login": "Bishal-NITS-2003",
       "avatar_url": "https://avatars.githubusercontent.com/u/172064726?v=4",
       "html_url": "https://github.com/Bishal-NITS-2003",
-      "contributions": 67
+      "contributions": 69
     },
     {
       "login": "muskan170604",
       "avatar_url": "https://avatars.githubusercontent.com/u/172146482?v=4",
       "html_url": "https://github.com/muskan170604",
-      "contributions": 37
+      "contributions": 44
     },
     {
       "login": "DhrubaAgarwalla",
@@ -71,19 +71,19 @@
     "forks": 28,
     "watchers": 1,
     "open_issues": 9,
-    "size": 76202,
+    "size": 76215,
     "created_at": "2022-09-11T05:02:00Z",
-    "updated_at": "2025-12-21T18:30:39Z",
-    "pushed_at": "2025-12-21T18:55:17Z",
+    "updated_at": "2025-12-22T18:30:45Z",
+    "pushed_at": "2025-12-22T18:30:41Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "JavaScript": 665325,
+    "JavaScript": 665412,
     "CSS": 204738,
     "SCSS": 25697,
     "HTML": 3304
   },
-  "updated_at": "2025-12-22T03:47:53.575Z"
+  "updated_at": "2025-12-23T03:41:22.972Z"
 }
