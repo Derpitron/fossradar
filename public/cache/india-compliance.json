@@ -11,7 +11,7 @@
       "login": "sagarvora",
       "avatar_url": "https://avatars.githubusercontent.com/u/16315650?v=4",
       "html_url": "https://github.com/sagarvora",
-      "contributions": 566
+      "contributions": 567
     },
     {
       "login": "deepeshgarg007",
@@ -38,6 +38,12 @@
       "contributions": 171
     },
     {
+      "login": "karm1000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93865733?v=4",
+      "html_url": "https://github.com/karm1000",
+      "contributions": 165
+    },
+    {
       "login": "pruthvi145",
       "avatar_url": "https://avatars.githubusercontent.com/u/43115036?v=4",
       "html_url": "https://github.com/pruthvi145",
@@ -48,12 +54,6 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/54097382?v=4",
       "html_url": "https://github.com/DaizyModi",
       "contributions": 158
-    },
-    {
-      "login": "karm1000",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93865733?v=4",
-      "html_url": "https://github.com/karm1000",
-      "contributions": 155
     },
     {
       "login": "nextchamp-saqib",
@@ -71,21 +71,21 @@
     "forks": 210,
     "watchers": 9,
     "open_issues": 84,
-    "size": 11346,
+    "size": 11380,
     "created_at": "2021-12-27T15:30:35Z",
-    "updated_at": "2025-12-19T13:49:43Z",
-    "pushed_at": "2025-12-24T11:10:33Z",
+    "updated_at": "2025-12-26T13:14:28Z",
+    "pushed_at": "2025-12-26T13:14:24Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 1995424,
+    "Python": 1995648,
     "JavaScript": 507755,
     "HTML": 55358,
     "Vue": 45986,
     "CSS": 13181,
     "SCSS": 2515
   },
-  "updated_at": "2025-12-26T03:39:36.058Z"
+  "updated_at": "2025-12-27T03:36:30.266Z"
 }
