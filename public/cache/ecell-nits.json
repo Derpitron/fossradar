@@ -8,22 +8,22 @@
       "contributions": 97
     },
     {
+      "login": "Bishal-NITS-2003",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172064726?v=4",
+      "html_url": "https://github.com/Bishal-NITS-2003",
+      "contributions": 72
+    },
+    {
       "login": "hereisadi",
       "avatar_url": "https://avatars.githubusercontent.com/u/106585924?v=4",
       "html_url": "https://github.com/hereisadi",
       "contributions": 72
     },
     {
-      "login": "Bishal-NITS-2003",
-      "avatar_url": "https://avatars.githubusercontent.com/u/172064726?v=4",
-      "html_url": "https://github.com/Bishal-NITS-2003",
-      "contributions": 70
-    },
-    {
       "login": "muskan170604",
       "avatar_url": "https://avatars.githubusercontent.com/u/172146482?v=4",
       "html_url": "https://github.com/muskan170604",
-      "contributions": 46
+      "contributions": 50
     },
     {
       "login": "DhrubaAgarwalla",
@@ -70,20 +70,20 @@
   "stats": {
     "forks": 28,
     "watchers": 1,
-    "open_issues": 10,
-    "size": 76221,
+    "open_issues": 9,
+    "size": 76177,
     "created_at": "2022-09-11T05:02:00Z",
-    "updated_at": "2025-12-26T08:18:45Z",
-    "pushed_at": "2025-12-26T22:33:50Z",
+    "updated_at": "2025-12-27T18:14:51Z",
+    "pushed_at": "2025-12-27T18:14:54Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "JavaScript": 665411,
+    "JavaScript": 665393,
     "CSS": 204738,
     "SCSS": 25697,
     "HTML": 3304
   },
-  "updated_at": "2025-12-27T03:36:12.336Z"
+  "updated_at": "2025-12-28T03:52:52.242Z"
 }
