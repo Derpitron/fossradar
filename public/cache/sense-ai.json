@@ -5,46 +5,48 @@
       "login": "Faux16",
       "avatar_url": "https://avatars.githubusercontent.com/u/24447754?v=4",
       "html_url": "https://github.com/Faux16",
-      "contributions": 11
+      "contributions": 23
     },
     {
       "login": "SnehanjanTC",
       "avatar_url": "https://avatars.githubusercontent.com/u/28733250?v=4",
       "html_url": "https://github.com/SnehanjanTC",
-      "contributions": 4
+      "contributions": 9
     },
     {
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
-      "contributions": 1
+      "contributions": 2
     }
   ],
   "installation": {
     "type": "go",
     "command": "go install github.com/Faux16/sense-ai@latest"
   },
-  "documentation": {},
+  "documentation": {
+    "docs_url": "https://github.com/Faux16/sense-ai/tree/main/docs"
+  },
   "stats": {
     "forks": 3,
     "watchers": 1,
-    "open_issues": 2,
-    "size": 3534,
+    "open_issues": 0,
+    "size": 4209,
     "created_at": "2025-06-21T08:08:07Z",
-    "updated_at": "2025-12-15T12:35:34Z",
-    "pushed_at": "2025-12-05T07:17:53Z",
+    "updated_at": "2025-12-28T12:30:08Z",
+    "pushed_at": "2025-12-28T12:25:56Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "TypeScript": 301732,
+    "TypeScript": 314381,
     "Python": 42256,
-    "Go": 22390,
+    "Go": 36737,
+    "Shell": 5246,
     "JavaScript": 2192,
-    "HTML": 1173,
-    "CSS": 1031,
-    "Shell": 959
+    "HTML": 1172,
+    "CSS": 1031
   },
-  "updated_at": "2025-12-28T03:54:42.710Z"
+  "updated_at": "2025-12-29T03:56:31.245Z"
 }
