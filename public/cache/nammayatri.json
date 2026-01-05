@@ -72,18 +72,18 @@
   "stats": {
     "forks": 358,
     "watchers": 15,
-    "open_issues": 1298,
-    "size": 842073,
+    "open_issues": 1294,
+    "size": 842059,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-01-03T16:54:34Z",
-    "pushed_at": "2026-01-03T12:43:56Z",
+    "updated_at": "2026-01-04T14:18:15Z",
+    "pushed_at": "2026-01-04T07:07:14Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "PureScript": 15162658,
-    "Haskell": 14201798,
+    "Haskell": 14205955,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1575550,
@@ -95,5 +95,5 @@
     "Ruby": 6099,
     "CSS": 202
   },
-  "updated_at": "2026-01-04T03:57:03.844Z"
+  "updated_at": "2026-01-05T04:01:44.019Z"
 }
