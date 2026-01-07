@@ -5,7 +5,7 @@
       "login": "vorasmit",
       "avatar_url": "https://avatars.githubusercontent.com/u/10496564?v=4",
       "html_url": "https://github.com/vorasmit",
-      "contributions": 1278
+      "contributions": 1280
     },
     {
       "login": "sagarvora",
@@ -23,7 +23,13 @@
       "login": "ljain112",
       "avatar_url": "https://avatars.githubusercontent.com/u/108322669?v=4",
       "html_url": "https://github.com/ljain112",
-      "contributions": 275
+      "contributions": 283
+    },
+    {
+      "login": "karm1000",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93865733?v=4",
+      "html_url": "https://github.com/karm1000",
+      "contributions": 175
     },
     {
       "login": "nabinhait",
@@ -36,12 +42,6 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/109862100?v=4",
       "html_url": "https://github.com/Ninad1306",
       "contributions": 171
-    },
-    {
-      "login": "karm1000",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93865733?v=4",
-      "html_url": "https://github.com/karm1000",
-      "contributions": 168
     },
     {
       "login": "pruthvi145",
@@ -70,22 +70,22 @@
   "stats": {
     "forks": 211,
     "watchers": 9,
-    "open_issues": 87,
-    "size": 11380,
+    "open_issues": 81,
+    "size": 11420,
     "created_at": "2021-12-27T15:30:35Z",
-    "updated_at": "2026-01-06T03:42:51Z",
-    "pushed_at": "2026-01-06T03:42:47Z",
+    "updated_at": "2026-01-06T13:42:01Z",
+    "pushed_at": "2026-01-06T14:07:32Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 1995968,
-    "JavaScript": 508301,
+    "Python": 1996443,
+    "JavaScript": 510159,
     "HTML": 55358,
     "Vue": 45986,
     "CSS": 13181,
     "SCSS": 2515
   },
-  "updated_at": "2026-01-06T03:43:57.850Z"
+  "updated_at": "2026-01-07T03:44:37.009Z"
 }
