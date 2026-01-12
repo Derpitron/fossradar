@@ -11,7 +11,7 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 542
+      "contributions": 543
     },
     {
       "login": "witcher-shailesh",
@@ -70,20 +70,20 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 358,
+    "forks": 359,
     "watchers": 15,
-    "open_issues": 1289,
-    "size": 843067,
+    "open_issues": 1285,
+    "size": 843086,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-01-11T03:19:12Z",
-    "pushed_at": "2026-01-10T16:23:13Z",
+    "updated_at": "2026-01-11T17:48:55Z",
+    "pushed_at": "2026-01-11T19:13:26Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "PureScript": 15162658,
-    "Haskell": 14409169,
+    "Haskell": 14409355,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1575550,
@@ -95,5 +95,5 @@
     "Ruby": 6099,
     "CSS": 202
   },
-  "updated_at": "2026-01-11T03:56:39.992Z"
+  "updated_at": "2026-01-12T03:56:21.444Z"
 }
