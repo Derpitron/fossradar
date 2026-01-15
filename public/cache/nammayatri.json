@@ -35,7 +35,7 @@
       "login": "vijaygupta18",
       "avatar_url": "https://avatars.githubusercontent.com/u/66685378?v=4",
       "html_url": "https://github.com/vijaygupta18",
-      "contributions": 283
+      "contributions": 284
     },
     {
       "login": "RitikaHanish",
@@ -70,20 +70,20 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 360,
+    "forks": 361,
     "watchers": 15,
-    "open_issues": 1283,
-    "size": 843023,
+    "open_issues": 1281,
+    "size": 842622,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-01-14T01:39:18Z",
-    "pushed_at": "2026-01-14T01:39:16Z",
+    "updated_at": "2026-01-14T14:19:20Z",
+    "pushed_at": "2026-01-14T16:09:25Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "PureScript": 15162658,
-    "Haskell": 14502058,
+    "Haskell": 14502678,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1575550,
@@ -95,5 +95,5 @@
     "Ruby": 6099,
     "CSS": 202
   },
-  "updated_at": "2026-01-14T03:54:09.578Z"
+  "updated_at": "2026-01-15T03:47:23.670Z"
 }
