@@ -5,13 +5,13 @@
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
-      "contributions": 568
+      "contributions": 570
     },
     {
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 552
+      "contributions": 553
     },
     {
       "login": "witcher-shailesh",
@@ -72,28 +72,28 @@
   "stats": {
     "forks": 361,
     "watchers": 15,
-    "open_issues": 1275,
-    "size": 843926,
+    "open_issues": 1269,
+    "size": 843695,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-01-20T15:32:45Z",
-    "pushed_at": "2026-01-20T21:28:33Z",
+    "updated_at": "2026-01-21T20:33:40Z",
+    "pushed_at": "2026-01-21T23:10:07Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "PureScript": 15162658,
-    "Haskell": 14604662,
+    "Haskell": 14642162,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1575550,
-    "Dhall": 240242,
-    "Nix": 50368,
+    "Dhall": 241083,
+    "Nix": 50411,
     "Python": 46733,
     "Shell": 38636,
     "HTML": 15464,
     "Ruby": 6099,
     "CSS": 202
   },
-  "updated_at": "2026-01-21T03:49:41.159Z"
+  "updated_at": "2026-01-22T03:53:49.248Z"
 }
