@@ -40,7 +40,7 @@
     "docs_url": "https://github.com/privacypriority/privacyhub/tree/main/docs"
   },
   "stats": {
-    "forks": 4,
+    "forks": 5,
     "watchers": 1,
     "open_issues": 3,
     "size": 2848,
@@ -56,5 +56,5 @@
     "CSS": 5975,
     "JavaScript": 605
   },
-  "updated_at": "2026-01-28T03:51:43.400Z"
+  "updated_at": "2026-01-29T04:13:02.283Z"
 }
