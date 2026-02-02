@@ -70,7 +70,7 @@
   "stats": {
     "forks": 33,
     "watchers": 3,
-    "open_issues": 34,
+    "open_issues": 33,
     "size": 62160,
     "created_at": "2021-07-23T11:37:05Z",
     "updated_at": "2026-01-27T08:07:26Z",
@@ -90,5 +90,5 @@
     "Shell": 623,
     "Euphoria": 124
   },
-  "updated_at": "2026-02-01T04:36:42.491Z"
+  "updated_at": "2026-02-02T04:32:09.515Z"
 }
