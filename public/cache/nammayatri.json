@@ -11,7 +11,7 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 561
+      "contributions": 565
     },
     {
       "login": "witcher-shailesh",
@@ -41,7 +41,7 @@
       "login": "RitikaHanish",
       "avatar_url": "https://avatars.githubusercontent.com/u/34735504?v=4",
       "html_url": "https://github.com/RitikaHanish",
-      "contributions": 258
+      "contributions": 259
     },
     {
       "login": "piyushKumar-1",
@@ -59,7 +59,7 @@
       "login": "roman-bodavskiy",
       "avatar_url": "https://avatars.githubusercontent.com/u/92144831?v=4",
       "html_url": "https://github.com/roman-bodavskiy",
-      "contributions": 216
+      "contributions": 217
     }
   ],
   "installation": {
@@ -70,24 +70,24 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 362,
+    "forks": 361,
     "watchers": 15,
-    "open_issues": 1268,
-    "size": 844597,
+    "open_issues": 1273,
+    "size": 844890,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-02-01T17:25:05Z",
-    "pushed_at": "2026-02-02T03:41:20Z",
+    "updated_at": "2026-02-02T20:08:28Z",
+    "pushed_at": "2026-02-02T19:26:12Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "PureScript": 15162658,
-    "Haskell": 15015148,
+    "Haskell": 15027934,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1576412,
-    "Dhall": 278385,
+    "Dhall": 280347,
     "Nix": 51366,
     "Python": 46733,
     "Shell": 38636,
@@ -95,5 +95,5 @@
     "Ruby": 6099,
     "CSS": 202
   },
-  "updated_at": "2026-02-02T04:31:04.159Z"
+  "updated_at": "2026-02-03T04:22:15.898Z"
 }
