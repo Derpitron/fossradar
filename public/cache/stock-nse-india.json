@@ -46,7 +46,7 @@
     "docs_url": "https://github.com/hi-imcodeman/stock-nse-india/tree/main/docs"
   },
   "stats": {
-    "forks": 96,
+    "forks": 97,
     "watchers": 9,
     "open_issues": 27,
     "size": 1808,
@@ -63,5 +63,5 @@
     "Dockerfile": 222,
     "Shell": 69
   },
-  "updated_at": "2026-02-03T04:23:05.895Z"
+  "updated_at": "2026-02-04T04:16:51.170Z"
 }
