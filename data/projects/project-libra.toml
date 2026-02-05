@@ -9,6 +9,10 @@ license = "MIT"
 location_city = "Bangalore"
 location_indian_state = "Karnataka"
 looking_for_contributors = true
+
+good_first_issues = 0
+stars = 3
+verified = false
 added_at = "2026-01-16"
 category = "security-privacy"
 logo = "/logos/project-libra.svg"
