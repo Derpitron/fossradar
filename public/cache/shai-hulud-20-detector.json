@@ -14,15 +14,15 @@
       "contributions": 16
     },
     {
-      "login": "julia-infocaster",
-      "avatar_url": "https://avatars.githubusercontent.com/u/203648077?v=4",
-      "html_url": "https://github.com/julia-infocaster",
-      "contributions": 12
-    },
-    {
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
+      "contributions": 16
+    },
+    {
+      "login": "julia-infocaster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/203648077?v=4",
+      "html_url": "https://github.com/julia-infocaster",
       "contributions": 12
     },
     {
@@ -67,18 +67,18 @@
   "stats": {
     "forks": 34,
     "watchers": 7,
-    "open_issues": 4,
-    "size": 5879,
+    "open_issues": 1,
+    "size": 6567,
     "created_at": "2025-11-24T19:19:09Z",
-    "updated_at": "2026-02-10T22:50:14Z",
-    "pushed_at": "2026-02-12T01:10:30Z",
+    "updated_at": "2026-02-12T12:40:20Z",
+    "pushed_at": "2026-02-13T01:13:56Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "TypeScript": 103307,
+    "TypeScript": 113393,
     "JavaScript": 6907
   },
-  "updated_at": "2026-02-12T04:31:14.415Z"
+  "updated_at": "2026-02-13T04:28:27.144Z"
 }
