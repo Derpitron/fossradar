@@ -2,16 +2,16 @@
   "slug": "nammayatri",
   "contributors": [
     {
+      "login": "khuzema786",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
+      "html_url": "https://github.com/khuzema786",
+      "contributions": 578
+    },
+    {
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
       "contributions": 577
-    },
-    {
-      "login": "khuzema786",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
-      "html_url": "https://github.com/khuzema786",
-      "contributions": 573
     },
     {
       "login": "witcher-shailesh",
@@ -23,7 +23,7 @@
       "login": "0utkarsh",
       "avatar_url": "https://avatars.githubusercontent.com/u/33424495?v=4",
       "html_url": "https://github.com/0utkarsh",
-      "contributions": 362
+      "contributions": 373
     },
     {
       "login": "vijaygupta18",
@@ -35,7 +35,7 @@
       "login": "enigma-commits",
       "avatar_url": "https://avatars.githubusercontent.com/u/74489799?v=4",
       "html_url": "https://github.com/enigma-commits",
-      "contributions": 290
+      "contributions": 291
     },
     {
       "login": "RitikaHanish",
@@ -70,24 +70,24 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 363,
+    "forks": 362,
     "watchers": 15,
     "open_issues": 1293,
-    "size": 846315,
+    "size": 847129,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-02-13T02:40:12Z",
-    "pushed_at": "2026-02-13T02:40:09Z",
+    "updated_at": "2026-02-14T02:25:18Z",
+    "pushed_at": "2026-02-14T02:25:14Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
+    "Haskell": 15233221,
     "PureScript": 15162658,
-    "Haskell": 15125220,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1576412,
-    "Dhall": 281507,
+    "Dhall": 281643,
     "Nix": 51366,
     "Python": 46733,
     "Shell": 38636,
@@ -95,5 +95,5 @@
     "Ruby": 6099,
     "CSS": 202
   },
-  "updated_at": "2026-02-13T04:27:34.814Z"
+  "updated_at": "2026-02-14T04:16:30.141Z"
 }
