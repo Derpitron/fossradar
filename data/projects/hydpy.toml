@@ -21,6 +21,6 @@ india_connection = "community"
 india_connection_details = "Official community platform for Python developers in Hyderabad, organizing meetups and tech events."
 
 # Auto-updated fields
-stars = 9
+stars = 10
 good_first_issues = 0
 verified = false
