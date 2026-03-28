@@ -5,7 +5,7 @@
       "login": "0xku",
       "avatar_url": "https://avatars.githubusercontent.com/u/79240312?v=4",
       "html_url": "https://github.com/0xku",
-      "contributions": 249
+      "contributions": 259
     },
     {
       "login": "krumutsav",
@@ -52,18 +52,18 @@
   "stats": {
     "forks": 63,
     "watchers": 11,
-    "open_issues": 1,
-    "size": 26325,
+    "open_issues": 0,
+    "size": 26921,
     "created_at": "2021-06-18T09:33:07Z",
-    "updated_at": "2026-03-26T13:49:35Z",
-    "pushed_at": "2026-03-25T08:06:58Z",
+    "updated_at": "2026-03-27T19:10:02Z",
+    "pushed_at": "2026-03-27T19:09:58Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true
   },
   "languages": {
     "Python": 79906,
-    "HTML": 43218
+    "HTML": 50254
   },
-  "updated_at": "2026-03-27T04:39:54.402Z"
+  "updated_at": "2026-03-28T04:27:32.624Z"
 }
