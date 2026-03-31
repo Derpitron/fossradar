@@ -11,7 +11,7 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 625
+      "contributions": 627
     },
     {
       "login": "witcher-shailesh",
@@ -29,7 +29,7 @@
       "login": "enigma-commits",
       "avatar_url": "https://avatars.githubusercontent.com/u/74489799?v=4",
       "html_url": "https://github.com/enigma-commits",
-      "contributions": 317
+      "contributions": 318
     },
     {
       "login": "vijaygupta18",
@@ -70,31 +70,31 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 365,
+    "forks": 366,
     "watchers": 15,
-    "open_issues": 1327,
-    "size": 858955,
+    "open_issues": 1330,
+    "size": 858694,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-03-29T22:16:36Z",
-    "pushed_at": "2026-03-29T09:44:17Z",
+    "updated_at": "2026-03-30T19:36:32Z",
+    "pushed_at": "2026-03-30T21:05:56Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 16992981,
+    "Haskell": 17006267,
     "PureScript": 15162658,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1634724,
-    "Dhall": 303190,
-    "Python": 123300,
-    "TypeScript": 115070,
-    "Nix": 55993,
-    "Shell": 40021,
+    "Dhall": 303597,
+    "Python": 219152,
+    "TypeScript": 115077,
+    "Nix": 64239,
+    "Shell": 56595,
     "CSS": 21871,
     "HTML": 17185,
     "Ruby": 6099
   },
-  "updated_at": "2026-03-30T04:51:25.290Z"
+  "updated_at": "2026-03-31T04:42:50.094Z"
 }
