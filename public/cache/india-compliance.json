@@ -17,7 +17,7 @@
       "login": "ljain112",
       "avatar_url": "https://avatars.githubusercontent.com/u/108322669?v=4",
       "html_url": "https://github.com/ljain112",
-      "contributions": 407
+      "contributions": 422
     },
     {
       "login": "deepeshgarg007",
@@ -29,7 +29,7 @@
       "login": "karm1000",
       "avatar_url": "https://avatars.githubusercontent.com/u/93865733?v=4",
       "html_url": "https://github.com/karm1000",
-      "contributions": 236
+      "contributions": 238
     },
     {
       "login": "nabinhait",
@@ -68,24 +68,24 @@
   },
   "documentation": {},
   "stats": {
-    "forks": 228,
+    "forks": 229,
     "watchers": 9,
-    "open_issues": 104,
-    "size": 13609,
+    "open_issues": 106,
+    "size": 13720,
     "created_at": "2021-12-27T15:30:35Z",
-    "updated_at": "2026-03-28T11:24:16Z",
-    "pushed_at": "2026-03-30T23:07:24Z",
+    "updated_at": "2026-03-31T22:36:49Z",
+    "pushed_at": "2026-03-31T23:09:38Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 2165027,
-    "JavaScript": 516429,
+    "Python": 2145159,
+    "JavaScript": 504755,
     "HTML": 55358,
-    "Vue": 46014,
+    "Vue": 54279,
     "CSS": 13181,
     "SCSS": 2515
   },
-  "updated_at": "2026-03-31T04:42:05.832Z"
+  "updated_at": "2026-04-01T04:52:26.942Z"
 }

@@ -5,13 +5,13 @@
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
-      "contributions": 635
+      "contributions": 638
     },
     {
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 627
+      "contributions": 629
     },
     {
       "login": "witcher-shailesh",
@@ -23,7 +23,7 @@
       "login": "0utkarsh",
       "avatar_url": "https://avatars.githubusercontent.com/u/33424495?v=4",
       "html_url": "https://github.com/0utkarsh",
-      "contributions": 399
+      "contributions": 400
     },
     {
       "login": "enigma-commits",
@@ -70,31 +70,31 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 366,
+    "forks": 365,
     "watchers": 15,
-    "open_issues": 1330,
-    "size": 858694,
+    "open_issues": 1334,
+    "size": 859515,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-03-30T19:36:32Z",
-    "pushed_at": "2026-03-30T21:05:56Z",
+    "updated_at": "2026-03-31T15:44:53Z",
+    "pushed_at": "2026-04-01T02:32:32Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 17006267,
+    "Haskell": 17041384,
     "PureScript": 15162658,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1634724,
-    "Dhall": 303597,
-    "Python": 219152,
-    "TypeScript": 115077,
-    "Nix": 64239,
-    "Shell": 56595,
+    "Dhall": 303799,
+    "Python": 232134,
+    "TypeScript": 115755,
+    "Nix": 67099,
+    "Shell": 54781,
     "CSS": 21871,
     "HTML": 17185,
     "Ruby": 6099
   },
-  "updated_at": "2026-03-31T04:42:50.094Z"
+  "updated_at": "2026-04-01T04:53:05.049Z"
 }
