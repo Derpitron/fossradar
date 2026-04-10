@@ -5,13 +5,19 @@
       "login": "RuchiTanmay",
       "avatar_url": "https://avatars.githubusercontent.com/u/90126131?v=4",
       "html_url": "https://github.com/RuchiTanmay",
-      "contributions": 73
+      "contributions": 78
     },
     {
       "login": "kodebuds",
       "avatar_url": "https://avatars.githubusercontent.com/u/186935599?v=4",
       "html_url": "https://github.com/kodebuds",
       "contributions": 2
+    },
+    {
+      "login": "amlanmishra13",
+      "avatar_url": "https://avatars.githubusercontent.com/u/264563660?v=4",
+      "html_url": "https://github.com/amlanmishra13",
+      "contributions": 1
     },
     {
       "login": "Jerrinthomas007",
@@ -34,17 +40,17 @@
   "stats": {
     "forks": 75,
     "watchers": 5,
-    "open_issues": 11,
-    "size": 174,
+    "open_issues": 10,
+    "size": 105,
     "created_at": "2023-06-18T01:03:19Z",
-    "updated_at": "2026-04-06T17:18:24Z",
-    "pushed_at": "2026-03-31T11:03:43Z",
+    "updated_at": "2026-04-10T02:35:33Z",
+    "pushed_at": "2026-04-10T02:35:29Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 115600
+    "Python": 122814
   },
-  "updated_at": "2026-04-09T04:40:58.979Z"
+  "updated_at": "2026-04-10T04:53:50.932Z"
 }
