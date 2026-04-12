@@ -5,7 +5,13 @@
       "login": "RuchiTanmay",
       "avatar_url": "https://avatars.githubusercontent.com/u/90126131?v=4",
       "html_url": "https://github.com/RuchiTanmay",
-      "contributions": 78
+      "contributions": 84
+    },
+    {
+      "login": "abhishakegupta91",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13907781?v=4",
+      "html_url": "https://github.com/abhishakegupta91",
+      "contributions": 2
     },
     {
       "login": "kodebuds",
@@ -40,17 +46,17 @@
   "stats": {
     "forks": 75,
     "watchers": 5,
-    "open_issues": 10,
-    "size": 105,
+    "open_issues": 8,
+    "size": 119,
     "created_at": "2023-06-18T01:03:19Z",
-    "updated_at": "2026-04-10T02:35:33Z",
-    "pushed_at": "2026-04-10T02:35:29Z",
+    "updated_at": "2026-04-11T17:47:34Z",
+    "pushed_at": "2026-04-11T17:47:28Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 122814
+    "Python": 137631
   },
-  "updated_at": "2026-04-11T04:27:54.939Z"
+  "updated_at": "2026-04-12T04:53:24.210Z"
 }
