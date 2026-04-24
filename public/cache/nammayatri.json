@@ -2,15 +2,15 @@
   "slug": "nammayatri",
   "contributors": [
     {
-      "login": "hkmangla",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
-      "html_url": "https://github.com/hkmangla",
-      "contributions": 641
-    },
-    {
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
+      "contributions": 642
+    },
+    {
+      "login": "hkmangla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
+      "html_url": "https://github.com/hkmangla",
       "contributions": 641
     },
     {
@@ -23,7 +23,7 @@
       "login": "0utkarsh",
       "avatar_url": "https://avatars.githubusercontent.com/u/33424495?v=4",
       "html_url": "https://github.com/0utkarsh",
-      "contributions": 406
+      "contributions": 407
     },
     {
       "login": "enigma-commits",
@@ -35,7 +35,7 @@
       "login": "RitikaHanish",
       "avatar_url": "https://avatars.githubusercontent.com/u/34735504?v=4",
       "html_url": "https://github.com/RitikaHanish",
-      "contributions": 319
+      "contributions": 320
     },
     {
       "login": "vijaygupta18",
@@ -47,7 +47,7 @@
       "login": "piyushKumar-1",
       "avatar_url": "https://avatars.githubusercontent.com/u/54761970?v=4",
       "html_url": "https://github.com/piyushKumar-1",
-      "contributions": 260
+      "contributions": 262
     },
     {
       "login": "roman-bodavskiy",
@@ -72,29 +72,29 @@
   "stats": {
     "forks": 368,
     "watchers": 15,
-    "open_issues": 1343,
-    "size": 863779,
+    "open_issues": 1350,
+    "size": 863953,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-04-22T18:07:24Z",
-    "pushed_at": "2026-04-22T18:07:21Z",
+    "updated_at": "2026-04-23T23:50:15Z",
+    "pushed_at": "2026-04-24T04:49:44Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 17460042,
+    "Haskell": 17510244,
     "PureScript": 15162658,
     "JavaScript": 2838826,
     "Java": 1854551,
     "PLpgSQL": 1648216,
-    "Dhall": 303953,
-    "Python": 275509,
-    "TypeScript": 181810,
-    "Nix": 73605,
+    "Dhall": 304109,
+    "Python": 301093,
+    "TypeScript": 227457,
+    "Nix": 80775,
     "Shell": 49204,
-    "CSS": 28911,
+    "CSS": 40445,
     "HTML": 17185,
     "Ruby": 6099
   },
-  "updated_at": "2026-04-23T04:56:30.984Z"
+  "updated_at": "2026-04-24T05:15:10.015Z"
 }
