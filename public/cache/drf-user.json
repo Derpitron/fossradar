@@ -71,7 +71,7 @@
     "changelog_url": "https://github.com/101Loop/drf-user/blob/main/CHANGELOG.md"
   },
   "stats": {
-    "forks": 69,
+    "forks": 68,
     "watchers": 6,
     "open_issues": 12,
     "size": 453,
@@ -86,5 +86,5 @@
     "Python": 121110,
     "Makefile": 2419
   },
-  "updated_at": "2026-04-24T05:14:08.913Z"
+  "updated_at": "2026-04-25T04:41:38.450Z"
 }

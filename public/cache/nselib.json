@@ -5,18 +5,18 @@
       "login": "RuchiTanmay",
       "avatar_url": "https://avatars.githubusercontent.com/u/90126131?v=4",
       "html_url": "https://github.com/RuchiTanmay",
-      "contributions": 86
-    },
-    {
-      "login": "abhishakegupta91",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13907781?v=4",
-      "html_url": "https://github.com/abhishakegupta91",
-      "contributions": 2
+      "contributions": 89
     },
     {
       "login": "amlanmishra13",
       "avatar_url": "https://avatars.githubusercontent.com/u/264563660?v=4",
       "html_url": "https://github.com/amlanmishra13",
+      "contributions": 3
+    },
+    {
+      "login": "abhishakegupta91",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13907781?v=4",
+      "html_url": "https://github.com/abhishakegupta91",
       "contributions": 2
     },
     {
@@ -46,17 +46,17 @@
   "stats": {
     "forks": 75,
     "watchers": 5,
-    "open_issues": 10,
-    "size": 128,
+    "open_issues": 9,
+    "size": 142,
     "created_at": "2023-06-18T01:03:19Z",
-    "updated_at": "2026-04-22T13:02:05Z",
-    "pushed_at": "2026-04-19T07:47:48Z",
+    "updated_at": "2026-04-24T12:25:21Z",
+    "pushed_at": "2026-04-24T12:25:16Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 141816
+    "Python": 184755
   },
-  "updated_at": "2026-04-24T05:15:12.266Z"
+  "updated_at": "2026-04-25T04:42:47.680Z"
 }
