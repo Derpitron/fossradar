@@ -5,7 +5,7 @@
       "login": "vorasmit",
       "avatar_url": "https://avatars.githubusercontent.com/u/10496564?v=4",
       "html_url": "https://github.com/vorasmit",
-      "contributions": 1343
+      "contributions": 1344
     },
     {
       "login": "sagarvora",
@@ -17,7 +17,7 @@
       "login": "ljain112",
       "avatar_url": "https://avatars.githubusercontent.com/u/108322669?v=4",
       "html_url": "https://github.com/ljain112",
-      "contributions": 479
+      "contributions": 514
     },
     {
       "login": "deepeshgarg007",
@@ -56,10 +56,10 @@
       "contributions": 158
     },
     {
-      "login": "nextchamp-saqib",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25369014?v=4",
-      "html_url": "https://github.com/nextchamp-saqib",
-      "contributions": 88
+      "login": "Abdeali099",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99460106?v=4",
+      "html_url": "https://github.com/Abdeali099",
+      "contributions": 95
     }
   ],
   "installation": {
@@ -70,22 +70,22 @@
   "stats": {
     "forks": 239,
     "watchers": 9,
-    "open_issues": 109,
-    "size": 14163,
+    "open_issues": 106,
+    "size": 14146,
     "created_at": "2021-12-27T15:30:35Z",
-    "updated_at": "2026-04-29T03:25:16Z",
-    "pushed_at": "2026-04-29T08:00:22Z",
+    "updated_at": "2026-04-30T13:55:59Z",
+    "pushed_at": "2026-04-30T14:24:20Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 2202492,
+    "Python": 2223117,
     "JavaScript": 505128,
     "HTML": 55651,
     "Vue": 54279,
     "CSS": 13181,
     "SCSS": 2515
   },
-  "updated_at": "2026-04-30T05:36:28.618Z"
+  "updated_at": "2026-05-01T05:48:06.478Z"
 }

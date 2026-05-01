@@ -5,7 +5,7 @@
       "login": "asrafalih",
       "avatar_url": "https://avatars.githubusercontent.com/u/5628379?v=4",
       "html_url": "https://github.com/asrafalih",
-      "contributions": 40
+      "contributions": 41
     },
     {
       "login": "dependabot[bot]",
@@ -17,6 +17,12 @@
       "login": "DIBO237",
       "avatar_url": "https://avatars.githubusercontent.com/u/63423632?v=4",
       "html_url": "https://github.com/DIBO237",
+      "contributions": 1
+    },
+    {
+      "login": "darshandevelopes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118108712?v=4",
+      "html_url": "https://github.com/darshandevelopes",
       "contributions": 1
     },
     {
@@ -46,22 +52,22 @@
     "docs_url": "https://github.com/hi-imcodeman/stock-nse-india/tree/main/docs"
   },
   "stats": {
-    "forks": 107,
+    "forks": 108,
     "watchers": 10,
-    "open_issues": 28,
-    "size": 1808,
+    "open_issues": 26,
+    "size": 1963,
     "created_at": "2020-12-12T15:35:29Z",
-    "updated_at": "2026-04-28T05:00:48Z",
-    "pushed_at": "2025-12-24T11:07:53Z",
+    "updated_at": "2026-04-30T13:10:09Z",
+    "pushed_at": "2026-04-30T13:10:07Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false
   },
   "languages": {
-    "TypeScript": 250367,
+    "TypeScript": 274708,
     "JavaScript": 3040,
     "Dockerfile": 222,
     "Shell": 69
   },
-  "updated_at": "2026-04-30T05:38:07.707Z"
+  "updated_at": "2026-05-01T05:49:29.449Z"
 }
