@@ -5,19 +5,19 @@
       "login": "RuchiTanmay",
       "avatar_url": "https://avatars.githubusercontent.com/u/90126131?v=4",
       "html_url": "https://github.com/RuchiTanmay",
-      "contributions": 89
+      "contributions": 93
+    },
+    {
+      "login": "abhishakegupta91",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13907781?v=4",
+      "html_url": "https://github.com/abhishakegupta91",
+      "contributions": 4
     },
     {
       "login": "amlanmishra13",
       "avatar_url": "https://avatars.githubusercontent.com/u/264563660?v=4",
       "html_url": "https://github.com/amlanmishra13",
       "contributions": 3
-    },
-    {
-      "login": "abhishakegupta91",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13907781?v=4",
-      "html_url": "https://github.com/abhishakegupta91",
-      "contributions": 2
     },
     {
       "login": "kodebuds",
@@ -36,6 +36,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/59522561?v=4",
       "html_url": "https://github.com/Nitish9711",
       "contributions": 1
+    },
+    {
+      "login": "dharunashokkumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177456969?v=4",
+      "html_url": "https://github.com/dharunashokkumar",
+      "contributions": 1
     }
   ],
   "installation": {
@@ -46,17 +52,17 @@
   "stats": {
     "forks": 76,
     "watchers": 5,
-    "open_issues": 10,
-    "size": 142,
+    "open_issues": 6,
+    "size": 153,
     "created_at": "2023-06-18T01:03:19Z",
-    "updated_at": "2026-04-29T17:22:43Z",
-    "pushed_at": "2026-04-24T12:25:16Z",
+    "updated_at": "2026-05-01T09:45:35Z",
+    "pushed_at": "2026-05-01T09:45:31Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 184755
+    "Python": 222468
   },
-  "updated_at": "2026-05-01T05:48:48.266Z"
+  "updated_at": "2026-05-02T05:17:56.596Z"
 }
