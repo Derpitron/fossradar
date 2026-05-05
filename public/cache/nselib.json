@@ -14,12 +14,6 @@
       "contributions": 4
     },
     {
-      "login": "amlanmishra13",
-      "avatar_url": "https://avatars.githubusercontent.com/u/264563660?v=4",
-      "html_url": "https://github.com/amlanmishra13",
-      "contributions": 3
-    },
-    {
       "login": "kodebuds",
       "avatar_url": "https://avatars.githubusercontent.com/u/186935599?v=4",
       "html_url": "https://github.com/kodebuds",
@@ -50,7 +44,7 @@
   },
   "documentation": {},
   "stats": {
-    "forks": 76,
+    "forks": 75,
     "watchers": 5,
     "open_issues": 6,
     "size": 153,
@@ -64,5 +58,5 @@
   "languages": {
     "Python": 222468
   },
-  "updated_at": "2026-05-04T05:42:09.213Z"
+  "updated_at": "2026-05-05T05:22:25.187Z"
 }
