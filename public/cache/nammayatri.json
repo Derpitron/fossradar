@@ -5,7 +5,7 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 659
+      "contributions": 660
     },
     {
       "login": "hkmangla",
@@ -23,13 +23,13 @@
       "login": "0utkarsh",
       "avatar_url": "https://avatars.githubusercontent.com/u/33424495?v=4",
       "html_url": "https://github.com/0utkarsh",
-      "contributions": 414
+      "contributions": 415
     },
     {
       "login": "enigma-commits",
       "avatar_url": "https://avatars.githubusercontent.com/u/74489799?v=4",
       "html_url": "https://github.com/enigma-commits",
-      "contributions": 349
+      "contributions": 350
     },
     {
       "login": "vijaygupta18",
@@ -47,7 +47,7 @@
       "login": "piyushKumar-1",
       "avatar_url": "https://avatars.githubusercontent.com/u/54761970?v=4",
       "html_url": "https://github.com/piyushKumar-1",
-      "contributions": 269
+      "contributions": 270
     },
     {
       "login": "roman-bodavskiy",
@@ -70,32 +70,32 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 370,
+    "forks": 369,
     "watchers": 15,
-    "open_issues": 1354,
-    "size": 866901,
+    "open_issues": 1350,
+    "size": 866176,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-05-04T22:06:37Z",
-    "pushed_at": "2026-05-04T22:06:34Z",
+    "updated_at": "2026-05-05T18:57:26Z",
+    "pushed_at": "2026-05-06T05:03:25Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 17848861,
+    "Haskell": 17913684,
     "PureScript": 15162658,
     "JavaScript": 2838826,
     "Java": 1854551,
     "Python": 490376,
-    "Dhall": 313772,
+    "Dhall": 313807,
     "TypeScript": 298256,
     "Shell": 141285,
-    "Nix": 104673,
+    "Nix": 105040,
     "CSS": 57697,
     "HTML": 17289,
     "PLpgSQL": 7740,
     "Ruby": 6099,
     "Go Template": 185
   },
-  "updated_at": "2026-05-05T05:22:22.600Z"
+  "updated_at": "2026-05-06T05:36:35.552Z"
 }
