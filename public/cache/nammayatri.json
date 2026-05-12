@@ -29,7 +29,7 @@
       "login": "enigma-commits",
       "avatar_url": "https://avatars.githubusercontent.com/u/74489799?v=4",
       "html_url": "https://github.com/enigma-commits",
-      "contributions": 353
+      "contributions": 358
     },
     {
       "login": "vijaygupta18",
@@ -41,7 +41,7 @@
       "login": "RitikaHanish",
       "avatar_url": "https://avatars.githubusercontent.com/u/34735504?v=4",
       "html_url": "https://github.com/RitikaHanish",
-      "contributions": 325
+      "contributions": 327
     },
     {
       "login": "piyushKumar-1",
@@ -70,19 +70,19 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 370,
+    "forks": 371,
     "watchers": 15,
-    "open_issues": 1341,
-    "size": 865696,
+    "open_issues": 1344,
+    "size": 866551,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-05-10T14:24:10Z",
-    "pushed_at": "2026-05-11T05:43:25Z",
+    "updated_at": "2026-05-12T00:45:50Z",
+    "pushed_at": "2026-05-12T04:05:14Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 18191868,
+    "Haskell": 18198181,
     "PureScript": 15162658,
     "JavaScript": 2838826,
     "Java": 1854551,
@@ -97,5 +97,5 @@
     "Ruby": 6099,
     "Go Template": 185
   },
-  "updated_at": "2026-05-11T06:06:49.916Z"
+  "updated_at": "2026-05-12T05:46:05.334Z"
 }
