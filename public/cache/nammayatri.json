@@ -5,13 +5,13 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 666
+      "contributions": 668
     },
     {
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
-      "contributions": 647
+      "contributions": 648
     },
     {
       "login": "witcher-shailesh",
@@ -70,24 +70,24 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 371,
+    "forks": 370,
     "watchers": 15,
     "open_issues": 1344,
-    "size": 866551,
+    "size": 867142,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-05-12T00:45:50Z",
-    "pushed_at": "2026-05-12T04:05:14Z",
+    "updated_at": "2026-05-13T04:31:34Z",
+    "pushed_at": "2026-05-13T05:38:23Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 18198181,
+    "Haskell": 18307506,
     "PureScript": 15162658,
     "JavaScript": 2838826,
     "Java": 1854551,
     "Python": 501319,
-    "Dhall": 314006,
+    "Dhall": 314268,
     "TypeScript": 302039,
     "Shell": 144387,
     "Nix": 106114,
@@ -97,5 +97,5 @@
     "Ruby": 6099,
     "Go Template": 185
   },
-  "updated_at": "2026-05-12T05:46:05.334Z"
+  "updated_at": "2026-05-13T05:55:40.773Z"
 }
