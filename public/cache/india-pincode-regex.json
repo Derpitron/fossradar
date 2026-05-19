@@ -16,7 +16,7 @@
     "changelog_url": "https://github.com/captn3m0/india-pincode-regex/blob/main/CHANGELOG.md"
   },
   "stats": {
-    "forks": 6,
+    "forks": 7,
     "watchers": 1,
     "open_issues": 0,
     "size": 159,
@@ -35,5 +35,5 @@
     "Python": 813,
     "Shell": 131
   },
-  "updated_at": "2026-05-18T06:21:51.468Z"
+  "updated_at": "2026-05-19T06:15:52.036Z"
 }
