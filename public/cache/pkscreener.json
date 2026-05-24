@@ -22,23 +22,23 @@
     "docs_url": "https://github.com/pkjmesra/PKScreener/tree/main/docs"
   },
   "stats": {
-    "forks": 154,
+    "forks": 155,
     "watchers": 17,
     "open_issues": 42,
-    "size": 18069420,
+    "size": 18033737,
     "created_at": "2023-07-08T07:32:10Z",
-    "updated_at": "2026-05-22T21:31:12Z",
-    "pushed_at": "2026-05-23T05:46:02Z",
+    "updated_at": "2026-05-24T06:09:17Z",
+    "pushed_at": "2026-05-24T06:09:35Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true
   },
   "languages": {
-    "Python": 5941608,
+    "Python": 5942154,
     "HTML": 23606,
     "Dockerfile": 4230,
     "JavaScript": 2386,
     "Shell": 576
   },
-  "updated_at": "2026-05-23T05:46:19.677Z"
+  "updated_at": "2026-05-24T06:10:20.728Z"
 }
