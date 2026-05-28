@@ -5,7 +5,7 @@
       "login": "soumendrak",
       "avatar_url": "https://avatars.githubusercontent.com/u/10120538?v=4",
       "html_url": "https://github.com/soumendrak",
-      "contributions": 204
+      "contributions": 214
     },
     {
       "login": "a-parida12",
@@ -30,17 +30,17 @@
   "stats": {
     "forks": 6,
     "watchers": 2,
-    "open_issues": 30,
-    "size": 40670,
+    "open_issues": 35,
+    "size": 41239,
     "created_at": "2021-09-19T06:43:54Z",
-    "updated_at": "2026-05-27T06:35:45Z",
-    "pushed_at": "2026-05-27T06:34:04Z",
+    "updated_at": "2026-05-27T20:23:33Z",
+    "pushed_at": "2026-05-27T20:16:42Z",
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": false
   },
   "languages": {
-    "Python": 149877
+    "Python": 203454
   },
-  "updated_at": "2026-05-27T06:36:51.688Z"
+  "updated_at": "2026-05-28T06:20:35.211Z"
 }
