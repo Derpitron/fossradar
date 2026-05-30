@@ -5,30 +5,32 @@
       "login": "thecont1",
       "avatar_url": "https://avatars.githubusercontent.com/u/84990524?v=4",
       "html_url": "https://github.com/thecont1",
-      "contributions": 284
+      "contributions": 333
     }
   ],
   "installation": {
     "type": "pip",
     "command": "pip install india-votes-data"
   },
-  "documentation": {},
+  "documentation": {
+    "docs_url": "https://github.com/thecont1/india-votes-data/tree/main/docs"
+  },
   "stats": {
     "forks": 0,
     "watchers": 1,
     "open_issues": 0,
-    "size": 4493,
+    "size": 4295,
     "created_at": "2024-10-17T00:27:51Z",
-    "updated_at": "2026-05-27T23:52:25Z",
-    "pushed_at": "2026-05-29T01:38:12Z",
+    "updated_at": "2026-05-29T17:58:20Z",
+    "pushed_at": "2026-05-29T17:58:02Z",
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": false
   },
   "languages": {
     "Jupyter Notebook": 1032354,
-    "Python": 161704,
-    "HTML": 116636
+    "Python": 247737,
+    "HTML": 122400
   },
-  "updated_at": "2026-05-29T06:22:20.681Z"
+  "updated_at": "2026-05-30T05:54:12.310Z"
 }
