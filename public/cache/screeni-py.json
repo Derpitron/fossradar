@@ -5,7 +5,7 @@
       "login": "pranjal-joshi",
       "avatar_url": "https://avatars.githubusercontent.com/u/6128978?v=4",
       "html_url": "https://github.com/pranjal-joshi",
-      "contributions": 336
+      "contributions": 371
     },
     {
       "login": "swarpatel23",
@@ -39,28 +39,27 @@
     }
   ],
   "installation": {
-    "type": "git",
-    "command": "git clone https://github.com/pranjal-joshi/Screeni-py"
+    "type": "pip",
+    "command": "pip install Screeni-py"
   },
   "documentation": {},
   "stats": {
     "forks": 243,
     "watchers": 27,
-    "open_issues": 1,
-    "size": 827890,
+    "open_issues": 3,
+    "size": 828238,
     "created_at": "2021-04-03T11:22:35Z",
-    "updated_at": "2026-05-30T20:20:44Z",
-    "pushed_at": "2026-05-18T05:39:59Z",
+    "updated_at": "2026-06-01T05:36:22Z",
+    "pushed_at": "2026-06-01T06:10:10Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Python": 208421,
-    "Jupyter Notebook": 22064,
-    "Dockerfile": 1408,
+    "Python": 367686,
+    "Dockerfile": 2388,
     "Makefile": 652,
     "Shell": 633
   },
-  "updated_at": "2026-05-31T06:28:09.922Z"
+  "updated_at": "2026-06-01T07:10:52.078Z"
 }
