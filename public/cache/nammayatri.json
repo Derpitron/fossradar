@@ -47,7 +47,7 @@
       "login": "piyushKumar-1",
       "avatar_url": "https://avatars.githubusercontent.com/u/54761970?v=4",
       "html_url": "https://github.com/piyushKumar-1",
-      "contributions": 277
+      "contributions": 279
     },
     {
       "login": "roman-bodavskiy",
@@ -72,25 +72,25 @@
   "stats": {
     "forks": 375,
     "watchers": 15,
-    "open_issues": 1357,
-    "size": 888411,
+    "open_issues": 1356,
+    "size": 888763,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-06-01T02:48:55Z",
-    "pushed_at": "2026-06-01T06:40:39Z",
+    "updated_at": "2026-06-02T06:44:23Z",
+    "pushed_at": "2026-06-02T06:44:19Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 18774004,
+    "Haskell": 18789034,
     "PureScript": 15162658,
     "JavaScript": 2838826,
     "Java": 1854551,
     "Python": 777027,
     "TypeScript": 463471,
     "Dhall": 331005,
+    "Shell": 155543,
     "HTML": 155496,
-    "Shell": 155084,
     "Nix": 145760,
     "CSS": 101494,
     "PLpgSQL": 7740,
@@ -98,5 +98,5 @@
     "Dockerfile": 2240,
     "Go Template": 185
   },
-  "updated_at": "2026-06-01T07:10:04.437Z"
+  "updated_at": "2026-06-02T06:50:38.440Z"
 }
