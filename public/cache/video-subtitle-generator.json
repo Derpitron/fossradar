@@ -22,9 +22,9 @@
     "changelog_url": "https://github.com/hoichoi-opensource/video-subtitle-generator/blob/main/CHANGELOG.md"
   },
   "stats": {
-    "forks": 1,
+    "forks": 2,
     "watchers": 0,
-    "open_issues": 0,
+    "open_issues": 1,
     "size": 338,
     "created_at": "2025-06-19T12:55:10Z",
     "updated_at": "2025-11-10T18:12:54Z",
@@ -39,5 +39,5 @@
     "Dockerfile": 3198,
     "Batchfile": 3132
   },
-  "updated_at": "2026-06-08T06:55:35.397Z"
+  "updated_at": "2026-06-09T06:18:15.071Z"
 }
