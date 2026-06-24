@@ -11,7 +11,7 @@
       "login": "ljain112",
       "avatar_url": "https://avatars.githubusercontent.com/u/108322669?v=4",
       "html_url": "https://github.com/ljain112",
-      "contributions": 641
+      "contributions": 650
     },
     {
       "login": "sagarvora",
@@ -59,7 +59,7 @@
       "login": "Abdeali099",
       "avatar_url": "https://avatars.githubusercontent.com/u/99460106?v=4",
       "html_url": "https://github.com/Abdeali099",
-      "contributions": 96
+      "contributions": 99
     }
   ],
   "installation": {
@@ -68,24 +68,24 @@
   },
   "documentation": {},
   "stats": {
-    "forks": 253,
+    "forks": 254,
     "watchers": 9,
-    "open_issues": 126,
-    "size": 14944,
+    "open_issues": 122,
+    "size": 14936,
     "created_at": "2021-12-27T15:30:35Z",
-    "updated_at": "2026-06-23T05:55:39Z",
-    "pushed_at": "2026-06-23T06:09:24Z",
+    "updated_at": "2026-06-24T03:36:44Z",
+    "pushed_at": "2026-06-23T15:08:51Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 2328581,
-    "JavaScript": 516332,
+    "Python": 2333318,
+    "JavaScript": 517063,
     "HTML": 57178,
     "Vue": 54279,
     "CSS": 13181,
     "SCSS": 2515
   },
-  "updated_at": "2026-06-23T06:15:55.591Z"
+  "updated_at": "2026-06-24T06:13:34.449Z"
 }
