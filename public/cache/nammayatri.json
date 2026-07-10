@@ -11,7 +11,7 @@
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
-      "contributions": 675
+      "contributions": 676
     },
     {
       "login": "witcher-shailesh",
@@ -59,7 +59,7 @@
       "login": "Vignesh-772",
       "avatar_url": "https://avatars.githubusercontent.com/u/113873457?v=4",
       "html_url": "https://github.com/Vignesh-772",
-      "contributions": 230
+      "contributions": 231
     }
   ],
   "installation": {
@@ -72,17 +72,17 @@
   "stats": {
     "forks": 381,
     "watchers": 15,
-    "open_issues": 1372,
-    "size": 897754,
+    "open_issues": 1364,
+    "size": 897775,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-07-08T16:51:27Z",
-    "pushed_at": "2026-07-08T23:23:50Z",
+    "updated_at": "2026-07-10T06:08:12Z",
+    "pushed_at": "2026-07-10T06:08:09Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 20122787,
+    "Haskell": 20165131,
     "PureScript": 15162658,
     "JavaScript": 2850852,
     "Java": 1854551,
@@ -98,5 +98,5 @@
     "Dockerfile": 2240,
     "Go Template": 185
   },
-  "updated_at": "2026-07-09T06:13:27.228Z"
+  "updated_at": "2026-07-10T06:14:16.973Z"
 }
