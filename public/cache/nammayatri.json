@@ -72,22 +72,22 @@
   "stats": {
     "forks": 384,
     "watchers": 15,
-    "open_issues": 1369,
-    "size": 901651,
+    "open_issues": 1374,
+    "size": 902441,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-07-19T18:39:37Z",
-    "pushed_at": "2026-07-20T05:28:24Z",
+    "updated_at": "2026-07-21T05:23:30Z",
+    "pushed_at": "2026-07-21T05:23:26Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 20571071,
-    "Python": 858555,
-    "TypeScript": 528804,
-    "Dhall": 335199,
+    "Haskell": 20620859,
+    "Python": 862024,
+    "TypeScript": 530294,
+    "Dhall": 335563,
     "Shell": 178873,
-    "Nix": 175789,
+    "Nix": 178090,
     "HTML": 143463,
     "CSS": 117736,
     "JavaScript": 13951,
@@ -95,5 +95,5 @@
     "Dockerfile": 2240,
     "Go Template": 185
   },
-  "updated_at": "2026-07-20T05:48:30.710Z"
+  "updated_at": "2026-07-21T05:28:59.238Z"
 }
