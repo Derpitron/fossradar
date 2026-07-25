@@ -5,7 +5,7 @@
       "login": "soodoku",
       "avatar_url": "https://avatars.githubusercontent.com/u/721466?v=4",
       "html_url": "https://github.com/soodoku",
-      "contributions": 127
+      "contributions": 132
     },
     {
       "login": "suriyan",
@@ -43,24 +43,25 @@
     "command": "pip install naampy"
   },
   "documentation": {
-    "docs_url": "https://github.com/appeler/naampy/tree/main/docs"
+    "docs_url": "https://github.com/appeler/naampy/tree/main/docs",
+    "changelog_url": "https://github.com/appeler/naampy/blob/main/CHANGELOG.md"
   },
   "stats": {
     "forks": 0,
     "watchers": 3,
-    "open_issues": 11,
-    "size": 21538,
+    "open_issues": 7,
+    "size": 20651,
     "created_at": "2020-01-28T03:58:28Z",
-    "updated_at": "2026-07-23T05:08:54Z",
-    "pushed_at": "2026-07-23T05:19:04Z",
+    "updated_at": "2026-07-24T23:13:11Z",
+    "pushed_at": "2026-07-24T23:13:07Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false
   },
   "languages": {
     "Jupyter Notebook": 836446,
-    "Python": 68423,
+    "Python": 70966,
     "Makefile": 1460
   },
-  "updated_at": "2026-07-24T05:28:47.729Z"
+  "updated_at": "2026-07-25T05:23:10.985Z"
 }

@@ -5,7 +5,7 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 703
+      "contributions": 705
     },
     {
       "login": "hkmangla",
@@ -17,7 +17,7 @@
       "login": "witcher-shailesh",
       "avatar_url": "https://avatars.githubusercontent.com/u/62455315?v=4",
       "html_url": "https://github.com/witcher-shailesh",
-      "contributions": 461
+      "contributions": 462
     },
     {
       "login": "0utkarsh",
@@ -73,27 +73,27 @@
     "forks": 386,
     "watchers": 15,
     "open_issues": 1370,
-    "size": 902783,
+    "size": 902974,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-07-23T20:20:03Z",
-    "pushed_at": "2026-07-24T05:20:24Z",
+    "updated_at": "2026-07-25T04:37:09Z",
+    "pushed_at": "2026-07-25T03:25:14Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 20760558,
-    "Python": 870727,
-    "TypeScript": 540696,
-    "Dhall": 335601,
-    "Nix": 186185,
-    "Shell": 178873,
+    "Haskell": 20779194,
+    "Python": 902845,
+    "TypeScript": 570010,
+    "Dhall": 330782,
+    "Nix": 187181,
+    "Shell": 182016,
     "HTML": 143463,
-    "CSS": 120341,
+    "CSS": 136158,
     "JavaScript": 13951,
     "PLpgSQL": 8514,
     "Dockerfile": 2240,
     "Go Template": 185
   },
-  "updated_at": "2026-07-24T05:28:51.018Z"
+  "updated_at": "2026-07-25T05:23:13.903Z"
 }
