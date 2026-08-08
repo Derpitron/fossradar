@@ -11,13 +11,13 @@
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
-      "contributions": 17
+      "contributions": 25
     },
     {
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
-      "contributions": 16
+      "contributions": 17
     },
     {
       "login": "julia-infocaster",
@@ -38,6 +38,18 @@
       "contributions": 3
     },
     {
+      "login": "woss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80440?v=4",
+      "html_url": "https://github.com/woss",
+      "contributions": 3
+    },
+    {
+      "login": "daniel-toth-leeder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58859792?v=4",
+      "html_url": "https://github.com/daniel-toth-leeder",
+      "contributions": 2
+    },
+    {
       "login": "julien1619",
       "avatar_url": "https://avatars.githubusercontent.com/u/1506744?v=4",
       "html_url": "https://github.com/julien1619",
@@ -47,12 +59,6 @@
       "login": "maxie7",
       "avatar_url": "https://avatars.githubusercontent.com/u/15796607?v=4",
       "html_url": "https://github.com/maxie7",
-      "contributions": 1
-    },
-    {
-      "login": "noahhsec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69702181?v=4",
-      "html_url": "https://github.com/noahhsec",
       "contributions": 1
     }
   ],
@@ -67,18 +73,18 @@
   "stats": {
     "forks": 34,
     "watchers": 7,
-    "open_issues": 3,
-    "size": 7645,
+    "open_issues": 1,
+    "size": 9395,
     "created_at": "2025-11-24T19:19:09Z",
-    "updated_at": "2026-08-04T21:51:50Z",
-    "pushed_at": "2026-08-07T02:02:55Z",
+    "updated_at": "2026-08-07T20:33:25Z",
+    "pushed_at": "2026-08-08T00:46:36Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "TypeScript": 113393,
-    "JavaScript": 6907
+    "TypeScript": 131806,
+    "JavaScript": 9894
   },
-  "updated_at": "2026-08-07T04:32:20.197Z"
+  "updated_at": "2026-08-08T03:41:22.000Z"
 }
