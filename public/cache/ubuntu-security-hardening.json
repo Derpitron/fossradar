@@ -5,7 +5,7 @@
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
-      "contributions": 27
+      "contributions": 29
     },
     {
       "login": "actions-user",
@@ -24,21 +24,23 @@
     "type": "git",
     "command": "git clone https://github.com/gensecaihq/Ubuntu-Security-Hardening-Script"
   },
-  "documentation": {},
+  "documentation": {
+    "docs_url": "https://github.com/gensecaihq/Ubuntu-Security-Hardening-Script/tree/main/docs"
+  },
   "stats": {
     "forks": 11,
     "watchers": 6,
     "open_issues": 0,
-    "size": 251,
+    "size": 114,
     "created_at": "2024-04-07T07:17:52Z",
-    "updated_at": "2026-07-26T06:12:30Z",
-    "pushed_at": "2026-02-15T02:34:24Z",
+    "updated_at": "2026-08-08T16:59:36Z",
+    "pushed_at": "2026-08-08T16:59:32Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Shell": 182663
+    "Shell": 269467
   },
-  "updated_at": "2026-08-08T03:41:29.614Z"
+  "updated_at": "2026-08-09T03:50:15.279Z"
 }

@@ -5,7 +5,7 @@
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
-      "contributions": 270
+      "contributions": 275
     },
     {
       "login": "gensecai-dev",
@@ -71,22 +71,22 @@
     "changelog_url": "https://github.com/gensecaihq/Wazuh-MCP-Server/blob/main/CHANGELOG.md"
   },
   "stats": {
-    "forks": 59,
+    "forks": 60,
     "watchers": 12,
-    "open_issues": 0,
-    "size": 2541,
+    "open_issues": 2,
+    "size": 2649,
     "created_at": "2025-03-13T07:18:47Z",
-    "updated_at": "2026-08-07T20:56:20Z",
-    "pushed_at": "2026-08-07T20:56:16Z",
+    "updated_at": "2026-08-08T17:42:08Z",
+    "pushed_at": "2026-08-09T01:38:15Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Python": 711193,
+    "Python": 711522,
     "Shell": 77304,
     "Dockerfile": 4325,
     "Batchfile": 735
   },
-  "updated_at": "2026-08-08T03:41:50.502Z"
+  "updated_at": "2026-08-09T03:50:35.806Z"
 }
