@@ -32,9 +32,21 @@
       "contributions": 3
     },
     {
+      "login": "blackwell-systems",
+      "avatar_url": "https://avatars.githubusercontent.com/u/236632453?v=4",
+      "html_url": "https://github.com/blackwell-systems",
+      "contributions": 2
+    },
+    {
       "login": "andrzej-piotrowski-pl",
       "avatar_url": "https://avatars.githubusercontent.com/u/238997101?v=4",
       "html_url": "https://github.com/andrzej-piotrowski-pl",
+      "contributions": 2
+    },
+    {
+      "login": "github-actions[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "html_url": "https://github.com/apps/github-actions",
       "contributions": 2
     },
     {
@@ -47,18 +59,6 @@
       "login": "lwsinclair",
       "avatar_url": "https://avatars.githubusercontent.com/u/2829939?v=4",
       "html_url": "https://github.com/lwsinclair",
-      "contributions": 1
-    },
-    {
-      "login": "SiM22",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5759618?v=4",
-      "html_url": "https://github.com/SiM22",
-      "contributions": 1
-    },
-    {
-      "login": "deepsource-io[bot]",
-      "avatar_url": "https://avatars.githubusercontent.com/in/16372?v=4",
-      "html_url": "https://github.com/apps/deepsource-io",
       "contributions": 1
     }
   ],
@@ -73,20 +73,20 @@
   "stats": {
     "forks": 60,
     "watchers": 12,
-    "open_issues": 2,
-    "size": 2649,
+    "open_issues": 0,
+    "size": 2667,
     "created_at": "2025-03-13T07:18:47Z",
-    "updated_at": "2026-08-08T17:42:08Z",
-    "pushed_at": "2026-08-09T01:38:15Z",
+    "updated_at": "2026-08-09T17:16:28Z",
+    "pushed_at": "2026-08-09T17:16:23Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Python": 711522,
+    "Python": 718751,
     "Shell": 77304,
     "Dockerfile": 4325,
     "Batchfile": 735
   },
-  "updated_at": "2026-08-09T03:50:35.806Z"
+  "updated_at": "2026-08-10T04:04:57.161Z"
 }

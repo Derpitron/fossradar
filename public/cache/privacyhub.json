@@ -5,7 +5,7 @@
       "login": "alokemajumder",
       "avatar_url": "https://avatars.githubusercontent.com/u/26596583?v=4",
       "html_url": "https://github.com/alokemajumder",
-      "contributions": 192
+      "contributions": 201
     },
     {
       "login": "gensecai-dev",
@@ -34,7 +34,7 @@
   ],
   "installation": {
     "type": "npm",
-    "command": "npm install privacyhub"
+    "command": "npm install privacyanalyzer"
   },
   "documentation": {
     "docs_url": "https://github.com/privacypriority/privacyhub/tree/main/docs"
@@ -43,18 +43,18 @@
     "forks": 7,
     "watchers": 1,
     "open_issues": 3,
-    "size": 2722,
+    "size": 2800,
     "created_at": "2025-03-01T05:57:12Z",
-    "updated_at": "2026-07-08T12:48:02Z",
-    "pushed_at": "2026-03-11T17:33:37Z",
+    "updated_at": "2026-08-09T20:27:00Z",
+    "pushed_at": "2026-08-09T20:26:49Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "TypeScript": 587315,
+    "TypeScript": 567574,
     "CSS": 4634,
     "JavaScript": 605
   },
-  "updated_at": "2026-08-09T03:49:46.655Z"
+  "updated_at": "2026-08-10T04:04:03.996Z"
 }
