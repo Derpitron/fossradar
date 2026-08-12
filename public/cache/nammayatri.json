@@ -5,13 +5,13 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 721
+      "contributions": 723
     },
     {
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
-      "contributions": 688
+      "contributions": 691
     },
     {
       "login": "witcher-shailesh",
@@ -29,7 +29,7 @@
       "login": "vijaygupta18",
       "avatar_url": "https://avatars.githubusercontent.com/u/66685378?v=4",
       "html_url": "https://github.com/vijaygupta18",
-      "contributions": 364
+      "contributions": 365
     },
     {
       "login": "enigma-commits",
@@ -47,7 +47,7 @@
       "login": "piyushKumar-1",
       "avatar_url": "https://avatars.githubusercontent.com/u/54761970?v=4",
       "html_url": "https://github.com/piyushKumar-1",
-      "contributions": 312
+      "contributions": 315
     },
     {
       "login": "roman-bodavskiy",
@@ -70,22 +70,22 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 390,
+    "forks": 392,
     "watchers": 15,
-    "open_issues": 1372,
-    "size": 906368,
+    "open_issues": 1375,
+    "size": 907380,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-08-10T13:50:47Z",
-    "pushed_at": "2026-08-11T03:48:04Z",
+    "updated_at": "2026-08-11T20:34:06Z",
+    "pushed_at": "2026-08-12T03:30:00Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 21488214,
+    "Haskell": 21545681,
     "Python": 925177,
     "TypeScript": 573604,
-    "Dhall": 296984,
+    "Dhall": 297328,
     "Nix": 197158,
     "Shell": 187086,
     "HTML": 143463,
@@ -95,5 +95,5 @@
     "Dockerfile": 2240,
     "Go Template": 185
   },
-  "updated_at": "2026-08-11T03:51:30.832Z"
+  "updated_at": "2026-08-12T04:15:14.624Z"
 }
