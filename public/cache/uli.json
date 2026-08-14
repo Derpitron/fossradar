@@ -38,16 +38,16 @@
       "contributions": 44
     },
     {
+      "login": "maanasb01",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94924895?v=4",
+      "html_url": "https://github.com/maanasb01",
+      "contributions": 23
+    },
+    {
       "login": "kaustubhavarma",
       "avatar_url": "https://avatars.githubusercontent.com/u/136114974?v=4",
       "html_url": "https://github.com/kaustubhavarma",
       "contributions": 23
-    },
-    {
-      "login": "maanasb01",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94924895?v=4",
-      "html_url": "https://github.com/maanasb01",
-      "contributions": 22
     },
     {
       "login": "manisha-labs",
@@ -71,24 +71,24 @@
     "forks": 36,
     "watchers": 3,
     "open_issues": 54,
-    "size": 63104,
+    "size": 63108,
     "created_at": "2021-07-23T11:37:05Z",
-    "updated_at": "2026-08-07T11:17:36Z",
-    "pushed_at": "2026-08-07T11:17:30Z",
+    "updated_at": "2026-08-13T10:39:20Z",
+    "pushed_at": "2026-08-13T10:38:08Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "JavaScript": 471785,
-    "Elixir": 431899,
+    "Elixir": 432405,
     "MDX": 222123,
     "Python": 71998,
     "HTML": 56482,
     "CSS": 5530,
-    "Dockerfile": 3515,
+    "Dockerfile": 4695,
     "Shell": 623,
     "Euphoria": 124
   },
-  "updated_at": "2026-08-13T04:20:52.152Z"
+  "updated_at": "2026-08-14T04:17:12.882Z"
 }
