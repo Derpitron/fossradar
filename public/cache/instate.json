@@ -5,7 +5,7 @@
       "login": "soodoku",
       "avatar_url": "https://avatars.githubusercontent.com/u/721466?v=4",
       "html_url": "https://github.com/soodoku",
-      "contributions": 153
+      "contributions": 157
     },
     {
       "login": "dhingratul",
@@ -17,7 +17,7 @@
       "login": "dependabot[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
       "html_url": "https://github.com/apps/dependabot",
-      "contributions": 13
+      "contributions": 17
     },
     {
       "login": "actions-user",
@@ -31,16 +31,17 @@
     "command": "pip install instate"
   },
   "documentation": {
-    "docs_url": "https://github.com/appeler/instate/tree/main/docs"
+    "docs_url": "https://github.com/appeler/instate/tree/main/docs",
+    "changelog_url": "https://github.com/appeler/instate/blob/main/CHANGELOG.md"
   },
   "stats": {
     "forks": 1,
     "watchers": 5,
-    "open_issues": 8,
-    "size": 103410,
+    "open_issues": 3,
+    "size": 103677,
     "created_at": "2022-10-06T15:47:24Z",
-    "updated_at": "2026-08-10T03:58:17Z",
-    "pushed_at": "2026-08-10T03:59:37Z",
+    "updated_at": "2026-08-16T03:05:30Z",
+    "pushed_at": "2026-08-16T03:05:15Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false
@@ -52,5 +53,5 @@
     "R": 3892,
     "Makefile": 1361
   },
-  "updated_at": "2026-08-15T02:58:53.909Z"
+  "updated_at": "2026-08-16T03:07:50.511Z"
 }
