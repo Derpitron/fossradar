@@ -12,6 +12,18 @@
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
       "contributions": 11
+    },
+    {
+      "login": "Dessalines39394",
+      "avatar_url": "https://avatars.githubusercontent.com/u/245616256?v=4",
+      "html_url": "https://github.com/Dessalines39394",
+      "contributions": 1
+    },
+    {
+      "login": "Dhiyaahaq33",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139051782?v=4",
+      "html_url": "https://github.com/Dhiyaahaq33",
+      "contributions": 1
     }
   ],
   "installation": {
@@ -22,23 +34,23 @@
     "docs_url": "https://github.com/pkjmesra/PKScreener/tree/main/docs"
   },
   "stats": {
-    "forks": 170,
+    "forks": 171,
     "watchers": 17,
-    "open_issues": 46,
-    "size": 19393195,
+    "open_issues": 40,
+    "size": 19393549,
     "created_at": "2023-07-08T07:32:10Z",
-    "updated_at": "2026-08-13T09:47:32Z",
-    "pushed_at": "2026-07-24T10:34:15Z",
+    "updated_at": "2026-08-16T05:59:36Z",
+    "pushed_at": "2026-08-17T02:47:14Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": true
   },
   "languages": {
-    "Python": 5942764,
+    "Python": 5948388,
     "HTML": 23606,
     "Dockerfile": 4230,
     "JavaScript": 2386,
     "Shell": 576
   },
-  "updated_at": "2026-08-16T03:08:32.080Z"
+  "updated_at": "2026-08-17T03:08:33.447Z"
 }
