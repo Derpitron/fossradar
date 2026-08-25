@@ -71,7 +71,7 @@
     "changelog_url": "https://github.com/gensecaihq/Wazuh-MCP-Server/blob/main/CHANGELOG.md"
   },
   "stats": {
-    "forks": 63,
+    "forks": 64,
     "watchers": 12,
     "open_issues": 5,
     "size": 2730,
@@ -88,5 +88,5 @@
     "Dockerfile": 4848,
     "Batchfile": 735
   },
-  "updated_at": "2026-08-24T03:12:57.696Z"
+  "updated_at": "2026-08-25T03:09:04.473Z"
 }
