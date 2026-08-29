@@ -51,12 +51,18 @@ tags = [
   "iot",
   "game",
 
-  # Content & Communication
+  # Content & Media
   "docs",
   "education",
   "cms",
   "blog",
-  "social",
+
+  # Social Media and Interoperability
+  "client",
+  "server"
+  "bridge",
+  "bouncer",
+  "api-wrapper",
 
   # Languages
   "python",
