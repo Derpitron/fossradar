@@ -58,8 +58,9 @@ tags = [
   "blog",
 
   # Social Media and Interoperability
+  "social",
   "client",
-  "server"
+  "server",
   "bridge",
   "bouncer",
   "api-wrapper",
