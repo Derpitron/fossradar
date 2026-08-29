@@ -28,7 +28,7 @@
     "docs_url": "https://github.com/gensecaihq/Ubuntu-Security-Hardening-Script/tree/main/docs"
   },
   "stats": {
-    "forks": 12,
+    "forks": 13,
     "watchers": 7,
     "open_issues": 0,
     "size": 114,
@@ -42,5 +42,5 @@
   "languages": {
     "Shell": 269467
   },
-  "updated_at": "2026-08-28T14:18:29.814Z"
+  "updated_at": "2026-08-29T08:57:01.477Z"
 }
